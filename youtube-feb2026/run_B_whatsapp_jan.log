@@ -1,0 +1,152 @@
+window jan_before (2026-01-10T00:00:00..2026-01-14T00:00:00): listed 188 measurements from 60 ASNs, fetching 13
+
+== window jan_before: 13 measurements, 15 queries, 1 ASNs
+  AS31133 PJSC MegaFon: 13 measurements, 15 queries
+     query failure: nxdomain=0 other=0 none=15
+     dns_consistency: {'consistent': 12, 'None': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.152', '172.68.167.79', '178.176.69.163', '178.176.81.203', '178.176.85.63', '37.29.40.205']
+     NSDI 195.208.4/5.0/24: no
+window jan_onset (2026-01-14T00:00:00..2026-01-17T00:00:00): listed 78 measurements from 36 ASNs, fetching 25
+
+== window jan_onset: 25 measurements, 38 queries, 5 ASNs
+  AS200679 State Institute of Technology Saint-Petersburg: 1 measurements, 2 queries
+     query failure: nxdomain=2 other=0 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['194.226.75.81']
+     NSDI 195.208.4/5.0/24: no
+  AS28775 OOO TRANSTELECOM: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=4 none=0
+     dns_consistency: {'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.50', '193.232.93.49']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 4}
+  AS31133 PJSC MegaFon: 18 measurements, 27 queries
+     query failure: nxdomain=0 other=18 none=9
+     dns_consistency: {'inconsistent': 9, 'consistent': 8, 'None': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.69.50.30', '173.194.98.25', '178.176.85.63', '37.29.40.192', '37.29.40.205', '45.80.213.4', '74.125.46.28', '79.127.211.213']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 18}
+  AS41668 JSC "ER-Telecom Holding": 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['127.0.0.2']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS5429 Telecommunications center UMOS, LLC: 3 measurements, 3 queries
+     query failure: nxdomain=0 other=0 none=3
+     dns_consistency: {'inconsistent': 1, 'None': 1, 'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79', '74.125.112.21', '74.125.46.152']
+     NSDI 195.208.4/5.0/24: no
+
+#### onset report: domain=www.whatsapp.com, windows=['jan_before', 'jan_onset'], ASNs=5
+
+-- per window x ASN: measurements, distinct report_ids, software_versions; query failures nxdomain/other/none; answers of queries with no failure in an inconsistent measurement
+  jan_before AS5429: 0 measurements
+  jan_before AS28775: 0 measurements
+  jan_before AS31133 PJSC MegaFon: 13 msm, 13 reports, software {'ooniprobe-android 5.3.0': 4, 'ooniprobe-desktop-unattended 3.26.0': 9}
+       queries nxdomain=0 other=0 none=15
+  jan_before AS41668: 0 measurements
+  jan_before AS200679: 0 measurements
+  jan_onset AS5429 Telecommunications center UMOS, LLC: 3 msm, 3 reports, software {'ooniprobe-desktop-unattended 3.19.1': 3}
+       queries nxdomain=0 other=0 none=3
+       inconsistent-but-answered: {'57.144.245.32': 1}
+  jan_onset AS28775 OOO TRANSTELECOM: 2 msm, 2 reports, software {'ooniprobe-android-unattended 5.3.0': 2}
+       queries nxdomain=0 other=4 none=0  other={'android_dns_cache_no_data': 4}
+  jan_onset AS31133 PJSC MegaFon: 18 msm, 18 reports, software {'ooniprobe-android 5.3.0': 9, 'ooniprobe-desktop-unattended 3.26.0': 9}
+       queries nxdomain=0 other=18 none=9  other={'android_dns_cache_no_data': 18}
+  jan_onset AS41668 JSC "ER-Telecom Holding": 1 msm, 1 reports, software {'ooniprobe-android-unattended 5.3.0': 1}
+       queries nxdomain=0 other=2 none=0  other={'android_dns_cache_no_data': 2}
+  jan_onset AS200679 State Institute of Technology Saint-Petersburg: 1 msm, 1 reports, software {'ooniprobe-desktop-unattended 3.26.0': 1}
+       queries nxdomain=2 other=0 none=0
+
+-- per ASN: onset bracket and resolver egress (resolver_ip -> origin ASN, RIPEstat holder)
+  AS5429 Telecommunications center UMOS, LLC (fixed-line): 3 msm 2026-01-16 08:38:23 .. 2026-01-16 11:00:37
+       no dns_nxdomain_error in any query
+       resolver_ip x1: 172.68.167.79 -> AS13335 CLOUDFLARENET - Cloudflare, Inc.
+       resolver_ip x1: 74.125.46.152 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.112.21 -> AS15169 GOOGLE - Google LLC
+       resolver_asn as recorded by OONI: ['AS13335', 'AS15169']
+  AS28775 OOO TRANSTELECOM (fixed-line): 2 msm 2026-01-15 10:34:01 .. 2026-01-15 10:50:45
+       no dns_nxdomain_error in any query
+       resolver_ip x1: 193.232.160.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.93.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS43832']
+  AS31133 PJSC MegaFon (mobile): 31 msm 2026-01-10 11:17:59 .. 2026-01-16 10:52:25
+       no dns_nxdomain_error in any query
+       resolver_ip x11: 178.176.85.63 -> AS31133 MF-MGSM-AS PJSC MegaFon
+       resolver_ip x8: 37.29.40.205 -> AS31133 MF-MGSM-AS PJSC MegaFon
+       resolver_ip x2: 178.176.81.203 -> AS31133 MF-MGSM-AS PJSC MegaFon
+       resolver_ip x2: 37.29.40.192 -> AS31133 MF-MGSM-AS PJSC MegaFon
+       resolver_ip x1: 172.68.167.79 -> AS13335 CLOUDFLARENET - Cloudflare, Inc.
+       resolver_ip x1: 172.217.37.152 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 178.176.69.163 -> AS31133 MF-MGSM-AS PJSC MegaFon
+       resolver_ip x1: 45.80.213.4 -> AS199524 GCORE G-Core Labs S.A.
+       resolver_ip x1: 172.69.50.30 -> AS13335 CLOUDFLARENET - Cloudflare, Inc.
+       resolver_ip x1: 74.125.46.28 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 79.127.211.213 -> AS60068 CDN77 Datacamp Limited
+       resolver_ip x1: 173.194.98.25 -> AS15169 GOOGLE - Google LLC
+       resolver_asn as recorded by OONI: ['AS13335', 'AS15169', 'AS199524', 'AS31133', 'AS60068']
+  AS41668 JSC "ER-Telecom Holding" (fixed-line): 1 msm 2026-01-14 21:48:59 .. 2026-01-14 21:48:59
+       no dns_nxdomain_error in any query
+       resolver_ip x1: 127.0.0.2 -> AS? 
+       resolver_asn as recorded by OONI: ['AS0']
+  AS200679 State Institute of Technology Saint-Petersburg (fixed-line): 1 msm 2026-01-16 07:59:12 .. 2026-01-16 07:59:12
+       last without NXDOMAIN: (none before)
+       first with NXDOMAIN:   2026-01-16 07:59:12 jan_onset uid=20260116075927.659308_RU_webconnectivity_01dabbd1afc83c4a
+       measurements without NXDOMAIN after the first: 0 of 1
+       resolver_ip x1: 194.226.75.81 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS43832']
+
+-- verbatim queries blocks: most measurements=AS31133, mobile=none among these ASNs, fixed-line=AS5429
+
+== raw test_keys.queries, AS31133 (no NXDOMAIN; first measurement): uid=20260110111832.329829_RU_webconnectivity_76777ea61416bbcf report_id=20260110T105608Z_webconnectivity_RU_31133_n4_wzeBXq3vgN2apTCI asn=AS31133 start=2026-01-10 11:17:59 resolver_ip=178.176.81.203 test_version=0.4.3 software=ooniprobe-android 5.3.0
+[
+ {
+  "answers": [
+   {
+    "asn": 32934,
+    "as_org_name": "Facebook, Inc.",
+    "answer_type": "A",
+    "ipv4": "157.240.205.60",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "www.whatsapp.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.027932846,
+  "tags": null
+ }
+]
+
+== raw test_keys.queries, AS5429 (no NXDOMAIN; first measurement): uid=20260116083823.153485_RU_webconnectivity_916531507ea8e4a6 report_id=20260116T082849Z_webconnectivity_RU_5429_n4_fDvlqMopX0YvfqDc asn=AS5429 start=2026-01-16 08:38:23 resolver_ip=172.68.167.79 test_version=0.4.3 software=ooniprobe-desktop-unattended 3.19.1
+[
+ {
+  "answers": [
+   {
+    "answer_type": "A",
+    "ipv4": "57.144.245.32",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "www.whatsapp.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0163381,
+  "tags": null
+ }
+]
+
+-- www.whatsapp.com on 2026-01-14: 15 distinct ASNs tested it; 2 had a dns-classified measurement: ['AS31133', 'AS41668']
+
+-- www.whatsapp.com on 2026-01-15: 8 distinct ASNs tested it; 2 had a dns-classified measurement: ['AS28775', 'AS31133']
+
+-- www.whatsapp.com on 2026-01-16: 21 distinct ASNs tested it; 3 had a dns-classified measurement: ['AS200679', 'AS31133', 'AS5429']

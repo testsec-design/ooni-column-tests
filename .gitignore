@@ -1,0 +1,18 @@
+# OONI column data — T0–T7 raw/derived data directories (tens of GB each)
+T[0-9]*/
+T[0-9]*[a-z]/
+
+# AS39028 case-study data
+AS39028/
+
+# YouTube case-study raw measurements
+youtube-feb2026/raw/
+youtube-feb2026/raw_api/
+youtube-feb2026/out/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

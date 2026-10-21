@@ -1,0 +1,431 @@
+phase	round	t	target	label	transport	qname	qtype	rcode	answer	rtt_ms	error	egress
+whoami	1	2026-10-19T12:36:36+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.48	105		193.232.230.48
+whoami	1	2026-10-19T12:36:37+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	50		193.232.177.48
+whoami	1	2026-10-19T12:36:37+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.217.33.210	16		172.217.33.210
+whoami	1	2026-10-19T12:36:37+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	172.69.149.145	21		172.69.149.145
+whoami	1	2026-10-19T12:36:37+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.15	19		139.7.84.15
+whoami	1	2026-10-19T12:36:38+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.48	183		193.232.230.48
+whoami	1	2026-10-19T12:36:38+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	103		193.232.177.49
+whoami	1	2026-10-19T12:36:38+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.253.1.212	52		172.253.1.212
+whoami	1	2026-10-19T12:36:38+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	172.70.245.120	50		172.70.245.120
+whoami	1	2026-10-19T12:36:38+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.16	58		139.7.84.16
+whoami	1	2026-10-19T12:36:39+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.50	351		193.232.230.50
+whoami	1	2026-10-19T12:36:39+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	91		193.232.177.49
+whoami	1	2026-10-19T12:36:39+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.188;ecs 92.209.188.0/24/24;ns 2a00:1450:4001:c07::127	37		2a00:1450:4001:c07::127
+whoami	1	2026-10-19T12:36:39+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.208.0.86;ecs 92.208.0.0/24/24;ns 2400:cb00:636:1024::a29e:5d96	21		2400:cb00:636:1024::a29e:5d96
+whoami	1	2026-10-19T12:36:39+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::7:0	20		2a01:860:4:100d::7:0
+whoami	1	2026-10-19T12:36:40+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.51	205		193.232.230.51
+whoami	1	2026-10-19T12:36:40+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	113		193.232.177.49
+whoami	1	2026-10-19T12:36:40+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.209.188.0/24/24;ip 92.209.188.200;ns 172.217.34.25	55		172.217.34.25
+whoami	1	2026-10-19T12:36:41+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 162.158.93.149;ip 92.208.0.167;ecs 92.208.0.0/24/24	59		162.158.93.149
+whoami	1	2026-10-19T12:36:41+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::7:0	39		2a01:860:4:100d::7:0
+whoami	2	2026-10-19T12:36:51+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.51	99		193.232.230.51
+whoami	2	2026-10-19T12:36:52+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.49	50		193.232.177.49
+whoami	2	2026-10-19T12:36:52+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.253.14.18	21		172.253.14.18
+whoami	2	2026-10-19T12:36:52+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	162.158.93.77	22		162.158.93.77
+whoami	2	2026-10-19T12:36:52+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.17	19		139.7.84.17
+whoami	2	2026-10-19T12:36:53+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.49	203		193.232.230.49
+whoami	2	2026-10-19T12:36:53+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.48	122		193.232.177.48
+whoami	2	2026-10-19T12:36:53+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.253.1.220	52		172.253.1.220
+whoami	2	2026-10-19T12:36:53+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	162.158.85.5	62		162.158.85.5
+whoami	2	2026-10-19T12:36:53+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.12	45		139.7.84.12
+whoami	2	2026-10-19T12:36:54+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.49	311		193.232.230.49
+whoami	2	2026-10-19T12:36:54+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.48	115		193.232.177.48
+whoami	2	2026-10-19T12:36:54+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.209.188.0/24/24;ip 92.209.188.241;ns 172.217.33.218	23		172.217.33.218
+whoami	2	2026-10-19T12:36:54+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2400:cb00:928:1024::ac47:a864;ip 92.208.0.16;ecs 92.208.0.0/24/24	28		2400:cb00:928:1024::ac47:a864
+whoami	2	2026-10-19T12:36:54+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::7:0	24		2a01:860:4:100d::7:0
+whoami	2	2026-10-19T12:36:55+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	207		2001:67c:1211:2000:1000::104
+whoami	2	2026-10-19T12:36:55+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	115		193.232.177.49
+whoami	2	2026-10-19T12:36:55+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.231;ecs 92.209.188.0/24/24;ns 172.217.33.151	60		172.217.33.151
+whoami	2	2026-10-19T12:36:56+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.208.0.0/24/24;ip 92.208.0.116;ns 2400:cb00:470:1024::ac46:f197	46		2400:cb00:470:1024::ac46:f197
+whoami	2	2026-10-19T12:36:56+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::7:0	35		2a01:860:4:100d::7:0
+whoami	3	2026-10-19T12:37:07+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.48	98		193.232.230.48
+whoami	3	2026-10-19T12:37:07+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	56		193.232.177.48
+whoami	3	2026-10-19T12:37:07+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.253.1.212	19		172.253.1.212
+whoami	3	2026-10-19T12:37:07+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	162.158.93.75	18		162.158.93.75
+whoami	3	2026-10-19T12:37:07+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.16	10		139.7.84.16
+whoami	3	2026-10-19T12:37:08+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.51	196		193.232.230.51
+whoami	3	2026-10-19T12:37:08+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	108		193.232.177.49
+whoami	3	2026-10-19T12:37:08+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.253.14.18	44		172.253.14.18
+whoami	3	2026-10-19T12:37:08+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR		49		
+whoami	3	2026-10-19T12:37:08+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.15	47		139.7.84.15
+whoami	3	2026-10-19T12:37:09+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	99		2001:67c:1211:2000:1000::104
+whoami	3	2026-10-19T12:37:09+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	82		193.232.177.49
+whoami	3	2026-10-19T12:37:09+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.163;ecs 92.209.188.0/24/24;ns 172.253.1.220	23		172.253.1.220
+whoami	3	2026-10-19T12:37:09+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2400:cb00:928:1024::ac47:a864;ip 92.208.0.153;ecs 92.208.0.0/24/24	32		2400:cb00:928:1024::ac47:a864
+whoami	3	2026-10-19T12:37:09+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.12	24		139.7.84.12
+whoami	3	2026-10-19T12:37:10+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::101	202		2001:67c:1211:2000:1000::101
+whoami	3	2026-10-19T12:37:10+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::102	108		2a0c:a9c7:177:2000:1000::102
+whoami	3	2026-10-19T12:37:10+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 172.217.33.218;ip 92.209.188.241;ecs 92.209.188.0/24/24	41		172.217.33.218
+whoami	3	2026-10-19T12:37:10+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.208.0.180;ns 2400:cb00:931:1024::ac44:143e;ecs 92.208.0.0/24/24	50		2400:cb00:931:1024::ac44:143e
+whoami	3	2026-10-19T12:37:10+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::a:0	39		2a01:860:4:100d::a:0
+whoami	4	2026-10-19T12:37:22+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.50	96		193.232.230.50
+whoami	4	2026-10-19T12:37:22+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	51		193.232.177.48
+whoami	4	2026-10-19T12:37:22+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.253.1.212	32		172.253.1.212
+whoami	4	2026-10-19T12:37:22+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	172.68.194.27	19		172.68.194.27
+whoami	4	2026-10-19T12:37:22+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.13	14		139.7.84.13
+whoami	4	2026-10-19T12:37:23+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.48	199		193.232.230.48
+whoami	4	2026-10-19T12:37:23+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.48	134		193.232.177.48
+whoami	4	2026-10-19T12:37:23+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.253.237.157	52		172.253.237.157
+whoami	4	2026-10-19T12:37:23+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	172.70.244.38	52		172.70.244.38
+whoami	4	2026-10-19T12:37:23+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.16	49		139.7.84.16
+whoami	4	2026-10-19T12:37:24+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.51	96		193.232.230.51
+whoami	4	2026-10-19T12:37:24+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::102	47		2a0c:a9c7:177:2000:1000::102
+whoami	4	2026-10-19T12:37:24+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 172.253.1.217;ip 92.209.188.190;ecs 92.209.188.0/24/24	24		172.253.1.217
+whoami	4	2026-10-19T12:37:24+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.208.0.0/24/24;ip 92.208.0.178;ns 2400:cb00:933:1024::ac46:f464	22		2400:cb00:933:1024::ac46:f464
+whoami	4	2026-10-19T12:37:24+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::a:0	43		2a01:860:4:100d::a:0
+whoami	4	2026-10-19T12:37:25+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.50	1381		193.232.230.50
+whoami	4	2026-10-19T12:37:26+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.48	113		193.232.177.48
+whoami	4	2026-10-19T12:37:26+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.209.188.0/24/24;ns 172.217.33.213;ip 92.209.188.161	46		172.217.33.213
+whoami	4	2026-10-19T12:37:26+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.208.0.72;ecs 92.208.0.0/24/24;ns 2400:cb00:931:1024::ac44:143e	44		2400:cb00:931:1024::ac44:143e
+whoami	4	2026-10-19T12:37:26+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::a:0	43		2a01:860:4:100d::a:0
+whoami	5	2026-10-19T12:37:37+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.50	126		193.232.230.50
+whoami	5	2026-10-19T12:37:37+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	53		193.232.177.48
+whoami	5	2026-10-19T12:37:37+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.253.237.157	14		172.253.237.157
+whoami	5	2026-10-19T12:37:37+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	104.23.240.37	19		104.23.240.37
+whoami	5	2026-10-19T12:37:37+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.15	16		139.7.84.15
+whoami	5	2026-10-19T12:37:38+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.49	203		193.232.230.49
+whoami	5	2026-10-19T12:37:38+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.48	141		193.232.177.48
+whoami	5	2026-10-19T12:37:38+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.253.14.28	43		172.253.14.28
+whoami	5	2026-10-19T12:37:38+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	172.68.20.39	53		172.68.20.39
+whoami	5	2026-10-19T12:37:38+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.15	94		139.7.84.15
+whoami	5	2026-10-19T12:37:39+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.51	124		193.232.230.51
+whoami	5	2026-10-19T12:37:39+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::102	56		2a0c:a9c7:177:2000:1000::102
+whoami	5	2026-10-19T12:37:39+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.80;ns 172.253.1.214;ecs 92.209.188.0/24/24	22		172.253.1.214
+whoami	5	2026-10-19T12:37:39+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.208.0.0/24/24;ns 172.69.149.215;ip 92.208.0.60	24		172.69.149.215
+whoami	5	2026-10-19T12:37:39+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.17	33		139.7.84.17
+whoami	5	2026-10-19T12:37:40+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::101	194		2001:67c:1211:2000:1000::101
+whoami	5	2026-10-19T12:37:40+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::101	111		2a0c:a9c7:177:2000:1000::101
+whoami	5	2026-10-19T12:37:40+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.127;ecs 92.209.188.0/24/24;ns 2a00:1450:4001:c07::122	52		2a00:1450:4001:c07::122
+whoami	5	2026-10-19T12:37:40+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.208.0.0/24/24;ns 162.158.93.149;ip 92.208.0.101	59		162.158.93.149
+whoami	5	2026-10-19T12:37:40+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::7:0	37		2a01:860:4:100d::7:0
+whoami	6	2026-10-19T12:37:52+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.48	106		193.232.230.48
+whoami	6	2026-10-19T12:37:52+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.49	62		193.232.177.49
+whoami	6	2026-10-19T12:37:52+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.217.33.146	19		172.217.33.146
+whoami	6	2026-10-19T12:37:52+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	172.68.192.52	17		172.68.192.52
+whoami	6	2026-10-19T12:37:52+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.17	14		139.7.84.17
+whoami	6	2026-10-19T12:37:53+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.50	204		193.232.230.50
+whoami	6	2026-10-19T12:37:53+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.48	132		193.232.177.48
+whoami	6	2026-10-19T12:37:53+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.217.33.210	50		172.217.33.210
+whoami	6	2026-10-19T12:37:53+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	172.68.192.54	51		172.68.192.54
+whoami	6	2026-10-19T12:37:53+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.12	49		139.7.84.12
+whoami	6	2026-10-19T12:37:54+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.48	114		193.232.230.48
+whoami	6	2026-10-19T12:37:54+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::101	99		2a0c:a9c7:177:2000:1000::101
+whoami	6	2026-10-19T12:37:54+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.209.188.0/24/24;ns 172.253.1.218;ip 92.209.188.118	25		172.253.1.218
+whoami	6	2026-10-19T12:37:54+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.208.0.197;ns 162.158.109.82;ecs 92.208.0.0/24/24	23		162.158.109.82
+whoami	6	2026-10-19T12:37:54+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::7:0	42		2a01:860:4:100d::7:0
+whoami	6	2026-10-19T12:37:55+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	193		2001:67c:1211:2000:1000::104
+whoami	6	2026-10-19T12:37:55+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::101	136		2a0c:a9c7:177:2000:1000::101
+whoami	6	2026-10-19T12:37:55+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.44;ecs 92.209.188.0/24/24;ns 172.253.14.25	59		172.253.14.25
+whoami	6	2026-10-19T12:37:55+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2400:cb00:933:1024::ac46:f464;ecs 92.208.0.0/24/24;ip 92.208.0.100	49		2400:cb00:933:1024::ac46:f464
+whoami	6	2026-10-19T12:37:55+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.14	46		139.7.84.14
+whoami	7	2026-10-19T12:38:07+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.51	95		193.232.230.51
+whoami	7	2026-10-19T12:38:07+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	54		193.232.177.48
+whoami	7	2026-10-19T12:38:07+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.217.33.149	17		172.217.33.149
+whoami	7	2026-10-19T12:38:07+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	172.69.113.38	18		172.69.113.38
+whoami	7	2026-10-19T12:38:07+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.12	29		139.7.84.12
+whoami	7	2026-10-19T12:38:08+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.51	196		193.232.230.51
+whoami	7	2026-10-19T12:38:08+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.48	115		193.232.177.48
+whoami	7	2026-10-19T12:38:08+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.253.1.210	46		172.253.1.210
+whoami	7	2026-10-19T12:38:08+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	162.158.93.77	50		162.158.93.77
+whoami	7	2026-10-19T12:38:08+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.14	48		139.7.84.14
+whoami	7	2026-10-19T12:38:09+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	91		2001:67c:1211:2000:1000::104
+whoami	7	2026-10-19T12:38:09+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::102	55		2a0c:a9c7:177:2000:1000::102
+whoami	7	2026-10-19T12:38:09+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.209.188.0/24/24;ns 172.217.33.213;ip 92.209.188.161	19		172.217.33.213
+whoami	7	2026-10-19T12:38:09+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.208.0.192;ns 2400:cb00:608:1024::ac47:f577;ecs 92.208.0.0/24/24	28		2400:cb00:608:1024::ac47:f577
+whoami	7	2026-10-19T12:38:09+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::a:0	18		2a01:860:4:100d::a:0
+whoami	7	2026-10-19T12:38:10+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.48	228		193.232.230.48
+whoami	7	2026-10-19T12:38:10+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	108		193.232.177.49
+whoami	7	2026-10-19T12:38:10+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.9;ecs 92.209.188.0/24/24;ns 172.217.34.24	48		172.217.34.24
+whoami	7	2026-10-19T12:38:10+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.208.0.0/24/24;ip 92.208.0.114;ns 172.69.149.215	44		172.69.149.215
+whoami	7	2026-10-19T12:38:10+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.14	50		139.7.84.14
+whoami	8	2026-10-19T12:38:22+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.50	119		193.232.230.50
+whoami	8	2026-10-19T12:38:22+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	62		193.232.177.48
+whoami	8	2026-10-19T12:38:22+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.217.33.210	14		172.217.33.210
+whoami	8	2026-10-19T12:38:22+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	172.70.245.120	23		172.70.245.120
+whoami	8	2026-10-19T12:38:22+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.12	19		139.7.84.12
+whoami	8	2026-10-19T12:38:23+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.50	204		193.232.230.50
+whoami	8	2026-10-19T12:38:23+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.48	112		193.232.177.48
+whoami	8	2026-10-19T12:38:23+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.253.1.218	50		172.253.1.218
+whoami	8	2026-10-19T12:38:23+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	172.70.245.120	47		172.70.245.120
+whoami	8	2026-10-19T12:38:23+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.14	46		139.7.84.14
+whoami	8	2026-10-19T12:38:24+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.48	95		193.232.230.48
+whoami	8	2026-10-19T12:38:24+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	53		193.232.177.49
+whoami	8	2026-10-19T12:38:24+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.161;ecs 92.209.188.0/24/24;ns 172.217.33.213	20		172.217.33.213
+whoami	8	2026-10-19T12:38:24+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.208.0.0/24/24;ip 92.208.0.76;ns 162.158.93.149	32		162.158.93.149
+whoami	8	2026-10-19T12:38:24+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a01:860:4:100d::a:0	26		2a01:860:4:100d::a:0
+whoami	8	2026-10-19T12:38:25+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.48	228		193.232.230.48
+whoami	8	2026-10-19T12:38:25+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::101	125		2a0c:a9c7:177:2000:1000::101
+whoami	8	2026-10-19T12:38:25+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.217;ns 172.217.34.29;ecs 92.209.188.0/24/24	43		172.217.34.29
+whoami	8	2026-10-19T12:38:25+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.208.0.0/24/24;ip 92.208.0.156;ns 172.68.24.103	53		172.68.24.103
+whoami	8	2026-10-19T12:38:25+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.17	53		139.7.84.17
+whoami	9	2026-10-19T12:38:37+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.48	99		193.232.230.48
+whoami	9	2026-10-19T12:38:37+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	52		193.232.177.48
+whoami	9	2026-10-19T12:38:37+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.253.237.157	18		172.253.237.157
+whoami	9	2026-10-19T12:38:37+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	172.69.149.145	18		172.69.149.145
+whoami	9	2026-10-19T12:38:37+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.14	15		139.7.84.14
+whoami	9	2026-10-19T12:38:38+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.49	195		193.232.230.49
+whoami	9	2026-10-19T12:38:38+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	112		193.232.177.49
+whoami	9	2026-10-19T12:38:38+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.217.33.210	46		172.217.33.210
+whoami	9	2026-10-19T12:38:38+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	104.22.123.205	55		104.22.123.205
+whoami	9	2026-10-19T12:38:38+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.15	41		139.7.84.15
+whoami	9	2026-10-19T12:38:39+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::103	96		2001:67c:1211:2000:1000::103
+whoami	9	2026-10-19T12:38:39+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	59		193.232.177.49
+whoami	9	2026-10-19T12:38:39+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.209.188.232;ns 172.253.1.215;ecs 92.209.188.0/24/24	20		172.253.1.215
+whoami	9	2026-10-19T12:38:39+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.208.0.231;ns 172.70.244.99;ecs 92.208.0.0/24/24	26		172.70.244.99
+whoami	9	2026-10-19T12:38:39+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.12	70		139.7.84.12
+whoami	9	2026-10-19T12:38:40+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.50	195		193.232.230.50
+whoami	9	2026-10-19T12:38:40+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	126		193.232.177.49
+whoami	9	2026-10-19T12:38:40+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a00:1450:4001:c07::123;ip 92.209.188.207;ecs 92.209.188.0/24/24	53		2a00:1450:4001:c07::123
+whoami	9	2026-10-19T12:38:40+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.208.0.0/24/24;ip 92.208.0.251;ns 172.70.241.151	63		172.70.241.151
+whoami	9	2026-10-19T12:38:40+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.17	46		139.7.84.17
+whoami	10	2026-10-19T12:38:52+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.51	104		193.232.230.51
+whoami	10	2026-10-19T12:38:52+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	51		193.232.177.48
+whoami	10	2026-10-19T12:38:52+00:00	8.8.8.8	google	udp	whoami.akamai.net	A	NOERROR	172.217.33.219	18		172.217.33.219
+whoami	10	2026-10-19T12:38:52+00:00	1.1.1.1	cloudflare	udp	whoami.akamai.net	A	NOERROR	172.69.149.144	19		172.69.149.144
+whoami	10	2026-10-19T12:38:52+00:00	2a02:908:2:b::1	system	udp	whoami.akamai.net	A	NOERROR	139.7.84.15	12		139.7.84.15
+whoami	10	2026-10-19T12:38:53+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.48	200		193.232.230.48
+whoami	10	2026-10-19T12:38:53+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	138		193.232.177.49
+whoami	10	2026-10-19T12:38:53+00:00	8.8.8.8	google	tcp	whoami.akamai.net	A	NOERROR	172.217.33.153	41		172.217.33.153
+whoami	10	2026-10-19T12:38:53+00:00	1.1.1.1	cloudflare	tcp	whoami.akamai.net	A	NOERROR	172.68.24.43	50		172.68.24.43
+whoami	10	2026-10-19T12:38:53+00:00	2a02:908:2:b::1	system	tcp	whoami.akamai.net	A	NOERROR	139.7.84.14	46		139.7.84.14
+whoami	10	2026-10-19T12:38:54+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.50	130		193.232.230.50
+whoami	10	2026-10-19T12:38:54+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::101	53		2a0c:a9c7:177:2000:1000::101
+whoami	10	2026-10-19T12:38:54+00:00	8.8.8.8	google	udp	whoami.ds.akahelp.net	TXT	NOERROR	ecs 92.209.188.0/24/24;ns 172.217.33.150;ip 92.209.188.246	27		172.217.33.150
+whoami	10	2026-10-19T12:38:54+00:00	1.1.1.1	cloudflare	udp	whoami.ds.akahelp.net	TXT	NOERROR	ip 92.208.0.128;ns 172.71.168.100;ecs 92.208.0.0/24/24	22		172.71.168.100
+whoami	10	2026-10-19T12:38:54+00:00	2a02:908:2:b::1	system	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.13	19		139.7.84.13
+whoami	10	2026-10-19T12:38:55+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.51	200		193.232.230.51
+whoami	10	2026-10-19T12:38:55+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	136		193.232.177.49
+whoami	10	2026-10-19T12:38:55+00:00	8.8.8.8	google	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 172.217.33.214;ip 92.209.188.160;ecs 92.209.188.0/24/24	53		172.217.33.214
+whoami	10	2026-10-19T12:38:55+00:00	1.1.1.1	cloudflare	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 172.70.244.99;ecs 92.208.0.0/24/24;ip 92.208.0.62	42		172.70.244.99
+whoami	10	2026-10-19T12:38:55+00:00	2a02:908:2:b::1	system	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 139.7.84.17	47		139.7.84.17
+whoami	11	2026-10-19T12:39:07+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.51	109		193.232.230.51
+whoami	11	2026-10-19T12:39:07+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.49	50		193.232.177.49
+whoami	11	2026-10-19T12:39:08+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.51	211		193.232.230.51
+whoami	11	2026-10-19T12:39:08+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	125		193.232.177.49
+whoami	11	2026-10-19T12:39:09+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	99		2001:67c:1211:2000:1000::104
+whoami	11	2026-10-19T12:39:09+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	52		193.232.177.49
+whoami	11	2026-10-19T12:39:10+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.49	194		193.232.230.49
+whoami	11	2026-10-19T12:39:10+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.48	115		193.232.177.48
+whoami	12	2026-10-19T12:39:22+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.51	98		193.232.230.51
+whoami	12	2026-10-19T12:39:22+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.49	51		193.232.177.49
+whoami	12	2026-10-19T12:39:23+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.49	207		193.232.230.49
+whoami	12	2026-10-19T12:39:23+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	104		193.232.177.49
+whoami	12	2026-10-19T12:39:24+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.50	109		193.232.230.50
+whoami	12	2026-10-19T12:39:24+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	62		193.232.177.49
+whoami	12	2026-10-19T12:39:25+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.50	216		193.232.230.50
+whoami	12	2026-10-19T12:39:25+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	114		193.232.177.49
+whoami	13	2026-10-19T12:39:37+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.51	98		193.232.230.51
+whoami	13	2026-10-19T12:39:37+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	60		193.232.177.48
+whoami	13	2026-10-19T12:39:38+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.50	195		193.232.230.50
+whoami	13	2026-10-19T12:39:38+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	120		193.232.177.49
+whoami	13	2026-10-19T12:39:39+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	93		2001:67c:1211:2000:1000::104
+whoami	13	2026-10-19T12:39:39+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	65		193.232.177.49
+whoami	13	2026-10-19T12:39:40+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::102	203		2001:67c:1211:2000:1000::102
+whoami	13	2026-10-19T12:39:40+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::102	109		2a0c:a9c7:177:2000:1000::102
+whoami	14	2026-10-19T12:39:52+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.49	108		193.232.230.49
+whoami	14	2026-10-19T12:39:52+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	53		193.232.177.48
+whoami	14	2026-10-19T12:39:53+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.48	191		193.232.230.48
+whoami	14	2026-10-19T12:39:53+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	119		193.232.177.49
+whoami	14	2026-10-19T12:39:54+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.50	93		193.232.230.50
+whoami	14	2026-10-19T12:39:54+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.48	50		193.232.177.48
+whoami	14	2026-10-19T12:39:55+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::103	203		2001:67c:1211:2000:1000::103
+whoami	14	2026-10-19T12:39:55+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::102	112		2a0c:a9c7:177:2000:1000::102
+whoami	15	2026-10-19T12:40:07+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.49	108		193.232.230.49
+whoami	15	2026-10-19T12:40:07+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.49	55		193.232.177.49
+whoami	15	2026-10-19T12:40:08+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.51	197		193.232.230.51
+whoami	15	2026-10-19T12:40:08+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	114		193.232.177.49
+whoami	15	2026-10-19T12:40:09+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.48	100		193.232.230.48
+whoami	15	2026-10-19T12:40:09+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::101	79		2a0c:a9c7:177:2000:1000::101
+whoami	15	2026-10-19T12:40:10+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.49	222		193.232.230.49
+whoami	15	2026-10-19T12:40:10+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::102	118		2a0c:a9c7:177:2000:1000::102
+whoami	16	2026-10-19T12:40:22+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.51	102		193.232.230.51
+whoami	16	2026-10-19T12:40:22+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	129		193.232.177.48
+whoami	16	2026-10-19T12:40:23+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.49	203		193.232.230.49
+whoami	16	2026-10-19T12:40:23+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.48	113		193.232.177.48
+whoami	16	2026-10-19T12:40:24+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.51	96		193.232.230.51
+whoami	16	2026-10-19T12:40:24+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	61		193.232.177.49
+whoami	16	2026-10-19T12:40:25+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.48	198		193.232.230.48
+whoami	16	2026-10-19T12:40:25+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2a0c:a9c7:177:2000:1000::101	113		2a0c:a9c7:177:2000:1000::101
+whoami	17	2026-10-19T12:40:37+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.49	101		193.232.230.49
+whoami	17	2026-10-19T12:40:37+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	52		193.232.177.48
+whoami	17	2026-10-19T12:40:38+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.48	224		193.232.230.48
+whoami	17	2026-10-19T12:40:38+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	111		193.232.177.49
+whoami	17	2026-10-19T12:40:39+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	105		2001:67c:1211:2000:1000::104
+whoami	17	2026-10-19T12:40:39+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	62		193.232.177.49
+whoami	17	2026-10-19T12:40:40+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	205		2001:67c:1211:2000:1000::104
+whoami	17	2026-10-19T12:40:40+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	113		193.232.177.49
+whoami	18	2026-10-19T12:40:52+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.50	96		193.232.230.50
+whoami	18	2026-10-19T12:40:52+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	62		193.232.177.48
+whoami	18	2026-10-19T12:40:53+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.48	190		193.232.230.48
+whoami	18	2026-10-19T12:40:53+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	121		193.232.177.49
+whoami	18	2026-10-19T12:40:54+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.48	89		193.232.230.48
+whoami	18	2026-10-19T12:40:54+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	59		193.232.177.49
+whoami	18	2026-10-19T12:40:55+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::103	202		2001:67c:1211:2000:1000::103
+whoami	18	2026-10-19T12:40:55+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	152		193.232.177.49
+whoami	19	2026-10-19T12:41:07+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.48	98		193.232.230.48
+whoami	19	2026-10-19T12:41:07+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	52		193.232.177.48
+whoami	19	2026-10-19T12:41:08+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.50	202		193.232.230.50
+whoami	19	2026-10-19T12:41:08+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.49	105		193.232.177.49
+whoami	19	2026-10-19T12:41:09+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.230.50	97		193.232.230.50
+whoami	19	2026-10-19T12:41:09+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.48	48		193.232.177.48
+whoami	19	2026-10-19T12:41:10+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::102	203		2001:67c:1211:2000:1000::102
+whoami	19	2026-10-19T12:41:10+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.48	123		193.232.177.48
+whoami	20	2026-10-19T12:41:22+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.230.50	98		193.232.230.50
+whoami	20	2026-10-19T12:41:22+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.akamai.net	A	NOERROR	193.232.177.48	49		193.232.177.48
+whoami	20	2026-10-19T12:41:23+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.230.51	196		193.232.230.51
+whoami	20	2026-10-19T12:41:23+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.akamai.net	A	NOERROR	193.232.177.48	117		193.232.177.48
+whoami	20	2026-10-19T12:41:24+00:00	195.208.4.1	a.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::101	97		2001:67c:1211:2000:1000::101
+whoami	20	2026-10-19T12:41:24+00:00	195.208.5.1	b.res-nsdi.ru	udp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.49	53		193.232.177.49
+whoami	20	2026-10-19T12:41:25+00:00	195.208.4.1	a.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 2001:67c:1211:2000:1000::104	195		2001:67c:1211:2000:1000::104
+whoami	20	2026-10-19T12:41:25+00:00	195.208.5.1	b.res-nsdi.ru	tcp	whoami.ds.akahelp.net	TXT	NOERROR	ns 193.232.177.48	120		193.232.177.48
+ground-truth	1	2026-10-19T12:41:26+00:00	195.208.4.1	a.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		98		
+ground-truth	1	2026-10-19T12:41:26+00:00	195.208.5.1	b.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		51		
+ground-truth	1	2026-10-19T12:41:26+00:00	8.8.8.8	google	udp	www.youtube.com	A	NOERROR	142.251.156.4;142.251.157.4;142.251.154.4;142.251.152.4;142.251.150.4;142.251.153.4;142.251.151.4;142.251.155.4	29		
+ground-truth	1	2026-10-19T12:41:26+00:00	1.1.1.1	cloudflare	udp	www.youtube.com	A	NOERROR	142.251.150.4;142.251.154.4;142.251.156.4;142.251.151.4;142.251.153.4;142.251.155.4;142.251.157.4;142.251.152.4	28		
+ground-truth	1	2026-10-19T12:41:26+00:00	2a02:908:2:b::1	system	udp	www.youtube.com	A	NOERROR	142.251.157.4;142.251.154.4;142.251.151.4;142.251.152.4;142.251.155.4;142.251.156.4;142.251.153.4;142.251.150.4	17		
+ground-truth	1	2026-10-19T12:41:27+00:00	195.208.4.1	a.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		190		
+ground-truth	1	2026-10-19T12:41:27+00:00	195.208.5.1	b.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		117		
+ground-truth	1	2026-10-19T12:41:28+00:00	8.8.8.8	google	tcp	www.youtube.com	A	NOERROR	142.251.157.4;142.251.150.4;142.251.153.4;142.251.156.4;142.251.151.4;142.251.155.4;142.251.154.4;142.251.152.4	46		
+ground-truth	1	2026-10-19T12:41:28+00:00	1.1.1.1	cloudflare	tcp	www.youtube.com	A	NOERROR	142.251.157.4;142.251.152.4;142.251.155.4;142.251.151.4;142.251.154.4;142.251.150.4;142.251.156.4;142.251.153.4	47		
+ground-truth	1	2026-10-19T12:41:28+00:00	2a02:908:2:b::1	system	tcp	www.youtube.com	A	NOERROR	142.251.154.4;142.251.150.4;142.251.151.4;142.251.155.4;142.251.157.4;142.251.153.4;142.251.156.4;142.251.152.4	48		
+ground-truth	1	2026-10-19T12:41:28+00:00	195.208.4.1	a.res-nsdi.ru	udp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	97		
+ground-truth	1	2026-10-19T12:41:29+00:00	195.208.5.1	b.res-nsdi.ru	udp	example.com	A			5001	timeout	
+ground-truth	1	2026-10-19T12:41:34+00:00	8.8.8.8	google	udp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	18		
+ground-truth	1	2026-10-19T12:41:34+00:00	1.1.1.1	cloudflare	udp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	17		
+ground-truth	1	2026-10-19T12:41:34+00:00	2a02:908:2:b::1	system	udp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	18		
+ground-truth	1	2026-10-19T12:41:34+00:00	195.208.4.1	a.res-nsdi.ru	tcp	example.com	A	NOERROR	8.47.69.0;8.6.112.0	201		
+ground-truth	1	2026-10-19T12:41:35+00:00	195.208.5.1	b.res-nsdi.ru	tcp	example.com	A	NOERROR	8.47.69.0;8.6.112.0	125		
+ground-truth	1	2026-10-19T12:41:35+00:00	8.8.8.8	google	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	65		
+ground-truth	1	2026-10-19T12:41:35+00:00	1.1.1.1	cloudflare	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	76		
+ground-truth	1	2026-10-19T12:41:35+00:00	2a02:908:2:b::1	system	tcp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	48		
+ground-truth	1	2026-10-19T12:41:35+00:00	195.208.4.1	a.res-nsdi.ru	udp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	89		
+ground-truth	1	2026-10-19T12:41:36+00:00	195.208.5.1	b.res-nsdi.ru	udp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	65		
+ground-truth	1	2026-10-19T12:41:36+00:00	8.8.8.8	google	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	25		
+ground-truth	1	2026-10-19T12:41:36+00:00	1.1.1.1	cloudflare	udp	ya.ru	A	NOERROR	77.88.44.242;5.255.255.242;77.88.55.242	21		
+ground-truth	1	2026-10-19T12:41:36+00:00	2a02:908:2:b::1	system	udp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	16		
+ground-truth	1	2026-10-19T12:41:36+00:00	195.208.4.1	a.res-nsdi.ru	tcp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	214		
+ground-truth	1	2026-10-19T12:41:37+00:00	195.208.5.1	b.res-nsdi.ru	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	182		
+ground-truth	1	2026-10-19T12:41:37+00:00	8.8.8.8	google	tcp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	44		
+ground-truth	1	2026-10-19T12:41:37+00:00	1.1.1.1	cloudflare	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	43		
+ground-truth	1	2026-10-19T12:41:37+00:00	2a02:908:2:b::1	system	tcp	ya.ru	A	NOERROR	77.88.44.242;5.255.255.242;77.88.55.242	43		
+ground-truth	2	2026-10-19T12:41:37+00:00	195.208.4.1	a.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		123		
+ground-truth	2	2026-10-19T12:41:38+00:00	195.208.5.1	b.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		60		
+ground-truth	2	2026-10-19T12:41:38+00:00	8.8.8.8	google	udp	www.youtube.com	A	NOERROR	142.251.153.4;142.251.155.4;142.251.152.4;142.251.151.4;142.251.156.4;142.251.150.4;142.251.157.4;142.251.154.4	17		
+ground-truth	2	2026-10-19T12:41:38+00:00	1.1.1.1	cloudflare	udp	www.youtube.com	A	NOERROR	142.251.153.4;142.251.150.4;142.251.157.4;142.251.154.4;142.251.151.4;142.251.152.4;142.251.155.4;142.251.156.4	22		
+ground-truth	2	2026-10-19T12:41:38+00:00	2a02:908:2:b::1	system	udp	www.youtube.com	A	NOERROR	142.251.150.4;142.251.154.4;142.251.153.4;142.251.151.4;142.251.152.4;142.251.157.4;142.251.156.4;142.251.155.4	17		
+ground-truth	2	2026-10-19T12:41:38+00:00	195.208.4.1	a.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		194		
+ground-truth	2	2026-10-19T12:41:39+00:00	195.208.5.1	b.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		120		
+ground-truth	2	2026-10-19T12:41:39+00:00	8.8.8.8	google	tcp	www.youtube.com	A	NOERROR	142.251.157.4;142.251.153.4;142.251.152.4;142.251.150.4;142.251.156.4;142.251.154.4;142.251.151.4;142.251.155.4	43		
+ground-truth	2	2026-10-19T12:41:39+00:00	1.1.1.1	cloudflare	tcp	www.youtube.com	A	NOERROR	142.251.152.4;142.251.151.4;142.251.153.4;142.251.154.4;142.251.150.4;142.251.157.4;142.251.156.4;142.251.155.4	43		
+ground-truth	2	2026-10-19T12:41:39+00:00	2a02:908:2:b::1	system	tcp	www.youtube.com	A	NOERROR	142.251.152.4;142.251.155.4;142.251.156.4;142.251.153.4;142.251.150.4;142.251.157.4;142.251.154.4;142.251.151.4	51		
+ground-truth	2	2026-10-19T12:41:40+00:00	195.208.4.1	a.res-nsdi.ru	udp	example.com	A	NOERROR	8.47.69.0;8.6.112.0	118		
+ground-truth	2	2026-10-19T12:41:40+00:00	195.208.5.1	b.res-nsdi.ru	udp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	59		
+ground-truth	2	2026-10-19T12:41:40+00:00	8.8.8.8	google	udp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	23		
+ground-truth	2	2026-10-19T12:41:40+00:00	1.1.1.1	cloudflare	udp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	18		
+ground-truth	2	2026-10-19T12:41:40+00:00	2a02:908:2:b::1	system	udp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	18		
+ground-truth	2	2026-10-19T12:41:41+00:00	195.208.4.1	a.res-nsdi.ru	tcp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	200		
+ground-truth	2	2026-10-19T12:41:41+00:00	195.208.5.1	b.res-nsdi.ru	tcp	example.com	A	NOERROR	8.47.69.0;8.6.112.0	139		
+ground-truth	2	2026-10-19T12:41:41+00:00	8.8.8.8	google	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	53		
+ground-truth	2	2026-10-19T12:41:41+00:00	1.1.1.1	cloudflare	tcp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	88		
+ground-truth	2	2026-10-19T12:41:41+00:00	2a02:908:2:b::1	system	tcp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	45		
+ground-truth	2	2026-10-19T12:41:42+00:00	195.208.4.1	a.res-nsdi.ru	udp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	100		
+ground-truth	2	2026-10-19T12:41:42+00:00	195.208.5.1	b.res-nsdi.ru	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	68		
+ground-truth	2	2026-10-19T12:41:42+00:00	8.8.8.8	google	udp	ya.ru	A	NOERROR	77.88.44.242;5.255.255.242;77.88.55.242	21		
+ground-truth	2	2026-10-19T12:41:42+00:00	1.1.1.1	cloudflare	udp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	21		
+ground-truth	2	2026-10-19T12:41:43+00:00	2a02:908:2:b::1	system	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.44.242;77.88.55.242	25		
+ground-truth	2	2026-10-19T12:41:43+00:00	195.208.4.1	a.res-nsdi.ru	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	223		
+ground-truth	2	2026-10-19T12:41:43+00:00	195.208.5.1	b.res-nsdi.ru	tcp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	100		
+ground-truth	2	2026-10-19T12:41:44+00:00	8.8.8.8	google	tcp	ya.ru	A	NOERROR	77.88.44.242;77.88.55.242;5.255.255.242	37		
+ground-truth	2	2026-10-19T12:41:44+00:00	1.1.1.1	cloudflare	tcp	ya.ru	A	NOERROR	77.88.44.242;5.255.255.242;77.88.55.242	58		
+ground-truth	2	2026-10-19T12:41:44+00:00	2a02:908:2:b::1	system	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	53		
+ground-truth	3	2026-10-19T12:41:44+00:00	195.208.4.1	a.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		106		
+ground-truth	3	2026-10-19T12:41:45+00:00	195.208.5.1	b.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		92		
+ground-truth	3	2026-10-19T12:41:45+00:00	8.8.8.8	google	udp	www.youtube.com	A	NOERROR	142.251.153.4;142.251.156.4;142.251.157.4;142.251.151.4;142.251.154.4;142.251.150.4;142.251.155.4;142.251.152.4	25		
+ground-truth	3	2026-10-19T12:41:45+00:00	1.1.1.1	cloudflare	udp	www.youtube.com	A	NOERROR	142.251.156.4;142.251.157.4;142.251.151.4;142.251.154.4;142.251.153.4;142.251.155.4;142.251.152.4;142.251.150.4	25		
+ground-truth	3	2026-10-19T12:41:45+00:00	2a02:908:2:b::1	system	udp	www.youtube.com	A	NOERROR	142.251.152.4;142.251.154.4;142.251.150.4;142.251.151.4;142.251.155.4;142.251.157.4;142.251.153.4;142.251.156.4	24		
+ground-truth	3	2026-10-19T12:41:45+00:00	195.208.4.1	a.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		198		
+ground-truth	3	2026-10-19T12:41:46+00:00	195.208.5.1	b.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		124		
+ground-truth	3	2026-10-19T12:41:46+00:00	8.8.8.8	google	tcp	www.youtube.com	A	NOERROR	142.251.156.4;142.251.154.4;142.251.151.4;142.251.155.4;142.251.157.4;142.251.150.4;142.251.152.4;142.251.153.4	47		
+ground-truth	3	2026-10-19T12:41:46+00:00	1.1.1.1	cloudflare	tcp	www.youtube.com	A	NOERROR	142.251.152.4;142.251.155.4;142.251.156.4;142.251.153.4;142.251.150.4;142.251.157.4;142.251.154.4;142.251.151.4	47		
+ground-truth	3	2026-10-19T12:41:46+00:00	2a02:908:2:b::1	system	tcp	www.youtube.com	A	NOERROR	142.251.154.4;142.251.152.4;142.251.151.4;142.251.150.4;142.251.153.4;142.251.156.4;142.251.157.4;142.251.155.4	60		
+ground-truth	3	2026-10-19T12:41:46+00:00	195.208.4.1	a.res-nsdi.ru	udp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	96		
+ground-truth	3	2026-10-19T12:41:47+00:00	195.208.5.1	b.res-nsdi.ru	udp	example.com	A	NOERROR	8.47.69.0;8.6.112.0	58		
+ground-truth	3	2026-10-19T12:41:47+00:00	8.8.8.8	google	udp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	17		
+ground-truth	3	2026-10-19T12:41:47+00:00	1.1.1.1	cloudflare	udp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	21		
+ground-truth	3	2026-10-19T12:41:47+00:00	2a02:908:2:b::1	system	udp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	23		
+ground-truth	3	2026-10-19T12:41:48+00:00	195.208.4.1	a.res-nsdi.ru	tcp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	248		
+ground-truth	3	2026-10-19T12:41:48+00:00	195.208.5.1	b.res-nsdi.ru	tcp	example.com	A	NOERROR	8.47.69.0;8.6.112.0	114		
+ground-truth	3	2026-10-19T12:41:48+00:00	8.8.8.8	google	tcp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	51		
+ground-truth	3	2026-10-19T12:41:48+00:00	1.1.1.1	cloudflare	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	36		
+ground-truth	3	2026-10-19T12:41:48+00:00	2a02:908:2:b::1	system	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	52		
+ground-truth	3	2026-10-19T12:41:49+00:00	195.208.4.1	a.res-nsdi.ru	udp	ya.ru	A	NOERROR	77.88.44.242;77.88.55.242;5.255.255.242	98		
+ground-truth	3	2026-10-19T12:41:49+00:00	195.208.5.1	b.res-nsdi.ru	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	148		
+ground-truth	3	2026-10-19T12:41:49+00:00	8.8.8.8	google	udp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	27		
+ground-truth	3	2026-10-19T12:41:49+00:00	1.1.1.1	cloudflare	udp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	15		
+ground-truth	3	2026-10-19T12:41:49+00:00	2a02:908:2:b::1	system	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	21		
+ground-truth	3	2026-10-19T12:41:50+00:00	195.208.4.1	a.res-nsdi.ru	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.44.242;77.88.55.242	199		
+ground-truth	3	2026-10-19T12:41:50+00:00	195.208.5.1	b.res-nsdi.ru	tcp	ya.ru	A	NOERROR	77.88.44.242;5.255.255.242;77.88.55.242	138		
+ground-truth	3	2026-10-19T12:41:50+00:00	8.8.8.8	google	tcp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	70		
+ground-truth	3	2026-10-19T12:41:50+00:00	1.1.1.1	cloudflare	tcp	ya.ru	A	NOERROR	77.88.44.242;77.88.55.242;5.255.255.242	43		
+ground-truth	3	2026-10-19T12:41:50+00:00	2a02:908:2:b::1	system	tcp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	53		
+ground-truth	4	2026-10-19T12:41:51+00:00	195.208.4.1	a.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		101		
+ground-truth	4	2026-10-19T12:41:51+00:00	195.208.5.1	b.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		48		
+ground-truth	4	2026-10-19T12:41:51+00:00	8.8.8.8	google	udp	www.youtube.com	A	NOERROR	142.251.151.4;142.251.157.4;142.251.152.4;142.251.150.4;142.251.154.4;142.251.155.4;142.251.153.4;142.251.156.4	31		
+ground-truth	4	2026-10-19T12:41:51+00:00	1.1.1.1	cloudflare	udp	www.youtube.com	A	NOERROR	142.251.154.4;142.251.156.4;142.251.155.4;142.251.150.4;142.251.153.4;142.251.152.4;142.251.157.4;142.251.151.4	17		
+ground-truth	4	2026-10-19T12:41:51+00:00	2a02:908:2:b::1	system	udp	www.youtube.com	A	NOERROR	142.251.154.4;142.251.153.4;142.251.151.4;142.251.152.4;142.251.157.4;142.251.156.4;142.251.155.4;142.251.150.4	18		
+ground-truth	4	2026-10-19T12:41:52+00:00	195.208.4.1	a.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		199		
+ground-truth	4	2026-10-19T12:41:52+00:00	195.208.5.1	b.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		118		
+ground-truth	4	2026-10-19T12:41:53+00:00	8.8.8.8	google	tcp	www.youtube.com	A	NOERROR	142.251.157.4;142.251.155.4;142.251.151.4;142.251.150.4;142.251.154.4;142.251.156.4;142.251.153.4;142.251.152.4	49		
+ground-truth	4	2026-10-19T12:41:53+00:00	1.1.1.1	cloudflare	tcp	www.youtube.com	A	NOERROR	142.251.151.4;142.251.153.4;142.251.154.4;142.251.150.4;142.251.157.4;142.251.156.4;142.251.155.4;142.251.152.4	47		
+ground-truth	4	2026-10-19T12:41:53+00:00	2a02:908:2:b::1	system	tcp	www.youtube.com	A	NOERROR	142.251.153.4;142.251.151.4;142.251.152.4;142.251.157.4;142.251.156.4;142.251.155.4;142.251.150.4;142.251.154.4	50		
+ground-truth	4	2026-10-19T12:41:53+00:00	195.208.4.1	a.res-nsdi.ru	udp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	106		
+ground-truth	4	2026-10-19T12:41:54+00:00	195.208.5.1	b.res-nsdi.ru	udp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	51		
+ground-truth	4	2026-10-19T12:41:54+00:00	8.8.8.8	google	udp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	16		
+ground-truth	4	2026-10-19T12:41:54+00:00	1.1.1.1	cloudflare	udp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	16		
+ground-truth	4	2026-10-19T12:41:54+00:00	2a02:908:2:b::1	system	udp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	22		
+ground-truth	4	2026-10-19T12:41:55+00:00	195.208.4.1	a.res-nsdi.ru	tcp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	199		
+ground-truth	4	2026-10-19T12:41:55+00:00	195.208.5.1	b.res-nsdi.ru	tcp	example.com	A	NOERROR	8.47.69.0;8.6.112.0	127		
+ground-truth	4	2026-10-19T12:41:55+00:00	8.8.8.8	google	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	45		
+ground-truth	4	2026-10-19T12:41:55+00:00	1.1.1.1	cloudflare	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	53		
+ground-truth	4	2026-10-19T12:41:55+00:00	2a02:908:2:b::1	system	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	42		
+ground-truth	4	2026-10-19T12:41:56+00:00	195.208.4.1	a.res-nsdi.ru	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	99		
+ground-truth	4	2026-10-19T12:41:56+00:00	195.208.5.1	b.res-nsdi.ru	udp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	61		
+ground-truth	4	2026-10-19T12:41:56+00:00	8.8.8.8	google	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.44.242;77.88.55.242	17		
+ground-truth	4	2026-10-19T12:41:56+00:00	1.1.1.1	cloudflare	udp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	17		
+ground-truth	4	2026-10-19T12:41:56+00:00	2a02:908:2:b::1	system	udp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	19		
+ground-truth	4	2026-10-19T12:41:57+00:00	195.208.4.1	a.res-nsdi.ru	tcp	ya.ru	A	NOERROR	77.88.44.242;77.88.55.242;5.255.255.242	196		
+ground-truth	4	2026-10-19T12:41:57+00:00	195.208.5.1	b.res-nsdi.ru	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	132		
+ground-truth	4	2026-10-19T12:41:57+00:00	8.8.8.8	google	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.44.242;77.88.55.242	42		
+ground-truth	4	2026-10-19T12:41:57+00:00	1.1.1.1	cloudflare	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	43		
+ground-truth	4	2026-10-19T12:41:57+00:00	2a02:908:2:b::1	system	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	46		
+ground-truth	5	2026-10-19T12:41:58+00:00	195.208.4.1	a.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		106		
+ground-truth	5	2026-10-19T12:41:58+00:00	195.208.5.1	b.res-nsdi.ru	udp	www.youtube.com	A	NXDOMAIN		55		
+ground-truth	5	2026-10-19T12:41:58+00:00	8.8.8.8	google	udp	www.youtube.com	A	NOERROR	142.251.153.4;142.251.156.4;142.251.157.4;142.251.154.4;142.251.151.4;142.251.150.4;142.251.155.4;142.251.152.4	28		
+ground-truth	5	2026-10-19T12:41:58+00:00	1.1.1.1	cloudflare	udp	www.youtube.com	A	NOERROR	142.251.154.4;142.251.151.4;142.251.152.4;142.251.150.4;142.251.153.4;142.251.156.4;142.251.155.4;142.251.157.4	19		
+ground-truth	5	2026-10-19T12:41:58+00:00	2a02:908:2:b::1	system	udp	www.youtube.com	A	NOERROR	142.251.154.4;142.251.150.4;142.251.151.4;142.251.155.4;142.251.157.4;142.251.153.4;142.251.156.4;142.251.152.4	22		
+ground-truth	5	2026-10-19T12:41:59+00:00	195.208.4.1	a.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		198		
+ground-truth	5	2026-10-19T12:41:59+00:00	195.208.5.1	b.res-nsdi.ru	tcp	www.youtube.com	A	NXDOMAIN		127		
+ground-truth	5	2026-10-19T12:42:00+00:00	8.8.8.8	google	tcp	www.youtube.com	A	NOERROR	142.251.154.4;142.251.155.4;142.251.156.4;142.251.153.4;142.251.157.4;142.251.151.4;142.251.152.4;142.251.150.4	29		
+ground-truth	5	2026-10-19T12:42:00+00:00	1.1.1.1	cloudflare	tcp	www.youtube.com	A	NOERROR	142.251.157.4;142.251.151.4;142.251.150.4;142.251.156.4;142.251.154.4;142.251.153.4;142.251.155.4;142.251.152.4	50		
+ground-truth	5	2026-10-19T12:42:00+00:00	2a02:908:2:b::1	system	tcp	www.youtube.com	A	NOERROR	142.251.154.4;142.251.152.4;142.251.150.4;142.251.155.4;142.251.156.4;142.251.157.4;142.251.153.4;142.251.151.4	44		
+ground-truth	5	2026-10-19T12:42:00+00:00	195.208.4.1	a.res-nsdi.ru	udp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	114		
+ground-truth	5	2026-10-19T12:42:01+00:00	195.208.5.1	b.res-nsdi.ru	udp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	55		
+ground-truth	5	2026-10-19T12:42:01+00:00	8.8.8.8	google	udp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	28		
+ground-truth	5	2026-10-19T12:42:01+00:00	1.1.1.1	cloudflare	udp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	30		
+ground-truth	5	2026-10-19T12:42:01+00:00	2a02:908:2:b::1	system	udp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	14		
+ground-truth	5	2026-10-19T12:42:01+00:00	195.208.4.1	a.res-nsdi.ru	tcp	example.com	A	NOERROR	8.6.112.0;8.47.69.0	187		
+ground-truth	5	2026-10-19T12:42:02+00:00	195.208.5.1	b.res-nsdi.ru	tcp	example.com	A	NOERROR	8.47.69.0;8.6.112.0	109		
+ground-truth	5	2026-10-19T12:42:02+00:00	8.8.8.8	google	tcp	example.com	A	NOERROR	104.20.23.154;172.66.147.243	52		
+ground-truth	5	2026-10-19T12:42:02+00:00	1.1.1.1	cloudflare	tcp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	49		
+ground-truth	5	2026-10-19T12:42:02+00:00	2a02:908:2:b::1	system	tcp	example.com	A	NOERROR	172.66.147.243;104.20.23.154	52		
+ground-truth	5	2026-10-19T12:42:03+00:00	195.208.4.1	a.res-nsdi.ru	udp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	101		
+ground-truth	5	2026-10-19T12:42:03+00:00	195.208.5.1	b.res-nsdi.ru	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	63		
+ground-truth	5	2026-10-19T12:42:03+00:00	8.8.8.8	google	udp	ya.ru	A	NOERROR	77.88.44.242;77.88.55.242;5.255.255.242	25		
+ground-truth	5	2026-10-19T12:42:03+00:00	1.1.1.1	cloudflare	udp	ya.ru	A	NOERROR	5.255.255.242;77.88.44.242;77.88.55.242	17		
+ground-truth	5	2026-10-19T12:42:03+00:00	2a02:908:2:b::1	system	udp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	17		
+ground-truth	5	2026-10-19T12:42:04+00:00	195.208.4.1	a.res-nsdi.ru	tcp	ya.ru	A	NOERROR	77.88.44.242;5.255.255.242;77.88.55.242	196		
+ground-truth	5	2026-10-19T12:42:04+00:00	195.208.5.1	b.res-nsdi.ru	tcp	ya.ru	A	NOERROR	77.88.55.242;77.88.44.242;5.255.255.242	112		
+ground-truth	5	2026-10-19T12:42:04+00:00	8.8.8.8	google	tcp	ya.ru	A	NOERROR	77.88.55.242;5.255.255.242;77.88.44.242	47		
+ground-truth	5	2026-10-19T12:42:04+00:00	1.1.1.1	cloudflare	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.55.242;77.88.44.242	50		
+ground-truth	5	2026-10-19T12:42:04+00:00	2a02:908:2:b::1	system	tcp	ya.ru	A	NOERROR	5.255.255.242;77.88.44.242;77.88.55.242	34		

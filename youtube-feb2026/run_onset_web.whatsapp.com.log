@@ -1,0 +1,30 @@
+blocking_type values seen (rows): {'http-failure': 2, '': 2, 'tcp_ip': 12, 'dns': 4}
+
+== all  (RU web_connectivity, domain=web.whatsapp.com, 2025-12-01..2026-03-01)
+day	measurement_count	anomaly_count	confirmed_count	failure_count	anomaly_share	dns_count	dns_share	n_asn	n_asn_anomaly	n_asn_dns
+2025-12-23	1	1	0	0	1.000	0	0.000	1	1	0
+2025-12-24	1	1	0	0	1.000	0	0.000	1	1	0
+2026-01-04	2	0	0	0	0.000	0	0.000	1	0	0
+2026-01-18	1	1	0	0	1.000	0	0.000	1	1	0
+2026-02-16	4	4	0	0	1.000	0	0.000	4	4	0
+2026-02-17	7	7	0	0	1.000	2	0.286	5	5	1
+2026-02-18	2	2	0	0	1.000	0	0.000	2	2	0
+2026-02-19	2	2	0	0	1.000	1	0.500	2	2	1
+2026-02-20	2	2	0	0	1.000	0	0.000	2	2	0
+2026-02-21	5	5	0	0	1.000	1	0.200	2	2	1
+2026-02-22	3	3	0	0	1.000	2	0.667	2	2	1
+2026-02-23	4	4	0	0	1.000	0	0.000	2	2	0
+2026-02-26	2	1	0	0	0.500	0	0.000	2	1	0
+2026-02-27	3	3	0	0	1.000	0	0.000	3	3	0
+2026-02-28	2	2	0	0	1.000	0	0.000	2	2	0
+
+== AS208397  (RU web_connectivity, domain=web.whatsapp.com, 2025-12-01..2026-03-01)
+day	measurement_count	anomaly_count	confirmed_count	failure_count	anomaly_share	dns_count	dns_share	n_asn	n_asn_anomaly	n_asn_dns
+
+== AS29182  (RU web_connectivity, domain=web.whatsapp.com, 2025-12-01..2026-03-01)
+day	measurement_count	anomaly_count	confirmed_count	failure_count	anomaly_share	dns_count	dns_share	n_asn	n_asn_anomaly	n_asn_dns
+
+== AS12714  (RU web_connectivity, domain=web.whatsapp.com, 2025-12-01..2026-03-01)
+day	measurement_count	anomaly_count	confirmed_count	failure_count	anomaly_share	dns_count	dns_share	n_asn	n_asn_anomaly	n_asn_dns
+
+written /Users/user2/shutdown-measurement/ooni-column-tests/youtube-feb2026/out/onset_by_day_web.whatsapp.com.tsv; responses in /Users/user2/shutdown-measurement/ooni-column-tests/youtube-feb2026/raw_api/aggregation; blocking_type axis accepted; daily asn x blocking_type pulled

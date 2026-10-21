@@ -1,0 +1,140 @@
+
+== 20260111122450.318959_RU_webconnectivity_7ef3104f2f7d7083 AS12714 2026-01-11 12:24:47 egress=own-asn resolver_ip=212.1.244.101 AS12714 ooniprobe-desktop-unattended 3.26.0
+[
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0060017,
+  "tags": null
+ },
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0060017,
+  "tags": null
+ }
+]
+
+== 20260111201436.739792_RU_webconnectivity_108fd3405b54732a AS12714 2026-01-11 20:14:33 egress=own-asn resolver_ip=212.1.244.99 AS12714 ooniprobe-desktop-unattended 3.26.0
+[
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0100351,
+  "tags": null
+ },
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0100351,
+  "tags": null
+ }
+]
+
+== 20260112042413.951717_RU_webconnectivity_defe0b57508d24eb AS12714 2026-01-12 04:24:11 egress=own-asn resolver_ip=212.1.244.99 AS12714 ooniprobe-desktop-unattended 3.26.0
+[
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0052971,
+  "tags": null
+ },
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0052971,
+  "tags": null
+ }
+]
+
+== 20260112045518.861436_RU_webconnectivity_a367b97a1da79be2 AS207103 2026-01-12 04:55:17 egress=other resolver_ip=98.98.215.149 AS21859 ooniprobe-desktop-unattended 3.23.0
+[
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0132042,
+  "tags": null
+ },
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0132042,
+  "tags": null
+ }
+]
+
+== 20260113172509.613463_RU_webconnectivity_6c3e3efd81f76469 AS12714 2026-01-13 17:25:06 egress=own-asn resolver_ip=212.1.244.99 AS12714 ooniprobe-desktop-unattended 3.26.0
+[
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0068544,
+  "tags": null
+ },
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0068544,
+  "tags": null
+ }
+]

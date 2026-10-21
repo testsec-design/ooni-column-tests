@@ -1,0 +1,750 @@
+window A (2026-02-11T00:00:00..2026-02-13T00:00:00): listed 628 measurements from 69 ASNs, fetching 329
+
+== window A: 329 measurements, 495 queries, 69 ASNs
+  AS12389 PJSC Rostelecom: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.80', '172.68.9.62', '172.69.50.30', '213.228.60.66', '213.36.12.5', '213.36.12.6', '217.9.147.25']
+     NSDI 195.208.4/5.0/24: no
+  AS12714 PJSC MegaFon: 4 measurements, 7 queries
+     query failure: nxdomain=2 other=0 none=5
+     dns_consistency: {'inconsistent': 1, 'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.177.48', '193.232.177.50', '212.1.244.99']
+     NSDI 195.208.4/5.0/24: no
+  AS12958 T2 Mobile LLC: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=4 none=0
+     dns_consistency: {'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.51', '194.226.75.82']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 4}
+  AS15774 Limited Liability Company "TTK-Svyaz": 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.48', '193.232.160.49', '193.232.160.50', '193.232.160.51', '193.232.93.48', '193.232.93.51']
+     NSDI 195.208.4/5.0/24: no
+  AS16345 PJSC "Vimpelcom": 6 measurements, 9 queries
+     query failure: nxdomain=0 other=0 none=9
+     dns_consistency: {'consistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79', '172.69.50.30', '217.118.93.16', '74.125.74.17']
+     NSDI 195.208.4/5.0/24: no
+  AS200679 State Institute of Technology Saint-Petersburg: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.177.48', '193.232.177.49', '193.232.177.50', '193.232.177.51', '193.232.93.48', '193.232.93.51']
+     NSDI 195.208.4/5.0/24: no
+  AS201268 JSC "SKB Kontur production": 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['91.221.249.20', '91.221.249.21', '91.221.249.22', '91.221.249.23', '[scrubbed]']
+     NSDI 195.208.4/5.0/24: no
+  AS201952 LTD AtelRybinsk: 10 measurements, 20 queries
+     query failure: nxdomain=0 other=0 none=20
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.146', '172.217.37.155', '74.125.114.149', '74.125.46.151', '74.125.46.17', '74.125.74.144', '74.125.74.158', '74.125.74.22', '74.125.74.28']
+     NSDI 195.208.4/5.0/24: no
+  AS20485 Joint Stock Company TransTeleCom: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.168.9.254']
+     NSDI 195.208.4/5.0/24: no
+  AS207103 LLC Cifrovie Seti Urala: 1 measurements, 1 queries
+     query failure: nxdomain=0 other=0 none=1
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['93.189.61.195']
+     NSDI 195.208.4/5.0/24: no
+  AS207713 GLOBAL INTERNET SOLUTIONS LLC: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.9.62', '74.125.46.23']
+     NSDI 195.208.4/5.0/24: no
+  AS208397 INFOSTROY LLC: 10 measurements, 20 queries
+     query failure: nxdomain=20 other=0 none=0
+     dns_consistency: {'inconsistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.57', '193.232.139.60', '193.232.160.49', '193.232.236.49', '193.232.236.50', '193.232.236.51', '194.226.75.81', '194.226.75.82']
+     NSDI 195.208.4/5.0/24: no
+  AS21365 MTS PJSC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['213.87.211.44']
+     NSDI 195.208.4/5.0/24: no
+  AS21479 PJSC Rostelecom: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'None': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.145', '172.68.167.79', '172.68.167.80', '172.68.9.62', '74.125.114.156', '74.125.46.145', '74.125.74.156']
+     NSDI 195.208.4/5.0/24: no
+  AS24739 JSC "Severen-Telecom": 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.74.147']
+     NSDI 195.208.4/5.0/24: no
+  AS24955 JSC "Ufanet": 5 measurements, 5 queries
+     query failure: nxdomain=0 other=0 none=5
+     dns_consistency: {'consistent': 5}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.191.125.38', '188.191.125.39', '94.41.80.29', '94.41.80.31']
+     NSDI 195.208.4/5.0/24: no
+  AS25159 PJSC MegaFon: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.63.22.232', '74.63.22.234']
+     NSDI 195.208.4/5.0/24: no
+  AS25513 PJSC Moscow city telephone network: 9 measurements, 17 queries
+     query failure: nxdomain=0 other=0 none=17
+     dns_consistency: {'consistent': 9}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['94.29.125.106', '94.29.125.114']
+     NSDI 195.208.4/5.0/24: no
+  AS28840 PJSC "TATTELECOM": 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.48']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS29182 JSC IOT: 2 measurements, 4 queries
+     query failure: nxdomain=4 other=0 none=0
+     dns_consistency: {'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.49', '193.232.93.50']
+     NSDI 195.208.4/5.0/24: no
+  AS31133 PJSC MegaFon: 10 measurements, 20 queries
+     query failure: nxdomain=0 other=0 none=20
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['156.146.33.97', '178.176.80.139', '79.127.211.213']
+     NSDI 195.208.4/5.0/24: no
+  AS31200 Novotelecom Ltd: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.151', '74.125.74.19']
+     NSDI 195.208.4/5.0/24: no
+  AS3216 PJSC "Vimpelcom": 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['156.146.33.97']
+     NSDI 195.208.4/5.0/24: no
+  AS34241 New Communication Technologies LLC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['194.85.129.12']
+     NSDI 195.208.4/5.0/24: no
+  AS35025 AO Teleconnect: 6 measurements, 12 queries
+     query failure: nxdomain=0 other=0 none=12
+     dns_consistency: {'consistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.146', '172.217.37.158', '74.125.46.23', '74.125.74.144', '74.125.74.21', '74.125.74.26']
+     NSDI 195.208.4/5.0/24: no
+  AS35271 JSC "AVIEL": 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['93.185.192.3']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS35807 SkyNet Ltd.: 4 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 4}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['94.19.255.3', '94.19.255.4']
+     NSDI 195.208.4/5.0/24: no
+  AS35810 BIG TELECOM JSC: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.147', '172.217.37.156', '172.253.83.222', '172.68.9.62', '172.69.50.30', '74.125.114.146', '74.125.46.20', '74.125.74.146', '74.125.74.28']
+     NSDI 195.208.4/5.0/24: no
+  AS38917 INTERCOMTEL Limited Company: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79']
+     NSDI 195.208.4/5.0/24: no
+  AS39028 JSC "ER-Telecom Holding": 7 measurements, 7 queries
+     query failure: nxdomain=0 other=0 none=7
+     dns_consistency: {'consistent': 7}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['109.195.192.4', '188.186.147.34', '188.186.151.40']
+     NSDI 195.208.4/5.0/24: no
+  AS39435 JSC "ER-Telecom Holding": 10 measurements, 20 queries
+     query failure: nxdomain=0 other=0 none=20
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.150', '172.217.37.158', '172.68.167.80', '172.69.50.30', '74.125.114.151', '74.125.114.152', '74.125.46.157', '74.125.46.18', '74.125.74.144']
+     NSDI 195.208.4/5.0/24: no
+  AS41275 Lovitel LLC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.49']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS41601 NEO Print Ltd.: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.112.30', '89.255.64.7']
+     NSDI 195.208.4/5.0/24: no
+  AS41668 JSC "ER-Telecom Holding": 5 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 5}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.122.80.232', '51.162.33.58']
+     NSDI 195.208.4/5.0/24: no
+  AS41733 JSC "ER-Telecom Holding": 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['109.195.80.4', '109.195.81.5']
+     NSDI 195.208.4/5.0/24: no
+  AS42065 AO ElectronTelecom: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['83.243.64.1']
+     NSDI 195.208.4/5.0/24: no
+  AS42289 ITMO University: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['104.23.222.84']
+     NSDI 195.208.4/5.0/24: no
+  AS42526 COMPUTER COMMUNICATION SYSTEMS LLC: 8 measurements, 8 queries
+     query failure: nxdomain=0 other=0 none=8
+     dns_consistency: {'inconsistent': 1, 'consistent': 7}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.146', '172.217.37.147', '172.217.37.149', '74.125.112.21', '74.125.114.152', '74.125.74.145', '74.125.74.148', '74.125.74.30']
+     NSDI 195.208.4/5.0/24: no
+  AS42610 PJSC Rostelecom: 6 measurements, 12 queries
+     query failure: nxdomain=0 other=0 none=12
+     dns_consistency: {'consistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['77.37.251.149', '77.37.251.150', '77.37.251.152', '77.37.251.154']
+     NSDI 195.208.4/5.0/24: no
+  AS42682 JSC "ER-Telecom Holding": 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79', '91.144.184.4']
+     NSDI 195.208.4/5.0/24: no
+  AS42893 Nord-West Link NP: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.148', '172.217.37.152', '178.252.100.1', '178.252.100.5', '74.125.114.150', '74.125.46.16', '74.125.46.21', '74.125.46.28']
+     NSDI 195.208.4/5.0/24: no
+  AS43370 OBIT-telecommunications, LLC: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['79.142.94.120']
+     NSDI 195.208.4/5.0/24: no
+  AS43826 CSIT LLC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.112.26']
+     NSDI 195.208.4/5.0/24: no
+  AS43966 OOO "IT-Region": 6 measurements, 12 queries
+     query failure: nxdomain=0 other=0 none=12
+     dns_consistency: {'consistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.150', '172.68.167.80', '172.68.9.62', '172.69.50.30', '74.125.74.26']
+     NSDI 195.208.4/5.0/24: no
+  AS47286 OTS Ltd.: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.253.83.214', '74.125.112.17', '74.125.112.20', '74.125.112.27', '74.125.114.156', '74.125.46.18', '74.125.74.144', '74.125.74.22', '74.125.74.26', '74.125.74.27']
+     NSDI 195.208.4/5.0/24: no
+  AS48552 OJSC The Russian Armed Forces Broadcasting Company ZVEZDA: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.144', '74.125.46.157']
+     NSDI 195.208.4/5.0/24: no
+  AS48642 Joint stock company "For": 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['94.230.128.19']
+     NSDI 195.208.4/5.0/24: no
+  AS49107 "Telko" CJSC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.57']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS49403 AVK-Wellcom Ltd.: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['178.218.118.71', '178.218.118.94']
+     NSDI 195.208.4/5.0/24: no
+  AS49551 Teleseti Ltd: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.59']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS49893 Bitrace telecom Ltd.: 9 measurements, 9 queries
+     query failure: nxdomain=0 other=0 none=9
+     dns_consistency: {'consistent': 9}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.253.83.222', '172.68.167.79', '172.68.9.62', '172.69.50.30', '74.125.74.16', '74.125.74.22', '74.125.74.29']
+     NSDI 195.208.4/5.0/24: no
+  AS50340 JSC Selectel: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['127.0.0.2', '31.184.213.34']
+     NSDI 195.208.4/5.0/24: no
+  AS50477 Svyaz-Energo Ltd.: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.114.158']
+     NSDI 195.208.4/5.0/24: no
+  AS50716 Telecom.ru Ltd: 5 measurements, 10 queries
+     query failure: nxdomain=0 other=4 none=6
+     dns_consistency: {'consistent': 3, 'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.147', '216.66.80.90', '74.125.74.18', '74.125.74.19']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'generic_timeout_error': 4}
+  AS51035 JSC "ER-Telecom Holding": 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.80', '172.68.9.62', '172.69.50.30']
+     NSDI 195.208.4/5.0/24: no
+  AS51659 LLC Baxet: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79', '172.68.9.62']
+     NSDI 195.208.4/5.0/24: no
+  AS52008 NesterTelecom LLC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.74.150']
+     NSDI 195.208.4/5.0/24: no
+  AS60246 Consumer Internet Cooperative PG-19: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.151', '172.217.37.158', '172.68.167.79', '172.68.9.62', '172.69.50.30', '74.125.112.29', '74.125.74.154', '74.125.74.24', '74.125.74.28']
+     NSDI 195.208.4/5.0/24: no
+  AS61121 Gruppa Kompani GEOTEL AO: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['185.18.4.4']
+     NSDI 195.208.4/5.0/24: no
+  AS61152 Freedom House Ltd.: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.46.149']
+     NSDI 195.208.4/5.0/24: no
+  AS6856 AO IK "Informsvyaz-Chernozemye": 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.155', '173.194.98.22', '74.125.46.151']
+     NSDI 195.208.4/5.0/24: no
+  AS8324 South Ural State University: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['37.75.249.33', '37.75.250.46']
+     NSDI 195.208.4/5.0/24: no
+  AS8331 JSC "ER-Telecom Holding": 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['5.228.117.145']
+     NSDI 195.208.4/5.0/24: no
+  AS8334 LLC SETEL: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['127.0.0.2']
+     NSDI 195.208.4/5.0/24: no
+  AS8359 MTS PJSC: 10 measurements, 17 queries
+     query failure: nxdomain=0 other=0 none=17
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['104.23.222.83', '172.217.37.152', '213.87.152.30', '213.87.152.97', '217.66.159.244', '217.66.159.40', '62.118.76.36', '62.118.76.49', '74.125.46.25']
+     NSDI 195.208.4/5.0/24: no
+  AS8402 PJSC "Vimpelcom": 10 measurements, 18 queries
+     query failure: nxdomain=0 other=0 none=18
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.51', '193.232.177.51', '213.234.192.23', '83.102.180.36', '83.102.180.43', '85.21.192.17', '85.249.22.249']
+     NSDI 195.208.4/5.0/24: no
+  AS8615 "Central Telegraph" Public Joint-stock Company: 10 measurements, 20 queries
+     query failure: nxdomain=0 other=0 none=20
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['213.85.204.190']
+     NSDI 195.208.4/5.0/24: no
+  AS8732 JSC Comcor: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['185.173.0.97']
+     NSDI 195.208.4/5.0/24: no
+  AS8749 JSC "Redcom-lnternet": 1 measurements, 1 queries
+     query failure: nxdomain=0 other=0 none=1
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.114.144']
+     NSDI 195.208.4/5.0/24: no
+window B (2026-02-03T00:00:00..2026-02-05T00:00:00): listed 439 measurements from 67 ASNs, fetching 276
+
+== window B: 276 measurements, 433 queries, 67 ASNs
+  AS12389 PJSC Rostelecom: 10 measurements, 13 queries
+     query failure: nxdomain=0 other=0 none=13
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79', '172.68.9.62', '172.69.50.30', '176.211.107.249', '178.185.237.79', '46.61.210.142']
+     NSDI 195.208.4/5.0/24: no
+  AS12714 PJSC MegaFon: 2 measurements, 4 queries
+     query failure: nxdomain=4 other=0 none=0
+     dns_consistency: {'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['194.226.75.81', '212.1.244.99']
+     NSDI 195.208.4/5.0/24: no
+  AS12722 RECONN LLC: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.24.83', '74.63.24.236']
+     NSDI 195.208.4/5.0/24: no
+  AS12958 T2 Mobile LLC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.51']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS15640 MTS PJSC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['213.87.74.54']
+     NSDI 195.208.4/5.0/24: no
+  AS15774 Limited Liability Company "TTK-Svyaz": 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.48', '193.232.160.50', '193.232.160.51', '193.232.93.48', '193.232.93.50', '193.232.93.53']
+     NSDI 195.208.4/5.0/24: no
+  AS16345 PJSC "Vimpelcom": 10 measurements, 16 queries
+     query failure: nxdomain=0 other=0 none=16
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.80', '172.68.9.62', '217.118.93.16', '85.249.22.251']
+     NSDI 195.208.4/5.0/24: no
+  AS200679 State Institute of Technology Saint-Petersburg: 3 measurements, 3 queries
+     query failure: nxdomain=0 other=0 none=3
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['194.190.127.49', '194.226.75.83']
+     NSDI 195.208.4/5.0/24: no
+  AS201268 JSC "SKB Kontur production": 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['91.221.249.21', '91.221.249.22', '91.221.249.23', '[scrubbed]']
+     NSDI 195.208.4/5.0/24: no
+  AS203451 K-telekom LLC: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.33.148', '172.217.34.30', '172.253.1.218']
+     NSDI 195.208.4/5.0/24: no
+  AS204272 ASARTA LLC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79']
+     NSDI 195.208.4/5.0/24: no
+  AS207103 LLC Cifrovie Seti Urala: 1 measurements, 2 queries
+     query failure: nxdomain=2 other=0 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.231.49']
+     NSDI 195.208.4/5.0/24: no
+  AS207713 GLOBAL INTERNET SOLUTIONS LLC: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.69.50.30', '74.125.46.154']
+     NSDI 195.208.4/5.0/24: no
+  AS207744 Primak Evgenii Aleksandrovich: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.190.222.58', '188.190.223.20']
+     NSDI 195.208.4/5.0/24: no
+  AS208397 INFOSTROY LLC: 6 measurements, 12 queries
+     query failure: nxdomain=12 other=0 none=0
+     dns_consistency: {'inconsistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.58', '193.232.160.49', '193.232.160.50', '193.232.236.48', '193.232.236.49']
+     NSDI 195.208.4/5.0/24: no
+  AS209420 START LLC: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['185.229.191.160', '84.17.46.77']
+     NSDI 195.208.4/5.0/24: no
+  AS21365 MTS PJSC: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['213.87.210.38', '213.87.210.43']
+     NSDI 195.208.4/5.0/24: no
+  AS21479 PJSC Rostelecom: 8 measurements, 8 queries
+     query failure: nxdomain=0 other=0 none=8
+     dns_consistency: {'None': 8}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.150', '172.68.167.79', '172.68.167.80', '172.68.9.62', '172.69.50.30', '74.125.114.149', '74.125.74.146', '74.125.74.26']
+     NSDI 195.208.4/5.0/24: no
+  AS216246 Aeza Group LLC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'dns_no_answer': 2}
+  AS24739 JSC "Severen-Telecom": 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.157', '172.68.9.62']
+     NSDI 195.208.4/5.0/24: no
+  AS24955 JSC "Ufanet": 6 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.191.125.36', '188.191.125.37', '188.191.125.38', '94.41.80.30', '94.41.80.32']
+     NSDI 195.208.4/5.0/24: no
+  AS25490 PJSC Rostelecom: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['156.146.33.97']
+     NSDI 195.208.4/5.0/24: no
+  AS25513 PJSC Moscow city telephone network: 3 measurements, 5 queries
+     query failure: nxdomain=0 other=0 none=5
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['94.29.125.106', '94.29.125.114']
+     NSDI 195.208.4/5.0/24: no
+  AS29182 JSC IOT: 2 measurements, 4 queries
+     query failure: nxdomain=4 other=0 none=0
+     dns_consistency: {'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.51', '193.232.93.52']
+     NSDI 195.208.4/5.0/24: no
+  AS31133 PJSC MegaFon: 10 measurements, 20 queries
+     query failure: nxdomain=0 other=0 none=20
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['178.176.69.163', '178.176.81.203', '194.85.108.61', '37.29.40.192', '64:ff9b::251d:28c0']
+     NSDI 195.208.4/5.0/24: no
+  AS31200 Novotelecom Ltd: 4 measurements, 8 queries
+     query failure: nxdomain=0 other=0 none=8
+     dns_consistency: {'consistent': 4}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.152', '173.194.98.25', '74.125.46.29', '74.125.74.21']
+     NSDI 195.208.4/5.0/24: no
+  AS31213 PJSC MegaFon: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.170.84.111']
+     NSDI 195.208.4/5.0/24: no
+  AS3216 PJSC "Vimpelcom": 4 measurements, 8 queries
+     query failure: nxdomain=0 other=0 none=8
+     dns_consistency: {'consistent': 4}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['156.146.33.97', '194.186.70.210', '79.127.211.213']
+     NSDI 195.208.4/5.0/24: no
+  AS35807 SkyNet Ltd.: 6 measurements, 9 queries
+     query failure: nxdomain=0 other=0 none=9
+     dns_consistency: {'consistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['93.100.1.2', '93.100.1.4', '94.19.255.3', '94.19.255.4']
+     NSDI 195.208.4/5.0/24: no
+  AS35810 BIG TELECOM JSC: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.80', '172.68.9.62', '172.69.50.30', '74.125.112.25', '74.125.46.25', '74.125.74.25', '74.125.74.28']
+     NSDI 195.208.4/5.0/24: no
+  AS39028 JSC "ER-Telecom Holding": 4 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 4}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['109.195.192.4']
+     NSDI 195.208.4/5.0/24: no
+  AS39435 JSC "ER-Telecom Holding": 10 measurements, 20 queries
+     query failure: nxdomain=0 other=0 none=20
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79', '172.68.167.80', '172.68.9.62', '172.69.50.30', '74.125.46.30']
+     NSDI 195.208.4/5.0/24: no
+  AS41268 LANTA Ltd: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.203.61.22']
+     NSDI 195.208.4/5.0/24: no
+  AS41275 Lovitel LLC: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['[scrubbed]']
+     NSDI 195.208.4/5.0/24: no
+  AS41668 JSC "ER-Telecom Holding": 5 measurements, 10 queries
+     query failure: nxdomain=0 other=4 none=6
+     dns_consistency: {'inconsistent': 2, 'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['51.162.33.58', '74.63.24.246']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 4}
+  AS41733 JSC "ER-Telecom Holding": 5 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 5}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.134.0.170', '194.85.108.61', '195.133.25.16']
+     NSDI 195.208.4/5.0/24: no
+  AS42024 CryptoPro LTD: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.46.147', '74.125.74.153']
+     NSDI 195.208.4/5.0/24: no
+  AS42289 ITMO University: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['162.158.180.106', '74.125.46.21', '74.125.46.25']
+     NSDI 195.208.4/5.0/24: no
+  AS42291 OOO Istranet: 9 measurements, 9 queries
+     query failure: nxdomain=0 other=0 none=9
+     dns_consistency: {'consistent': 9}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.158', '173.194.98.29', '74.125.46.24', '74.125.46.25', '74.125.46.30', '74.125.74.145', '74.125.74.153', '74.125.74.24']
+     NSDI 195.208.4/5.0/24: no
+  AS42526 COMPUTER COMMUNICATION SYSTEMS LLC: 5 measurements, 5 queries
+     query failure: nxdomain=0 other=0 none=5
+     dns_consistency: {'consistent': 5}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.253.83.209', '172.68.167.79', '172.68.9.62']
+     NSDI 195.208.4/5.0/24: no
+  AS42610 PJSC Rostelecom: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['77.37.251.149', '77.37.251.154']
+     NSDI 195.208.4/5.0/24: no
+  AS42893 Nord-West Link NP: 10 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.149', '172.253.83.209', '178.252.100.1', '74.125.46.21', '74.125.46.30', '74.125.74.19', '74.125.74.22']
+     NSDI 195.208.4/5.0/24: no
+  AS43370 OBIT-telecommunications, LLC: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['79.142.94.120']
+     NSDI 195.208.4/5.0/24: no
+  AS43667 Vermont-IT Limited Liability Company: 4 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 4}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.151', '74.125.46.30', '74.125.74.148', '74.125.74.26']
+     NSDI 195.208.4/5.0/24: no
+  AS43826 CSIT LLC: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.253.83.220', '172.68.167.80', '185.132.241.33']
+     NSDI 195.208.4/5.0/24: no
+  AS43966 OOO "IT-Region": 8 measurements, 16 queries
+     query failure: nxdomain=0 other=0 none=16
+     dns_consistency: {'consistent': 8}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79', '172.68.167.80', '172.68.9.62', '173.194.98.22', '74.125.46.20']
+     NSDI 195.208.4/5.0/24: no
+  AS44265 OOO Smoltelecom: 1 measurements, 1 queries
+     query failure: nxdomain=0 other=0 none=1
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.69.50.30']
+     NSDI 195.208.4/5.0/24: no
+  AS47119 JSC "Ufanet": 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.191.125.37', '188.191.125.38']
+     NSDI 195.208.4/5.0/24: no
+  AS47286 OTS Ltd.: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['45.159.98.187']
+     NSDI 195.208.4/5.0/24: no
+  AS47914 OOO Creative Direct Marketing Solutions: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['109.206.159.102']
+     NSDI 195.208.4/5.0/24: no
+  AS48368 Comteh.ru Ltd.: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.9.62']
+     NSDI 195.208.4/5.0/24: no
+  AS48552 OJSC The Russian Armed Forces Broadcasting Company ZVEZDA: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['74.125.114.144', '74.125.46.28']
+     NSDI 195.208.4/5.0/24: no
+  AS48642 Joint stock company "For": 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['94.230.128.19']
+     NSDI 195.208.4/5.0/24: no
+  AS49551 Teleseti Ltd: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=4 none=0
+     dns_consistency: {'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.59', '193.232.236.51']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 4}
+  AS50340 JSC Selectel: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['31.184.216.51']
+     NSDI 195.208.4/5.0/24: no
+  AS50477 Svyaz-Energo Ltd.: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.157']
+     NSDI 195.208.4/5.0/24: no
+  AS50716 Telecom.ru Ltd: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['216.66.80.90']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'generic_timeout_error': 2}
+  AS51035 JSC "ER-Telecom Holding": 9 measurements, 9 queries
+     query failure: nxdomain=0 other=0 none=9
+     dns_consistency: {'consistent': 9}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.79', '172.68.167.80', '172.68.9.62', '172.69.50.30']
+     NSDI 195.208.4/5.0/24: no
+  AS51645 JSC "ER-Telecom Holding": 1 measurements, 1 queries
+     query failure: nxdomain=0 other=0 none=1
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.155']
+     NSDI 195.208.4/5.0/24: no
+  AS51659 LLC Baxet: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.9.62', '172.69.50.30']
+     NSDI 195.208.4/5.0/24: no
+  AS60246 Consumer Internet Cooperative PG-19: 10 measurements, 15 queries
+     query failure: nxdomain=0 other=0 none=15
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.154', '172.68.9.62', '173.194.98.21', '74.125.112.17', '74.125.114.149', '74.125.46.16', '74.125.46.29', '74.125.74.148', '74.125.74.21']
+     NSDI 195.208.4/5.0/24: no
+  AS62410 Linenet Ltd.: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.147', '172.217.37.153']
+     NSDI 195.208.4/5.0/24: no
+  AS8324 South Ural State University: 6 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['37.75.250.46']
+     NSDI 195.208.4/5.0/24: no
+  AS8359 MTS PJSC: 3 measurements, 5 queries
+     query failure: nxdomain=0 other=0 none=5
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['213.87.128.174', '62.118.76.55', '74.125.74.24']
+     NSDI 195.208.4/5.0/24: no
+  AS8402 PJSC "Vimpelcom": 10 measurements, 18 queries
+     query failure: nxdomain=0 other=0 none=18
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['104.23.222.84', '104.23.224.28', '193.232.93.48', '193.232.93.51', '213.234.192.10', '83.102.180.43', '85.21.192.17', '85.21.78.180']
+     NSDI 195.208.4/5.0/24: no
+  AS8615 "Central Telegraph" Public Joint-stock Company: 10 measurements, 20 queries
+     query failure: nxdomain=0 other=0 none=20
+     dns_consistency: {'consistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['213.85.204.190']
+     NSDI 195.208.4/5.0/24: no
+  AS8732 JSC Comcor: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.69.50.30', '74.125.74.151']
+     NSDI 195.208.4/5.0/24: no
+
+== raw test_keys.queries, window A, first measurement with a dns_nxdomain_error query: uid=20260211191025.221694_RU_webconnectivity_a9d40eabcf77ef7e report_id=20260211T190944Z_webconnectivity_RU_12714_n4_JiPShoMWULR6RfBl asn=AS12714 start=2026-02-11 19:10:23 resolver_ip=212.1.244.99 test_version=0.4.3 software=ooniprobe-desktop-unattended 3.26.0
+[
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0143409,
+  "tags": null
+ },
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0143409,
+  "tags": null
+ }
+]
+
+== raw test_keys.queries, window B, first measurement: uid=20260203003138.263124_RU_webconnectivity_30a4b9240c8fb159 report_id=20260203T003117Z_webconnectivity_RU_12389_n4_uXDCZggBAZvCAOU3 asn=AS12389 start=2026-02-03 00:31:17 resolver_ip=172.68.9.62 test_version=0.4.3 software=ooniprobe-desktop-unattended 3.23.0
+[
+ {
+  "answers": [
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "173.194.220.198",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0079998,
+  "tags": null
+ }
+]

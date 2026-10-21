@@ -1,0 +1,188 @@
+window A (2026-02-11T00:00:00..2026-02-13T00:00:00): listed 6 measurements from 1 ASNs, fetching 6
+
+== window A: 6 measurements, 12 queries, 1 ASNs
+  AS60246 Consumer Internet Cooperative PG-19: 6 measurements, 12 queries
+     query failure: nxdomain=0 other=0 none=12
+     dns_consistency: {'consistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['104.23.224.28', '74.125.114.149', '74.125.46.27', '74.125.74.144', '74.125.74.29', '74.125.74.30']
+     NSDI 195.208.4/5.0/24: no
+window B (2026-02-03T00:00:00..2026-02-05T00:00:00): listed 5 measurements from 1 ASNs, fetching 5
+
+== window B: 5 measurements, 10 queries, 1 ASNs
+  AS60246 Consumer Internet Cooperative PG-19: 5 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 5}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.147', '172.68.9.62', '74.125.112.27', '74.125.74.156', '74.125.74.16']
+     NSDI 195.208.4/5.0/24: no
+
+== raw test_keys.queries, window A (no measurement has a dns_nxdomain_error query), first measurement: uid=20260211014243.438973_RU_webconnectivity_246b28b6bab347af report_id=20260210T235143Z_webconnectivity_RU_60246_n4_UGpTo9i6qt8CNKa7 asn=AS60246 start=2026-02-11 01:42:39 resolver_ip=74.125.74.29 test_version=0.4.3 software=ooniprobe-cli 3.28.0
+[
+ {
+  "answers": [
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "209.85.233.190",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "209.85.233.136",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "209.85.233.91",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "209.85.233.93",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.027080673,
+  "tags": null
+ },
+ {
+  "answers": [
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c03::88",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c03::5b",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c03::be",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c03::5d",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.027080673,
+  "tags": null
+ }
+]
+
+== raw test_keys.queries, window B, first measurement: uid=20260203073706.888139_RU_webconnectivity_b7cf6ff86d8a4884 report_id=20260203T054128Z_webconnectivity_RU_60246_n4_DBxALsjKhgMocZU9 asn=AS60246 start=2026-02-03 07:37:04 resolver_ip=74.125.74.16 test_version=0.4.3 software=ooniprobe-cli 3.28.0
+[
+ {
+  "answers": [
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "209.85.233.93",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "209.85.233.136",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "209.85.233.190",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "209.85.233.91",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.031737194,
+  "tags": null
+ },
+ {
+  "answers": [
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c03::88",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c03::5b",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c03::5d",
+    "ttl": null
+   },
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c03::be",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.031737194,
+  "tags": null
+ }
+]

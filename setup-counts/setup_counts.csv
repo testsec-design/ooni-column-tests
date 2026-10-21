@@ -1,0 +1,245 @@
+study,event,group,family,asn,period,n_ctl_ok,n_fail,setups,reports,setups_with_fail,reports_with_fail,top_setup_share_of_fails,top_failing_setups
+T1,14 Jan 2025,set F (all inputs),netfail,12389,baseline,406,4,3,7,2,3,0.75,ooniprobe-desktop-unattended 3.23.0 (3); ooniprobe-desktop-unattended 3.17.5 (1)
+T1,14 Jan 2025,set F (all inputs),netfail,12389,event,29,22,2,2,2,2,0.82,ooniprobe-desktop-unattended 3.17.5 (18); ooniprobe-desktop-unattended 3.22.0 (4)
+T1,14 Jan 2025,set F (all inputs),netfail,50716,baseline,91,1,1,3,1,1,1.0,ooniprobe-cli-unattended 3.24.0-alpha (1)
+T1,14 Jan 2025,set F (all inputs),netfail,50716,event,16,16,1,1,1,1,1.0,ooniprobe-cli-unattended 3.24.0-alpha (16)
+T1,14 Jan 2025,set F (all inputs),netfail,35728,baseline,90,0,1,3,0,0,,
+T1,14 Jan 2025,set F (all inputs),netfail,35728,event,14,14,1,1,1,1,1.0,ooniprobe-desktop-unattended 3.22.0 (14)
+T1,14 Jan 2025,set F (all inputs),netfail,8331,baseline,64,0,1,3,0,0,,
+T1,14 Jan 2025,set F (all inputs),netfail,8331,event,9,9,1,1,1,1,1.0,ooniprobe-desktop-unattended 3.22.0 (9)
+T1,14 Jan 2025,set F (all inputs),netfail,49346,baseline,26,1,1,2,1,1,1.0,ooniprobe-desktop-unattended 3.22.0 (1)
+T1,14 Jan 2025,set F (all inputs),netfail,49346,event,7,6,1,1,1,1,1.0,ooniprobe-desktop-unattended 3.22.0 (6)
+T1,14 Jan 2025,set F (all inputs),netfail,3216,baseline,76,0,1,1,0,0,,
+T1,14 Jan 2025,set F (all inputs),netfail,3216,event,0,0,0,0,0,0,,
+T1,14 Jan 2025,set F (all inputs),netfail,25513,baseline,231,0,3,7,0,0,,
+T1,14 Jan 2025,set F (all inputs),netfail,25513,event,1,0,1,1,0,0,,
+T4,E1,hetzner,blocked,12389,before,439,1,8,268,1,1,1.0,ooniprobe-desktop-unattended 3.22.0 (1)
+T4,E1,hetzner,blocked,12389,after,477,1,9,236,1,1,1.0,ooniprobe-cli-unattended 3.23.0 (1)
+T4,E1,hetzner,blocked,25513,before,383,0,8,221,0,0,,
+T4,E1,hetzner,blocked,25513,after,434,0,7,242,0,0,,
+T4,E1,hetzner,blocked,8402,before,233,0,3,128,0,0,,
+T4,E1,hetzner,blocked,8402,after,263,1,5,154,1,1,1.0,ooniprobe-android-unattended 4.0.0 (1)
+T4,E1,hetzner,blocked,35807,before,72,0,3,46,0,0,,
+T4,E1,hetzner,blocked,35807,after,113,1,3,60,1,1,1.0,ooniprobe-cli-unattended 3.23.0 (1)
+T4,E1,hetzner,blocked,50716,before,246,0,2,13,0,0,,
+T4,E1,hetzner,blocked,50716,after,174,21,2,14,2,11,0.9,ooniprobe-desktop-unattended 3.22.0 (19); ooniprobe-cli 3.23.0 (2)
+T4,E1,hetzner,blocked,8359,before,5,0,2,2,0,0,,
+T4,E1,hetzner,blocked,8359,after,4,4,1,2,1,2,1.0,ooniprobe-desktop-unattended 3.23.0 (4)
+T4,E1,hetzner,blocked,31200,before,79,0,2,54,0,0,,
+T4,E1,hetzner,blocked,31200,after,70,0,2,45,0,0,,
+T4,E1,hetzner,blocked,15868,before,110,0,1,56,0,0,,
+T4,E1,hetzner,blocked,15868,after,96,45,1,55,1,33,1.0,ooniprobe-desktop-unattended 3.22.0 (45)
+T4,E1,hetzner,blocked,47236,before,51,0,2,36,0,0,,
+T4,E1,hetzner,blocked,47236,after,56,13,2,19,1,9,1.0,ooniprobe-desktop-unattended 3.19.2 (13)
+T4,E1,hetzner,blocked,48558,before,654,0,1,17,0,0,,
+T4,E1,hetzner,blocked,48558,after,618,86,1,16,1,14,1.0,ooniprobe-cli 3.22.0 (86)
+T4,E1,hetzner,blocked,50544,before,75,0,1,43,0,0,,
+T4,E1,hetzner,blocked,50544,after,81,11,1,45,1,6,1.0,ooniprobe-desktop-unattended 3.22.0 (11)
+T4,E1,hetzner,blocked,12668,before,108,0,1,53,0,0,,
+T4,E1,hetzner,blocked,12668,after,93,11,1,48,1,10,1.0,ooniprobe-desktop-unattended 3.22.0 (11)
+T4,E1,hetzner,blocked,9123,before,48,0,1,28,0,0,,
+T4,E1,hetzner,blocked,9123,after,71,4,1,30,1,1,1.0,ooniprobe-desktop-unattended 3.19.2 (4)
+T4,E1,hetzner,blocked,24955,before,107,3,4,65,2,2,0.67,ooniprobe-android-unattended 4.0.0 (2); ooniprobe-desktop-unattended 3.22.0 (1)
+T4,E1,hetzner,blocked,24955,after,181,7,3,102,1,5,1.0,ooniprobe-desktop-unattended 3.22.0 (7)
+T4,E1,hetzner,blocked,42610,before,363,1,5,198,1,1,1.0,ooniprobe-desktop-unattended 3.21.0 (1)
+T4,E1,hetzner,blocked,42610,after,249,6,6,147,2,5,0.83,ooniprobe-desktop-unattended 3.21.0 (5); ooniprobe-desktop 3.9.8 (1)
+T4,E1,ovh,blocked,12389,before,180,3,9,157,1,2,1.0,ooniprobe-desktop-unattended 3.22.0 (3)
+T4,E1,ovh,blocked,12389,after,188,1,9,153,1,1,1.0,ooniprobe-desktop-unattended 3.17.5 (1)
+T4,E1,ovh,blocked,25513,before,167,0,7,143,0,0,,
+T4,E1,ovh,blocked,25513,after,185,4,7,154,2,4,0.75,ooniprobe-android-unattended 4.0.0 (3); ooniprobe-desktop-unattended 3.17.5 (1)
+T4,E1,ovh,blocked,8402,before,109,0,4,94,0,0,,
+T4,E1,ovh,blocked,8402,after,112,0,5,99,0,0,,
+T4,E1,ovh,blocked,35807,before,40,0,3,34,0,0,,
+T4,E1,ovh,blocked,35807,after,47,0,3,38,0,0,,
+T4,E1,ovh,blocked,50716,before,82,0,2,10,0,0,,
+T4,E1,ovh,blocked,50716,after,60,2,2,12,1,2,1.0,ooniprobe-desktop-unattended 3.22.0 (2)
+T4,E1,ovh,blocked,8359,before,1,0,1,1,0,0,,
+T4,E1,ovh,blocked,8359,after,3,3,1,3,1,3,1.0,ooniprobe-desktop-unattended 3.23.0 (3)
+T4,E1,ovh,blocked,31200,before,30,0,2,24,0,0,,
+T4,E1,ovh,blocked,31200,after,47,0,2,42,0,0,,
+T4,E1,ovh,blocked,15868,before,90,0,1,67,0,0,,
+T4,E1,ovh,blocked,15868,after,34,33,1,27,1,26,1.0,ooniprobe-desktop-unattended 3.22.0 (33)
+T4,E1,ovh,blocked,47236,before,11,0,2,10,0,0,,
+T4,E1,ovh,blocked,47236,after,10,1,2,9,1,1,1.0,ooniprobe-desktop-unattended 3.19.2 (1)
+T4,E1,ovh,blocked,48558,before,233,1,1,17,1,1,1.0,ooniprobe-cli 3.22.0 (1)
+T4,E1,ovh,blocked,48558,after,217,81,1,16,1,12,1.0,ooniprobe-cli 3.22.0 (81)
+T4,E1,ovh,blocked,50544,before,48,0,1,35,0,0,,
+T4,E1,ovh,blocked,50544,after,36,1,1,31,1,1,1.0,ooniprobe-desktop-unattended 3.22.0 (1)
+T4,E1,ovh,blocked,12668,before,0,0,0,0,0,0,,
+T4,E1,ovh,blocked,12668,after,34,2,1,29,1,2,1.0,ooniprobe-desktop-unattended 3.22.0 (2)
+T4,E1,ovh,blocked,9123,before,21,0,1,21,0,0,,
+T4,E1,ovh,blocked,9123,after,16,0,1,15,0,0,,
+T4,E1,ovh,blocked,24955,before,43,0,3,36,0,0,,
+T4,E1,ovh,blocked,24955,after,77,2,3,72,1,2,1.0,ooniprobe-desktop-unattended 3.22.0 (2)
+T4,E1,ovh,blocked,42610,before,185,0,5,151,0,0,,
+T4,E1,ovh,blocked,42610,after,122,6,5,106,1,4,1.0,ooniprobe-desktop-unattended 3.21.0 (6)
+T4,E2,hetzner,stall,12389,before,553,1,10,310,1,1,1.0,ooniprobe-desktop-unattended 3.23.0 (1)
+T4,E2,hetzner,stall,12389,after,365,137,8,217,6,101,0.35,ooniprobe-desktop-unattended 3.17.5 (48); ooniprobe-desktop-unattended 3.23.0 (40); ooniprobe-desktop-unattended 3.24.0 (33)
+T4,E2,hetzner,stall,25513,before,287,1,8,147,1,1,1.0,ooniprobe-desktop-unattended 3.10.0-beta.3 (1)
+T4,E2,hetzner,stall,25513,after,205,0,5,119,0,0,,
+T4,E2,hetzner,stall,8402,before,148,0,3,98,0,0,,
+T4,E2,hetzner,stall,8402,after,226,5,3,137,1,5,1.0,ooniprobe-android-unattended 5.0.6 (5)
+T4,E2,hetzner,stall,35807,before,84,0,3,46,0,0,,
+T4,E2,hetzner,stall,35807,after,51,0,3,32,0,0,,
+T4,E2,hetzner,stall,50716,before,0,0,0,0,0,0,,
+T4,E2,hetzner,stall,50716,after,0,0,0,0,0,0,,
+T4,E2,hetzner,stall,8359,before,15,0,3,9,0,0,,
+T4,E2,hetzner,stall,8359,after,37,0,6,21,0,0,,
+T4,E2,hetzner,stall,31200,before,142,0,3,17,0,0,,
+T4,E2,hetzner,stall,31200,after,2,0,1,2,0,0,,
+T4,E2,hetzner,stall,41668,before,3,0,1,3,0,0,,
+T4,E2,hetzner,stall,41668,after,25,19,1,13,1,12,1.0,ooniprobe-android-unattended 5.0.6 (19)
+T4,E2,hetzner,stall,16345,before,1,0,1,1,0,0,,
+T4,E2,hetzner,stall,16345,after,4,4,1,4,1,4,1.0,ooniprobe-android-unattended 5.0.6 (4)
+T4,E2,hetzner,stall,24955,before,106,0,2,19,0,0,,
+T4,E2,hetzner,stall,24955,after,164,97,2,34,2,30,0.6,ooniprobe-desktop 3.9.9 (58); ooniprobe-desktop-unattended 3.24.0 (39)
+T4,E2,hetzner,stall,48524,before,33,0,2,18,0,0,,
+T4,E2,hetzner,stall,48524,after,46,35,2,24,2,18,0.94,ooniprobe-desktop-unattended 3.22.0 (33); ooniprobe-android-unattended 5.0.6 (2)
+T4,E2,hetzner,stall,35728,before,0,0,0,0,0,0,,
+T4,E2,hetzner,stall,35728,after,21,15,1,9,1,9,1.0,ooniprobe-desktop-unattended 3.22.0 (15)
+T4,E2,hetzner,stall,207235,before,0,0,0,0,0,0,,
+T4,E2,hetzner,stall,207235,after,8,0,1,5,0,0,,
+T4,E2,hetzner,stall,210616,before,5,0,1,2,0,0,,
+T4,E2,hetzner,stall,210616,after,5,1,1,2,1,1,1.0,ooniprobe-android-unattended 5.0.6 (1)
+T4,E2,hetzner,stall,34533,before,0,0,0,0,0,0,,
+T4,E2,hetzner,stall,34533,after,49,10,2,4,2,2,0.7,ooniprobe-android 5.0.6 (7); ooniprobe-desktop-unattended 3.23.0 (3)
+T4,E2,hetzner,stall,39812,before,101,0,1,57,0,0,,
+T4,E2,hetzner,stall,39812,after,84,46,1,46,1,32,1.0,ooniprobe-desktop-unattended 3.24.0 (46)
+T4,E2,cloudflare,stall,12389,before,5532,6,10,409,4,6,0.33,ooniprobe-desktop-unattended 3.17.5 (2); ooniprobe-android-unattended 5.0.6 (2); ooniprobe-desktop-unattended 3.23.0 (1)
+T4,E2,cloudflare,stall,12389,after,3396,936,9,305,7,190,0.33,ooniprobe-desktop-unattended 3.24.0 (310); ooniprobe-desktop-unattended 3.17.5 (272); ooniprobe-desktop-unattended 3.23.0 (269)
+T4,E2,cloudflare,stall,25513,before,2568,7,9,178,4,5,0.29,ooniprobe-desktop-unattended 3.10.0-beta.3 (2); ooniprobe-desktop-unattended 3.22.0 (2); ooniprobe-android-unattended 5.0.6 (2)
+T4,E2,cloudflare,stall,25513,after,1876,5,8,165,4,5,0.4,ooniprobe-desktop-unattended 3.22.0 (2); ooniprobe-cli-unattended 3.23.0 (1); ooniprobe-android-unattended 5.0.6 (1)
+T4,E2,cloudflare,stall,8402,before,1280,0,4,138,0,0,,
+T4,E2,cloudflare,stall,8402,after,2082,38,3,204,1,7,1.0,ooniprobe-android-unattended 5.0.6 (38)
+T4,E2,cloudflare,stall,35807,before,661,2,3,57,2,2,0.5,ooniprobe-android-unattended 5.0.6 (1); ooniprobe-desktop-unattended 3.19.2 (1)
+T4,E2,cloudflare,stall,35807,after,458,2,3,39,1,2,1.0,ooniprobe-desktop-unattended 3.19.2 (2)
+T4,E2,cloudflare,stall,50716,before,0,0,0,0,0,0,,
+T4,E2,cloudflare,stall,50716,after,0,0,0,0,0,0,,
+T4,E2,cloudflare,stall,8359,before,133,0,3,10,0,0,,
+T4,E2,cloudflare,stall,8359,after,393,3,6,26,2,2,0.67,ooniprobe-android-unattended 5.0.6 (2); ooniprobe-android 5.0.6 (1)
+T4,E2,cloudflare,stall,31200,before,1294,1,3,21,1,1,1.0,ooniprobe-desktop-unattended 3.10.0-beta.3 (1)
+T4,E2,cloudflare,stall,31200,after,44,0,2,4,0,0,,
+T4,E2,cloudflare,stall,41668,before,29,0,1,11,0,0,,
+T4,E2,cloudflare,stall,41668,after,139,87,1,31,1,28,1.0,ooniprobe-android-unattended 5.0.6 (87)
+T4,E2,cloudflare,stall,16345,before,10,0,1,1,0,0,,
+T4,E2,cloudflare,stall,16345,after,46,25,1,4,1,4,1.0,ooniprobe-android-unattended 5.0.6 (25)
+T4,E2,cloudflare,stall,24955,before,970,0,2,24,0,0,,
+T4,E2,cloudflare,stall,24955,after,1436,611,2,39,2,36,0.65,ooniprobe-desktop 3.9.9 (395); ooniprobe-desktop-unattended 3.24.0 (216)
+T4,E2,cloudflare,stall,48524,before,310,0,2,19,0,0,,
+T4,E2,cloudflare,stall,48524,after,325,110,2,25,2,23,0.98,ooniprobe-desktop-unattended 3.22.0 (108); ooniprobe-android-unattended 5.0.6 (2)
+T4,E2,cloudflare,stall,35728,before,42,0,1,11,0,0,,
+T4,E2,cloudflare,stall,35728,after,164,48,1,15,1,9,1.0,ooniprobe-desktop-unattended 3.22.0 (48)
+T4,E2,cloudflare,stall,207235,before,0,0,0,0,0,0,,
+T4,E2,cloudflare,stall,207235,after,113,34,1,8,1,7,1.0,ooniprobe-android-unattended 5.0.6 (34)
+T4,E2,cloudflare,stall,210616,before,22,0,1,2,0,0,,
+T4,E2,cloudflare,stall,210616,after,47,8,1,4,1,2,1.0,ooniprobe-android-unattended 5.0.6 (8)
+T4,E2,cloudflare,stall,34533,before,0,0,0,0,0,0,,
+T4,E2,cloudflare,stall,34533,after,396,46,2,11,2,7,0.76,ooniprobe-android 5.0.6 (35); ooniprobe-desktop-unattended 3.23.0 (11)
+T4,E2,cloudflare,stall,39812,before,912,14,1,72,1,13,1.0,ooniprobe-desktop-unattended 3.24.0 (14)
+T4,E2,cloudflare,stall,39812,after,818,16,1,64,1,13,1.0,ooniprobe-desktop-unattended 3.24.0 (16)
+T4,E2,ovh,stall,12389,before,239,0,10,179,0,0,,
+T4,E2,ovh,stall,12389,after,168,37,6,118,3,33,0.38,ooniprobe-desktop-unattended 3.23.0 (14); ooniprobe-desktop-unattended 3.17.5 (12); ooniprobe-desktop-unattended 3.24.0 (11)
+T4,E2,ovh,stall,25513,before,114,2,9,80,1,2,1.0,ooniprobe-android-unattended 5.0.6 (2)
+T4,E2,ovh,stall,25513,after,77,0,5,60,0,0,,
+T4,E2,ovh,stall,8402,before,64,0,3,53,0,0,,
+T4,E2,ovh,stall,8402,after,95,5,3,75,1,3,1.0,ooniprobe-android-unattended 5.0.6 (5)
+T4,E2,ovh,stall,35807,before,25,1,3,20,1,1,1.0,ooniprobe-desktop-unattended 3.19.2 (1)
+T4,E2,ovh,stall,35807,after,21,0,2,17,0,0,,
+T4,E2,ovh,stall,50716,before,0,0,0,0,0,0,,
+T4,E2,ovh,stall,50716,after,0,0,0,0,0,0,,
+T4,E2,ovh,stall,8359,before,7,0,3,5,0,0,,
+T4,E2,ovh,stall,8359,after,17,0,5,12,0,0,,
+T4,E2,ovh,stall,31200,before,57,1,3,13,1,1,1.0,ooniprobe-cli 3.25.0 (1)
+T4,E2,ovh,stall,31200,after,3,0,2,3,0,0,,
+T4,E2,ovh,stall,41668,before,4,0,1,4,0,0,,
+T4,E2,ovh,stall,41668,after,6,3,1,6,1,3,1.0,ooniprobe-android-unattended 5.0.6 (3)
+T4,E2,ovh,stall,16345,before,2,0,1,1,0,0,,
+T4,E2,ovh,stall,16345,after,3,1,1,3,1,1,1.0,ooniprobe-android-unattended 5.0.6 (1)
+T4,E2,ovh,stall,24955,before,41,1,2,12,1,1,1.0,ooniprobe-desktop 3.9.9 (1)
+T4,E2,ovh,stall,24955,after,69,24,2,22,2,13,0.54,ooniprobe-desktop 3.9.9 (13); ooniprobe-desktop-unattended 3.24.0 (11)
+T4,E2,ovh,stall,48524,before,16,0,2,13,0,0,,
+T4,E2,ovh,stall,48524,after,22,3,1,19,1,3,1.0,ooniprobe-desktop-unattended 3.22.0 (3)
+T4,E2,ovh,stall,35728,before,0,0,0,0,0,0,,
+T4,E2,ovh,stall,35728,after,9,2,1,9,1,2,1.0,ooniprobe-desktop-unattended 3.22.0 (2)
+T4,E2,ovh,stall,207235,before,0,0,0,0,0,0,,
+T4,E2,ovh,stall,207235,after,2,0,1,2,0,0,,
+T4,E2,ovh,stall,210616,before,2,0,1,2,0,0,,
+T4,E2,ovh,stall,210616,after,0,0,0,0,0,0,,
+T4,E2,ovh,stall,34533,before,0,0,0,0,0,0,,
+T4,E2,ovh,stall,34533,after,22,6,2,4,2,2,0.83,ooniprobe-android 5.0.6 (5); ooniprobe-desktop-unattended 3.23.0 (1)
+T4,E2,ovh,stall,39812,before,41,0,1,32,0,0,,
+T4,E2,ovh,stall,39812,after,32,11,1,27,1,10,1.0,ooniprobe-desktop-unattended 3.24.0 (11)
+T4,E2,digitalocean,stall,12389,before,174,0,9,146,0,0,,
+T4,E2,digitalocean,stall,12389,after,92,6,7,82,3,6,0.5,ooniprobe-desktop-unattended 3.24.0 (3); ooniprobe-desktop-unattended 3.17.5 (2); ooniprobe-desktop-unattended 3.23.0 (1)
+T4,E2,digitalocean,stall,25513,before,82,0,8,63,0,0,,
+T4,E2,digitalocean,stall,25513,after,54,0,5,50,0,0,,
+T4,E2,digitalocean,stall,8402,before,44,0,2,39,0,0,,
+T4,E2,digitalocean,stall,8402,after,67,0,3,60,0,0,,
+T4,E2,digitalocean,stall,35807,before,18,0,3,16,0,0,,
+T4,E2,digitalocean,stall,35807,after,13,0,2,12,0,0,,
+T4,E2,digitalocean,stall,50716,before,0,0,0,0,0,0,,
+T4,E2,digitalocean,stall,50716,after,0,0,0,0,0,0,,
+T4,E2,digitalocean,stall,8359,before,4,0,2,4,0,0,,
+T4,E2,digitalocean,stall,8359,after,9,0,3,8,0,0,,
+T4,E2,digitalocean,stall,31200,before,39,0,3,8,0,0,,
+T4,E2,digitalocean,stall,31200,after,1,0,1,1,0,0,,
+T4,E2,digitalocean,stall,41668,before,0,0,0,0,0,0,,
+T4,E2,digitalocean,stall,41668,after,7,0,1,6,0,0,,
+T4,E2,digitalocean,stall,16345,before,1,0,1,1,0,0,,
+T4,E2,digitalocean,stall,16345,after,2,0,1,1,0,0,,
+T4,E2,digitalocean,stall,24955,before,30,0,2,12,0,0,,
+T4,E2,digitalocean,stall,24955,after,40,4,2,13,2,4,0.75,ooniprobe-desktop 3.9.9 (3); ooniprobe-desktop-unattended 3.24.0 (1)
+T4,E2,digitalocean,stall,48524,before,17,0,2,8,0,0,,
+T4,E2,digitalocean,stall,48524,after,5,0,2,5,0,0,,
+T4,E2,digitalocean,stall,35728,before,6,0,1,6,0,0,,
+T4,E2,digitalocean,stall,35728,after,6,0,1,6,0,0,,
+T4,E2,digitalocean,stall,207235,before,0,0,0,0,0,0,,
+T4,E2,digitalocean,stall,207235,after,2,0,1,2,0,0,,
+T4,E2,digitalocean,stall,210616,before,0,0,0,0,0,0,,
+T4,E2,digitalocean,stall,210616,after,1,0,1,1,0,0,,
+T4,E2,digitalocean,stall,34533,before,0,0,0,0,0,0,,
+T4,E2,digitalocean,stall,34533,after,14,1,1,2,1,1,1.0,ooniprobe-android 5.0.6 (1)
+T4,E2,digitalocean,stall,39812,before,30,0,1,23,0,0,,
+T4,E2,digitalocean,stall,39812,after,20,0,1,19,0,0,,
+T5,E2,cloudflare large,stall,12389,before,2753,1,10,406,1,1,1.0,ooniprobe-android-unattended 5.0.6 (1)
+T5,E2,cloudflare large,stall,12389,after,1673,703,9,291,6,182,0.33,ooniprobe-desktop-unattended 3.24.0 (235); ooniprobe-desktop-unattended 3.17.5 (210); ooniprobe-desktop-unattended 3.23.0 (197)
+T5,E2,cloudflare large,stall,25513,before,1224,1,9,172,1,1,1.0,ooniprobe-android-unattended 5.0.6 (1)
+T5,E2,cloudflare large,stall,25513,after,864,3,6,155,2,3,0.67,ooniprobe-desktop-unattended 3.22.0 (2); ooniprobe-android-unattended 5.0.6 (1)
+T5,E2,cloudflare large,stall,8402,before,671,0,3,127,0,0,,
+T5,E2,cloudflare large,stall,8402,after,1092,31,3,199,1,7,1.0,ooniprobe-android-unattended 5.0.6 (31)
+T5,E2,cloudflare large,stall,35807,before,316,1,3,55,1,1,1.0,ooniprobe-android-unattended 5.0.6 (1)
+T5,E2,cloudflare large,stall,35807,after,228,2,3,39,1,2,1.0,ooniprobe-desktop-unattended 3.19.2 (2)
+T5,E2,cloudflare large,stall,50716,before,0,0,0,0,0,0,,
+T5,E2,cloudflare large,stall,50716,after,0,0,0,0,0,0,,
+T5,E2,cloudflare large,stall,8359,before,54,0,3,10,0,0,,
+T5,E2,cloudflare large,stall,8359,after,194,2,6,24,1,1,1.0,ooniprobe-android-unattended 5.0.6 (2)
+T5,E2,cloudflare large,stall,31200,before,641,1,3,20,1,1,1.0,ooniprobe-desktop-unattended 3.10.0-beta.3 (1)
+T5,E2,cloudflare large,stall,31200,after,1,0,1,1,0,0,,
+T5,E2,hetzner large,stall,12389,before,237,0,7,168,0,0,,
+T5,E2,hetzner large,stall,12389,after,150,83,7,117,6,68,0.37,ooniprobe-desktop-unattended 3.17.5 (31); ooniprobe-desktop-unattended 3.23.0 (24); ooniprobe-desktop-unattended 3.24.0 (19)
+T5,E2,hetzner large,stall,25513,before,111,1,7,77,1,1,1.0,ooniprobe-desktop-unattended 3.10.0-beta.3 (1)
+T5,E2,hetzner large,stall,25513,after,77,0,4,61,0,0,,
+T5,E2,hetzner large,stall,8402,before,60,0,2,50,0,0,,
+T5,E2,hetzner large,stall,8402,after,108,1,3,83,1,1,1.0,ooniprobe-android-unattended 5.0.6 (1)
+T5,E2,hetzner large,stall,35807,before,32,0,3,22,0,0,,
+T5,E2,hetzner large,stall,35807,after,29,0,3,20,0,0,,
+T5,E2,hetzner large,stall,50716,before,0,0,0,0,0,0,,
+T5,E2,hetzner large,stall,50716,after,0,0,0,0,0,0,,
+T5,E2,hetzner large,stall,8359,before,5,0,2,3,0,0,,
+T5,E2,hetzner large,stall,8359,after,21,0,6,15,0,0,,
+T5,E2,hetzner large,stall,31200,before,58,0,3,13,0,0,,
+T5,E2,hetzner large,stall,31200,after,0,0,0,0,0,0,,
+T5,E2,digitalocean large,stall,12389,before,67,0,7,67,0,0,,
+T5,E2,digitalocean large,stall,12389,after,44,0,5,44,0,0,,
+T5,E2,digitalocean large,stall,25513,before,30,0,5,27,0,0,,
+T5,E2,digitalocean large,stall,25513,after,19,0,5,19,0,0,,
+T5,E2,digitalocean large,stall,8402,before,16,0,2,16,0,0,,
+T5,E2,digitalocean large,stall,8402,after,30,0,3,30,0,0,,
+T5,E2,digitalocean large,stall,35807,before,7,0,2,7,0,0,,
+T5,E2,digitalocean large,stall,35807,after,7,0,2,7,0,0,,
+T5,E2,digitalocean large,stall,50716,before,0,0,0,0,0,0,,
+T5,E2,digitalocean large,stall,50716,after,0,0,0,0,0,0,,
+T5,E2,digitalocean large,stall,8359,before,1,0,1,1,0,0,,
+T5,E2,digitalocean large,stall,8359,after,2,0,1,2,0,0,,
+T5,E2,digitalocean large,stall,31200,before,14,0,2,5,0,0,,
+T5,E2,digitalocean large,stall,31200,after,0,0,0,0,0,0,,

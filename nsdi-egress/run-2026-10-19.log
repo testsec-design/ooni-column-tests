@@ -1,0 +1,446 @@
+2026-10-19 targets {'195.208.4.1': 'a.res-nsdi.ru', '195.208.5.1': 'b.res-nsdi.ru', '8.8.8.8': 'google', '1.1.1.1': 'cloudflare', '2a02:908:2:b::1': 'system'}; planned queries 431 (cap 500)
+public IP 92.209.188.249 AS3209 VODANET Vodafone GmbH
+2026-10-19T12:36:36+00:00 whoami r1 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.48 105ms
+2026-10-19T12:36:37+00:00 whoami r1 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 50ms
+2026-10-19T12:36:37+00:00 whoami r1 google     udp A   whoami.akamai.net        NOERROR   172.217.33.210 16ms
+2026-10-19T12:36:37+00:00 whoami r1 cloudflare udp A   whoami.akamai.net        NOERROR   172.69.149.145 21ms
+2026-10-19T12:36:37+00:00 whoami r1 system     udp A   whoami.akamai.net        NOERROR   139.7.84.15 19ms
+2026-10-19T12:36:38+00:00 whoami r1 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.48 183ms
+2026-10-19T12:36:38+00:00 whoami r1 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 103ms
+2026-10-19T12:36:38+00:00 whoami r1 google     tcp A   whoami.akamai.net        NOERROR   172.253.1.212 52ms
+2026-10-19T12:36:38+00:00 whoami r1 cloudflare tcp A   whoami.akamai.net        NOERROR   172.70.245.120 50ms
+2026-10-19T12:36:38+00:00 whoami r1 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.16 58ms
+2026-10-19T12:36:39+00:00 whoami r1 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.50 351ms
+2026-10-19T12:36:39+00:00 whoami r1 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 91ms
+2026-10-19T12:36:39+00:00 whoami r1 google     udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.188;ecs 92.209.188.0/24/24;ns 2a00:1450:4001:c 37ms
+2026-10-19T12:36:39+00:00 whoami r1 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.208.0.86;ecs 92.208.0.0/24/24;ns 2400:cb00:636:1024::a 21ms
+2026-10-19T12:36:39+00:00 whoami r1 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::7:0 20ms
+2026-10-19T12:36:40+00:00 whoami r1 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.51 205ms
+2026-10-19T12:36:40+00:00 whoami r1 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 113ms
+2026-10-19T12:36:40+00:00 whoami r1 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.209.188.0/24/24;ip 92.209.188.200;ns 172.217.34.25 55ms
+2026-10-19T12:36:41+00:00 whoami r1 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ns 162.158.93.149;ip 92.208.0.167;ecs 92.208.0.0/24/24 59ms
+2026-10-19T12:36:41+00:00 whoami r1 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::7:0 39ms
+2026-10-19T12:36:51+00:00 whoami r2 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.51 99ms
+2026-10-19T12:36:52+00:00 whoami r2 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.49 50ms
+2026-10-19T12:36:52+00:00 whoami r2 google     udp A   whoami.akamai.net        NOERROR   172.253.14.18 21ms
+2026-10-19T12:36:52+00:00 whoami r2 cloudflare udp A   whoami.akamai.net        NOERROR   162.158.93.77 22ms
+2026-10-19T12:36:52+00:00 whoami r2 system     udp A   whoami.akamai.net        NOERROR   139.7.84.17 19ms
+2026-10-19T12:36:53+00:00 whoami r2 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.49 203ms
+2026-10-19T12:36:53+00:00 whoami r2 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.48 122ms
+2026-10-19T12:36:53+00:00 whoami r2 google     tcp A   whoami.akamai.net        NOERROR   172.253.1.220 52ms
+2026-10-19T12:36:53+00:00 whoami r2 cloudflare tcp A   whoami.akamai.net        NOERROR   162.158.85.5 62ms
+2026-10-19T12:36:53+00:00 whoami r2 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.12 45ms
+2026-10-19T12:36:54+00:00 whoami r2 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.49 311ms
+2026-10-19T12:36:54+00:00 whoami r2 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.48 115ms
+2026-10-19T12:36:54+00:00 whoami r2 google     udp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.209.188.0/24/24;ip 92.209.188.241;ns 172.217.33.218 23ms
+2026-10-19T12:36:54+00:00 whoami r2 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ns 2400:cb00:928:1024::ac47:a864;ip 92.208.0.16;ecs 92.208.0 28ms
+2026-10-19T12:36:54+00:00 whoami r2 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::7:0 24ms
+2026-10-19T12:36:55+00:00 whoami r2 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 207ms
+2026-10-19T12:36:55+00:00 whoami r2 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 115ms
+2026-10-19T12:36:55+00:00 whoami r2 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.231;ecs 92.209.188.0/24/24;ns 172.217.33.151 60ms
+2026-10-19T12:36:56+00:00 whoami r2 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.208.0.0/24/24;ip 92.208.0.116;ns 2400:cb00:470:1024:: 46ms
+2026-10-19T12:36:56+00:00 whoami r2 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::7:0 35ms
+2026-10-19T12:37:07+00:00 whoami r3 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.48 98ms
+2026-10-19T12:37:07+00:00 whoami r3 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 56ms
+2026-10-19T12:37:07+00:00 whoami r3 google     udp A   whoami.akamai.net        NOERROR   172.253.1.212 19ms
+2026-10-19T12:37:07+00:00 whoami r3 cloudflare udp A   whoami.akamai.net        NOERROR   162.158.93.75 18ms
+2026-10-19T12:37:07+00:00 whoami r3 system     udp A   whoami.akamai.net        NOERROR   139.7.84.16 10ms
+2026-10-19T12:37:08+00:00 whoami r3 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.51 196ms
+2026-10-19T12:37:08+00:00 whoami r3 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 108ms
+2026-10-19T12:37:08+00:00 whoami r3 google     tcp A   whoami.akamai.net        NOERROR   172.253.14.18 44ms
+2026-10-19T12:37:08+00:00 whoami r3 cloudflare tcp A   whoami.akamai.net        NOERROR    49ms
+2026-10-19T12:37:08+00:00 whoami r3 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.15 47ms
+2026-10-19T12:37:09+00:00 whoami r3 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 99ms
+2026-10-19T12:37:09+00:00 whoami r3 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 82ms
+2026-10-19T12:37:09+00:00 whoami r3 google     udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.163;ecs 92.209.188.0/24/24;ns 172.253.1.220 23ms
+2026-10-19T12:37:09+00:00 whoami r3 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ns 2400:cb00:928:1024::ac47:a864;ip 92.208.0.153;ecs 92.208. 32ms
+2026-10-19T12:37:09+00:00 whoami r3 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.12 24ms
+2026-10-19T12:37:10+00:00 whoami r3 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::101 202ms
+2026-10-19T12:37:10+00:00 whoami r3 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::102 108ms
+2026-10-19T12:37:10+00:00 whoami r3 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 172.217.33.218;ip 92.209.188.241;ecs 92.209.188.0/24/24 41ms
+2026-10-19T12:37:10+00:00 whoami r3 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ip 92.208.0.180;ns 2400:cb00:931:1024::ac44:143e;ecs 92.208. 50ms
+2026-10-19T12:37:10+00:00 whoami r3 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::a:0 39ms
+2026-10-19T12:37:22+00:00 whoami r4 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.50 96ms
+2026-10-19T12:37:22+00:00 whoami r4 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 51ms
+2026-10-19T12:37:22+00:00 whoami r4 google     udp A   whoami.akamai.net        NOERROR   172.253.1.212 32ms
+2026-10-19T12:37:22+00:00 whoami r4 cloudflare udp A   whoami.akamai.net        NOERROR   172.68.194.27 19ms
+2026-10-19T12:37:22+00:00 whoami r4 system     udp A   whoami.akamai.net        NOERROR   139.7.84.13 14ms
+2026-10-19T12:37:23+00:00 whoami r4 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.48 199ms
+2026-10-19T12:37:23+00:00 whoami r4 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.48 134ms
+2026-10-19T12:37:23+00:00 whoami r4 google     tcp A   whoami.akamai.net        NOERROR   172.253.237.157 52ms
+2026-10-19T12:37:23+00:00 whoami r4 cloudflare tcp A   whoami.akamai.net        NOERROR   172.70.244.38 52ms
+2026-10-19T12:37:23+00:00 whoami r4 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.16 49ms
+2026-10-19T12:37:24+00:00 whoami r4 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.51 96ms
+2026-10-19T12:37:24+00:00 whoami r4 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::102 47ms
+2026-10-19T12:37:24+00:00 whoami r4 google     udp TXT whoami.ds.akahelp.net    NOERROR   ns 172.253.1.217;ip 92.209.188.190;ecs 92.209.188.0/24/24 24ms
+2026-10-19T12:37:24+00:00 whoami r4 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.208.0.0/24/24;ip 92.208.0.178;ns 2400:cb00:933:1024:: 22ms
+2026-10-19T12:37:24+00:00 whoami r4 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::a:0 43ms
+2026-10-19T12:37:25+00:00 whoami r4 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.50 1381ms
+2026-10-19T12:37:26+00:00 whoami r4 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.48 113ms
+2026-10-19T12:37:26+00:00 whoami r4 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.209.188.0/24/24;ns 172.217.33.213;ip 92.209.188.161 46ms
+2026-10-19T12:37:26+00:00 whoami r4 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ip 92.208.0.72;ecs 92.208.0.0/24/24;ns 2400:cb00:931:1024::a 44ms
+2026-10-19T12:37:26+00:00 whoami r4 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::a:0 43ms
+2026-10-19T12:37:37+00:00 whoami r5 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.50 126ms
+2026-10-19T12:37:37+00:00 whoami r5 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 53ms
+2026-10-19T12:37:37+00:00 whoami r5 google     udp A   whoami.akamai.net        NOERROR   172.253.237.157 14ms
+2026-10-19T12:37:37+00:00 whoami r5 cloudflare udp A   whoami.akamai.net        NOERROR   104.23.240.37 19ms
+2026-10-19T12:37:37+00:00 whoami r5 system     udp A   whoami.akamai.net        NOERROR   139.7.84.15 16ms
+2026-10-19T12:37:38+00:00 whoami r5 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.49 203ms
+2026-10-19T12:37:38+00:00 whoami r5 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.48 141ms
+2026-10-19T12:37:38+00:00 whoami r5 google     tcp A   whoami.akamai.net        NOERROR   172.253.14.28 43ms
+2026-10-19T12:37:38+00:00 whoami r5 cloudflare tcp A   whoami.akamai.net        NOERROR   172.68.20.39 53ms
+2026-10-19T12:37:38+00:00 whoami r5 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.15 94ms
+2026-10-19T12:37:39+00:00 whoami r5 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.51 124ms
+2026-10-19T12:37:39+00:00 whoami r5 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::102 56ms
+2026-10-19T12:37:39+00:00 whoami r5 google     udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.80;ns 172.253.1.214;ecs 92.209.188.0/24/24 22ms
+2026-10-19T12:37:39+00:00 whoami r5 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.208.0.0/24/24;ns 172.69.149.215;ip 92.208.0.60 24ms
+2026-10-19T12:37:39+00:00 whoami r5 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.17 33ms
+2026-10-19T12:37:40+00:00 whoami r5 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::101 194ms
+2026-10-19T12:37:40+00:00 whoami r5 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::101 111ms
+2026-10-19T12:37:40+00:00 whoami r5 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.127;ecs 92.209.188.0/24/24;ns 2a00:1450:4001:c 52ms
+2026-10-19T12:37:40+00:00 whoami r5 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.208.0.0/24/24;ns 162.158.93.149;ip 92.208.0.101 59ms
+2026-10-19T12:37:40+00:00 whoami r5 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::7:0 37ms
+2026-10-19T12:37:52+00:00 whoami r6 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.48 106ms
+2026-10-19T12:37:52+00:00 whoami r6 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.49 62ms
+2026-10-19T12:37:52+00:00 whoami r6 google     udp A   whoami.akamai.net        NOERROR   172.217.33.146 19ms
+2026-10-19T12:37:52+00:00 whoami r6 cloudflare udp A   whoami.akamai.net        NOERROR   172.68.192.52 17ms
+2026-10-19T12:37:52+00:00 whoami r6 system     udp A   whoami.akamai.net        NOERROR   139.7.84.17 14ms
+2026-10-19T12:37:53+00:00 whoami r6 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.50 204ms
+2026-10-19T12:37:53+00:00 whoami r6 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.48 132ms
+2026-10-19T12:37:53+00:00 whoami r6 google     tcp A   whoami.akamai.net        NOERROR   172.217.33.210 50ms
+2026-10-19T12:37:53+00:00 whoami r6 cloudflare tcp A   whoami.akamai.net        NOERROR   172.68.192.54 51ms
+2026-10-19T12:37:53+00:00 whoami r6 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.12 49ms
+2026-10-19T12:37:54+00:00 whoami r6 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.48 114ms
+2026-10-19T12:37:54+00:00 whoami r6 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::101 99ms
+2026-10-19T12:37:54+00:00 whoami r6 google     udp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.209.188.0/24/24;ns 172.253.1.218;ip 92.209.188.118 25ms
+2026-10-19T12:37:54+00:00 whoami r6 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.208.0.197;ns 162.158.109.82;ecs 92.208.0.0/24/24 23ms
+2026-10-19T12:37:54+00:00 whoami r6 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::7:0 42ms
+2026-10-19T12:37:55+00:00 whoami r6 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 193ms
+2026-10-19T12:37:55+00:00 whoami r6 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::101 136ms
+2026-10-19T12:37:55+00:00 whoami r6 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.44;ecs 92.209.188.0/24/24;ns 172.253.14.25 59ms
+2026-10-19T12:37:55+00:00 whoami r6 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2400:cb00:933:1024::ac46:f464;ecs 92.208.0.0/24/24;ip 92. 49ms
+2026-10-19T12:37:55+00:00 whoami r6 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.14 46ms
+2026-10-19T12:38:07+00:00 whoami r7 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.51 95ms
+2026-10-19T12:38:07+00:00 whoami r7 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 54ms
+2026-10-19T12:38:07+00:00 whoami r7 google     udp A   whoami.akamai.net        NOERROR   172.217.33.149 17ms
+2026-10-19T12:38:07+00:00 whoami r7 cloudflare udp A   whoami.akamai.net        NOERROR   172.69.113.38 18ms
+2026-10-19T12:38:07+00:00 whoami r7 system     udp A   whoami.akamai.net        NOERROR   139.7.84.12 29ms
+2026-10-19T12:38:08+00:00 whoami r7 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.51 196ms
+2026-10-19T12:38:08+00:00 whoami r7 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.48 115ms
+2026-10-19T12:38:08+00:00 whoami r7 google     tcp A   whoami.akamai.net        NOERROR   172.253.1.210 46ms
+2026-10-19T12:38:08+00:00 whoami r7 cloudflare tcp A   whoami.akamai.net        NOERROR   162.158.93.77 50ms
+2026-10-19T12:38:08+00:00 whoami r7 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.14 48ms
+2026-10-19T12:38:09+00:00 whoami r7 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 91ms
+2026-10-19T12:38:09+00:00 whoami r7 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::102 55ms
+2026-10-19T12:38:09+00:00 whoami r7 google     udp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.209.188.0/24/24;ns 172.217.33.213;ip 92.209.188.161 19ms
+2026-10-19T12:38:09+00:00 whoami r7 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.208.0.192;ns 2400:cb00:608:1024::ac47:f577;ecs 92.208. 28ms
+2026-10-19T12:38:09+00:00 whoami r7 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::a:0 18ms
+2026-10-19T12:38:10+00:00 whoami r7 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.48 228ms
+2026-10-19T12:38:10+00:00 whoami r7 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 108ms
+2026-10-19T12:38:10+00:00 whoami r7 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.9;ecs 92.209.188.0/24/24;ns 172.217.34.24 48ms
+2026-10-19T12:38:10+00:00 whoami r7 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.208.0.0/24/24;ip 92.208.0.114;ns 172.69.149.215 44ms
+2026-10-19T12:38:10+00:00 whoami r7 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.14 50ms
+2026-10-19T12:38:22+00:00 whoami r8 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.50 119ms
+2026-10-19T12:38:22+00:00 whoami r8 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 62ms
+2026-10-19T12:38:22+00:00 whoami r8 google     udp A   whoami.akamai.net        NOERROR   172.217.33.210 14ms
+2026-10-19T12:38:22+00:00 whoami r8 cloudflare udp A   whoami.akamai.net        NOERROR   172.70.245.120 23ms
+2026-10-19T12:38:22+00:00 whoami r8 system     udp A   whoami.akamai.net        NOERROR   139.7.84.12 19ms
+2026-10-19T12:38:23+00:00 whoami r8 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.50 204ms
+2026-10-19T12:38:23+00:00 whoami r8 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.48 112ms
+2026-10-19T12:38:23+00:00 whoami r8 google     tcp A   whoami.akamai.net        NOERROR   172.253.1.218 50ms
+2026-10-19T12:38:23+00:00 whoami r8 cloudflare tcp A   whoami.akamai.net        NOERROR   172.70.245.120 47ms
+2026-10-19T12:38:23+00:00 whoami r8 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.14 46ms
+2026-10-19T12:38:24+00:00 whoami r8 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.48 95ms
+2026-10-19T12:38:24+00:00 whoami r8 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 53ms
+2026-10-19T12:38:24+00:00 whoami r8 google     udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.161;ecs 92.209.188.0/24/24;ns 172.217.33.213 20ms
+2026-10-19T12:38:24+00:00 whoami r8 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.208.0.0/24/24;ip 92.208.0.76;ns 162.158.93.149 32ms
+2026-10-19T12:38:24+00:00 whoami r8 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a01:860:4:100d::a:0 26ms
+2026-10-19T12:38:25+00:00 whoami r8 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.48 228ms
+2026-10-19T12:38:25+00:00 whoami r8 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::101 125ms
+2026-10-19T12:38:25+00:00 whoami r8 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.217;ns 172.217.34.29;ecs 92.209.188.0/24/24 43ms
+2026-10-19T12:38:25+00:00 whoami r8 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.208.0.0/24/24;ip 92.208.0.156;ns 172.68.24.103 53ms
+2026-10-19T12:38:25+00:00 whoami r8 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.17 53ms
+2026-10-19T12:38:37+00:00 whoami r9 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.48 99ms
+2026-10-19T12:38:37+00:00 whoami r9 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 52ms
+2026-10-19T12:38:37+00:00 whoami r9 google     udp A   whoami.akamai.net        NOERROR   172.253.237.157 18ms
+2026-10-19T12:38:37+00:00 whoami r9 cloudflare udp A   whoami.akamai.net        NOERROR   172.69.149.145 18ms
+2026-10-19T12:38:37+00:00 whoami r9 system     udp A   whoami.akamai.net        NOERROR   139.7.84.14 15ms
+2026-10-19T12:38:38+00:00 whoami r9 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.49 195ms
+2026-10-19T12:38:38+00:00 whoami r9 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 112ms
+2026-10-19T12:38:38+00:00 whoami r9 google     tcp A   whoami.akamai.net        NOERROR   172.217.33.210 46ms
+2026-10-19T12:38:38+00:00 whoami r9 cloudflare tcp A   whoami.akamai.net        NOERROR   104.22.123.205 55ms
+2026-10-19T12:38:38+00:00 whoami r9 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.15 41ms
+2026-10-19T12:38:39+00:00 whoami r9 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::103 96ms
+2026-10-19T12:38:39+00:00 whoami r9 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 59ms
+2026-10-19T12:38:39+00:00 whoami r9 google     udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.209.188.232;ns 172.253.1.215;ecs 92.209.188.0/24/24 20ms
+2026-10-19T12:38:39+00:00 whoami r9 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.208.0.231;ns 172.70.244.99;ecs 92.208.0.0/24/24 26ms
+2026-10-19T12:38:39+00:00 whoami r9 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.12 70ms
+2026-10-19T12:38:40+00:00 whoami r9 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.50 195ms
+2026-10-19T12:38:40+00:00 whoami r9 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 126ms
+2026-10-19T12:38:40+00:00 whoami r9 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a00:1450:4001:c07::123;ip 92.209.188.207;ecs 92.209.188. 53ms
+2026-10-19T12:38:40+00:00 whoami r9 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.208.0.0/24/24;ip 92.208.0.251;ns 172.70.241.151 63ms
+2026-10-19T12:38:40+00:00 whoami r9 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.17 46ms
+2026-10-19T12:38:52+00:00 whoami r10 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.51 104ms
+2026-10-19T12:38:52+00:00 whoami r10 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 51ms
+2026-10-19T12:38:52+00:00 whoami r10 google     udp A   whoami.akamai.net        NOERROR   172.217.33.219 18ms
+2026-10-19T12:38:52+00:00 whoami r10 cloudflare udp A   whoami.akamai.net        NOERROR   172.69.149.144 19ms
+2026-10-19T12:38:52+00:00 whoami r10 system     udp A   whoami.akamai.net        NOERROR   139.7.84.15 12ms
+2026-10-19T12:38:53+00:00 whoami r10 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.48 200ms
+2026-10-19T12:38:53+00:00 whoami r10 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 138ms
+2026-10-19T12:38:53+00:00 whoami r10 google     tcp A   whoami.akamai.net        NOERROR   172.217.33.153 41ms
+2026-10-19T12:38:53+00:00 whoami r10 cloudflare tcp A   whoami.akamai.net        NOERROR   172.68.24.43 50ms
+2026-10-19T12:38:53+00:00 whoami r10 system     tcp A   whoami.akamai.net        NOERROR   139.7.84.14 46ms
+2026-10-19T12:38:54+00:00 whoami r10 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.50 130ms
+2026-10-19T12:38:54+00:00 whoami r10 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::101 53ms
+2026-10-19T12:38:54+00:00 whoami r10 google     udp TXT whoami.ds.akahelp.net    NOERROR   ecs 92.209.188.0/24/24;ns 172.217.33.150;ip 92.209.188.246 27ms
+2026-10-19T12:38:54+00:00 whoami r10 cloudflare udp TXT whoami.ds.akahelp.net    NOERROR   ip 92.208.0.128;ns 172.71.168.100;ecs 92.208.0.0/24/24 22ms
+2026-10-19T12:38:54+00:00 whoami r10 system     udp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.13 19ms
+2026-10-19T12:38:55+00:00 whoami r10 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.51 200ms
+2026-10-19T12:38:55+00:00 whoami r10 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 136ms
+2026-10-19T12:38:55+00:00 whoami r10 google     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 172.217.33.214;ip 92.209.188.160;ecs 92.209.188.0/24/24 53ms
+2026-10-19T12:38:55+00:00 whoami r10 cloudflare tcp TXT whoami.ds.akahelp.net    NOERROR   ns 172.70.244.99;ecs 92.208.0.0/24/24;ip 92.208.0.62 42ms
+2026-10-19T12:38:55+00:00 whoami r10 system     tcp TXT whoami.ds.akahelp.net    NOERROR   ns 139.7.84.17 47ms
+2026-10-19T12:39:07+00:00 whoami r11 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.51 109ms
+2026-10-19T12:39:07+00:00 whoami r11 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.49 50ms
+2026-10-19T12:39:08+00:00 whoami r11 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.51 211ms
+2026-10-19T12:39:08+00:00 whoami r11 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 125ms
+2026-10-19T12:39:09+00:00 whoami r11 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 99ms
+2026-10-19T12:39:09+00:00 whoami r11 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 52ms
+2026-10-19T12:39:10+00:00 whoami r11 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.49 194ms
+2026-10-19T12:39:10+00:00 whoami r11 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.48 115ms
+2026-10-19T12:39:22+00:00 whoami r12 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.51 98ms
+2026-10-19T12:39:22+00:00 whoami r12 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.49 51ms
+2026-10-19T12:39:23+00:00 whoami r12 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.49 207ms
+2026-10-19T12:39:23+00:00 whoami r12 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 104ms
+2026-10-19T12:39:24+00:00 whoami r12 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.50 109ms
+2026-10-19T12:39:24+00:00 whoami r12 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 62ms
+2026-10-19T12:39:25+00:00 whoami r12 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.50 216ms
+2026-10-19T12:39:25+00:00 whoami r12 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 114ms
+2026-10-19T12:39:37+00:00 whoami r13 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.51 98ms
+2026-10-19T12:39:37+00:00 whoami r13 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 60ms
+2026-10-19T12:39:38+00:00 whoami r13 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.50 195ms
+2026-10-19T12:39:38+00:00 whoami r13 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 120ms
+2026-10-19T12:39:39+00:00 whoami r13 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 93ms
+2026-10-19T12:39:39+00:00 whoami r13 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 65ms
+2026-10-19T12:39:40+00:00 whoami r13 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::102 203ms
+2026-10-19T12:39:40+00:00 whoami r13 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::102 109ms
+2026-10-19T12:39:52+00:00 whoami r14 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.49 108ms
+2026-10-19T12:39:52+00:00 whoami r14 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 53ms
+2026-10-19T12:39:53+00:00 whoami r14 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.48 191ms
+2026-10-19T12:39:53+00:00 whoami r14 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 119ms
+2026-10-19T12:39:54+00:00 whoami r14 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.50 93ms
+2026-10-19T12:39:54+00:00 whoami r14 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.48 50ms
+2026-10-19T12:39:55+00:00 whoami r14 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::103 203ms
+2026-10-19T12:39:55+00:00 whoami r14 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::102 112ms
+2026-10-19T12:40:07+00:00 whoami r15 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.49 108ms
+2026-10-19T12:40:07+00:00 whoami r15 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.49 55ms
+2026-10-19T12:40:08+00:00 whoami r15 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.51 197ms
+2026-10-19T12:40:08+00:00 whoami r15 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 114ms
+2026-10-19T12:40:09+00:00 whoami r15 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.48 100ms
+2026-10-19T12:40:09+00:00 whoami r15 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::101 79ms
+2026-10-19T12:40:10+00:00 whoami r15 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.49 222ms
+2026-10-19T12:40:10+00:00 whoami r15 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::102 118ms
+2026-10-19T12:40:22+00:00 whoami r16 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.51 102ms
+2026-10-19T12:40:22+00:00 whoami r16 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 129ms
+2026-10-19T12:40:23+00:00 whoami r16 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.49 203ms
+2026-10-19T12:40:23+00:00 whoami r16 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.48 113ms
+2026-10-19T12:40:24+00:00 whoami r16 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.51 96ms
+2026-10-19T12:40:24+00:00 whoami r16 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 61ms
+2026-10-19T12:40:25+00:00 whoami r16 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.48 198ms
+2026-10-19T12:40:25+00:00 whoami r16 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2a0c:a9c7:177:2000:1000::101 113ms
+2026-10-19T12:40:37+00:00 whoami r17 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.49 101ms
+2026-10-19T12:40:37+00:00 whoami r17 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 52ms
+2026-10-19T12:40:38+00:00 whoami r17 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.48 224ms
+2026-10-19T12:40:38+00:00 whoami r17 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 111ms
+2026-10-19T12:40:39+00:00 whoami r17 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 105ms
+2026-10-19T12:40:39+00:00 whoami r17 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 62ms
+2026-10-19T12:40:40+00:00 whoami r17 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 205ms
+2026-10-19T12:40:40+00:00 whoami r17 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 113ms
+2026-10-19T12:40:52+00:00 whoami r18 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.50 96ms
+2026-10-19T12:40:52+00:00 whoami r18 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 62ms
+2026-10-19T12:40:53+00:00 whoami r18 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.48 190ms
+2026-10-19T12:40:53+00:00 whoami r18 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 121ms
+2026-10-19T12:40:54+00:00 whoami r18 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.48 89ms
+2026-10-19T12:40:54+00:00 whoami r18 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 59ms
+2026-10-19T12:40:55+00:00 whoami r18 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::103 202ms
+2026-10-19T12:40:55+00:00 whoami r18 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 152ms
+2026-10-19T12:41:07+00:00 whoami r19 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.48 98ms
+2026-10-19T12:41:07+00:00 whoami r19 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 52ms
+2026-10-19T12:41:08+00:00 whoami r19 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.50 202ms
+2026-10-19T12:41:08+00:00 whoami r19 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.49 105ms
+2026-10-19T12:41:09+00:00 whoami r19 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.230.50 97ms
+2026-10-19T12:41:09+00:00 whoami r19 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.48 48ms
+2026-10-19T12:41:10+00:00 whoami r19 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::102 203ms
+2026-10-19T12:41:10+00:00 whoami r19 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.48 123ms
+2026-10-19T12:41:22+00:00 whoami r20 a.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.230.50 98ms
+2026-10-19T12:41:22+00:00 whoami r20 b.res-nsdi.ru udp A   whoami.akamai.net        NOERROR   193.232.177.48 49ms
+2026-10-19T12:41:23+00:00 whoami r20 a.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.230.51 196ms
+2026-10-19T12:41:23+00:00 whoami r20 b.res-nsdi.ru tcp A   whoami.akamai.net        NOERROR   193.232.177.48 117ms
+2026-10-19T12:41:24+00:00 whoami r20 a.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::101 97ms
+2026-10-19T12:41:24+00:00 whoami r20 b.res-nsdi.ru udp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.49 53ms
+2026-10-19T12:41:25+00:00 whoami r20 a.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 2001:67c:1211:2000:1000::104 195ms
+2026-10-19T12:41:25+00:00 whoami r20 b.res-nsdi.ru tcp TXT whoami.ds.akahelp.net    NOERROR   ns 193.232.177.48 120ms
+2026-10-19T12:41:26+00:00 ground-truth r1 a.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   98ms
+2026-10-19T12:41:26+00:00 ground-truth r1 b.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   51ms
+2026-10-19T12:41:26+00:00 ground-truth r1 google     udp A   www.youtube.com          NOERROR   142.251.156.4;142.251.157.4;142.251.154.4;142.251.152.4;142. 29ms
+2026-10-19T12:41:26+00:00 ground-truth r1 cloudflare udp A   www.youtube.com          NOERROR   142.251.150.4;142.251.154.4;142.251.156.4;142.251.151.4;142. 28ms
+2026-10-19T12:41:26+00:00 ground-truth r1 system     udp A   www.youtube.com          NOERROR   142.251.157.4;142.251.154.4;142.251.151.4;142.251.152.4;142. 17ms
+2026-10-19T12:41:27+00:00 ground-truth r1 a.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   190ms
+2026-10-19T12:41:27+00:00 ground-truth r1 b.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   117ms
+2026-10-19T12:41:28+00:00 ground-truth r1 google     tcp A   www.youtube.com          NOERROR   142.251.157.4;142.251.150.4;142.251.153.4;142.251.156.4;142. 46ms
+2026-10-19T12:41:28+00:00 ground-truth r1 cloudflare tcp A   www.youtube.com          NOERROR   142.251.157.4;142.251.152.4;142.251.155.4;142.251.151.4;142. 47ms
+2026-10-19T12:41:28+00:00 ground-truth r1 system     tcp A   www.youtube.com          NOERROR   142.251.154.4;142.251.150.4;142.251.151.4;142.251.155.4;142. 48ms
+2026-10-19T12:41:28+00:00 ground-truth r1 a.res-nsdi.ru udp A   example.com              NOERROR   8.6.112.0;8.47.69.0 97ms
+2026-10-19T12:41:29+00:00 ground-truth r1 b.res-nsdi.ru udp A   example.com              timeout    5001ms
+2026-10-19T12:41:34+00:00 ground-truth r1 google     udp A   example.com              NOERROR   104.20.23.154;172.66.147.243 18ms
+2026-10-19T12:41:34+00:00 ground-truth r1 cloudflare udp A   example.com              NOERROR   172.66.147.243;104.20.23.154 17ms
+2026-10-19T12:41:34+00:00 ground-truth r1 system     udp A   example.com              NOERROR   104.20.23.154;172.66.147.243 18ms
+2026-10-19T12:41:34+00:00 ground-truth r1 a.res-nsdi.ru tcp A   example.com              NOERROR   8.47.69.0;8.6.112.0 201ms
+2026-10-19T12:41:35+00:00 ground-truth r1 b.res-nsdi.ru tcp A   example.com              NOERROR   8.47.69.0;8.6.112.0 125ms
+2026-10-19T12:41:35+00:00 ground-truth r1 google     tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 65ms
+2026-10-19T12:41:35+00:00 ground-truth r1 cloudflare tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 76ms
+2026-10-19T12:41:35+00:00 ground-truth r1 system     tcp A   example.com              NOERROR   172.66.147.243;104.20.23.154 48ms
+2026-10-19T12:41:35+00:00 ground-truth r1 a.res-nsdi.ru udp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 89ms
+2026-10-19T12:41:36+00:00 ground-truth r1 b.res-nsdi.ru udp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 65ms
+2026-10-19T12:41:36+00:00 ground-truth r1 google     udp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 25ms
+2026-10-19T12:41:36+00:00 ground-truth r1 cloudflare udp A   ya.ru                    NOERROR   77.88.44.242;5.255.255.242;77.88.55.242 21ms
+2026-10-19T12:41:36+00:00 ground-truth r1 system     udp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 16ms
+2026-10-19T12:41:36+00:00 ground-truth r1 a.res-nsdi.ru tcp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 214ms
+2026-10-19T12:41:37+00:00 ground-truth r1 b.res-nsdi.ru tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 182ms
+2026-10-19T12:41:37+00:00 ground-truth r1 google     tcp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 44ms
+2026-10-19T12:41:37+00:00 ground-truth r1 cloudflare tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 43ms
+2026-10-19T12:41:37+00:00 ground-truth r1 system     tcp A   ya.ru                    NOERROR   77.88.44.242;5.255.255.242;77.88.55.242 43ms
+2026-10-19T12:41:37+00:00 ground-truth r2 a.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   123ms
+2026-10-19T12:41:38+00:00 ground-truth r2 b.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   60ms
+2026-10-19T12:41:38+00:00 ground-truth r2 google     udp A   www.youtube.com          NOERROR   142.251.153.4;142.251.155.4;142.251.152.4;142.251.151.4;142. 17ms
+2026-10-19T12:41:38+00:00 ground-truth r2 cloudflare udp A   www.youtube.com          NOERROR   142.251.153.4;142.251.150.4;142.251.157.4;142.251.154.4;142. 22ms
+2026-10-19T12:41:38+00:00 ground-truth r2 system     udp A   www.youtube.com          NOERROR   142.251.150.4;142.251.154.4;142.251.153.4;142.251.151.4;142. 17ms
+2026-10-19T12:41:38+00:00 ground-truth r2 a.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   194ms
+2026-10-19T12:41:39+00:00 ground-truth r2 b.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   120ms
+2026-10-19T12:41:39+00:00 ground-truth r2 google     tcp A   www.youtube.com          NOERROR   142.251.157.4;142.251.153.4;142.251.152.4;142.251.150.4;142. 43ms
+2026-10-19T12:41:39+00:00 ground-truth r2 cloudflare tcp A   www.youtube.com          NOERROR   142.251.152.4;142.251.151.4;142.251.153.4;142.251.154.4;142. 43ms
+2026-10-19T12:41:39+00:00 ground-truth r2 system     tcp A   www.youtube.com          NOERROR   142.251.152.4;142.251.155.4;142.251.156.4;142.251.153.4;142. 51ms
+2026-10-19T12:41:40+00:00 ground-truth r2 a.res-nsdi.ru udp A   example.com              NOERROR   8.47.69.0;8.6.112.0 118ms
+2026-10-19T12:41:40+00:00 ground-truth r2 b.res-nsdi.ru udp A   example.com              NOERROR   8.6.112.0;8.47.69.0 59ms
+2026-10-19T12:41:40+00:00 ground-truth r2 google     udp A   example.com              NOERROR   104.20.23.154;172.66.147.243 23ms
+2026-10-19T12:41:40+00:00 ground-truth r2 cloudflare udp A   example.com              NOERROR   172.66.147.243;104.20.23.154 18ms
+2026-10-19T12:41:40+00:00 ground-truth r2 system     udp A   example.com              NOERROR   172.66.147.243;104.20.23.154 18ms
+2026-10-19T12:41:41+00:00 ground-truth r2 a.res-nsdi.ru tcp A   example.com              NOERROR   8.6.112.0;8.47.69.0 200ms
+2026-10-19T12:41:41+00:00 ground-truth r2 b.res-nsdi.ru tcp A   example.com              NOERROR   8.47.69.0;8.6.112.0 139ms
+2026-10-19T12:41:41+00:00 ground-truth r2 google     tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 53ms
+2026-10-19T12:41:41+00:00 ground-truth r2 cloudflare tcp A   example.com              NOERROR   172.66.147.243;104.20.23.154 88ms
+2026-10-19T12:41:41+00:00 ground-truth r2 system     tcp A   example.com              NOERROR   172.66.147.243;104.20.23.154 45ms
+2026-10-19T12:41:42+00:00 ground-truth r2 a.res-nsdi.ru udp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 100ms
+2026-10-19T12:41:42+00:00 ground-truth r2 b.res-nsdi.ru udp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 68ms
+2026-10-19T12:41:42+00:00 ground-truth r2 google     udp A   ya.ru                    NOERROR   77.88.44.242;5.255.255.242;77.88.55.242 21ms
+2026-10-19T12:41:42+00:00 ground-truth r2 cloudflare udp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 21ms
+2026-10-19T12:41:43+00:00 ground-truth r2 system     udp A   ya.ru                    NOERROR   5.255.255.242;77.88.44.242;77.88.55.242 25ms
+2026-10-19T12:41:43+00:00 ground-truth r2 a.res-nsdi.ru tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 223ms
+2026-10-19T12:41:43+00:00 ground-truth r2 b.res-nsdi.ru tcp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 100ms
+2026-10-19T12:41:44+00:00 ground-truth r2 google     tcp A   ya.ru                    NOERROR   77.88.44.242;77.88.55.242;5.255.255.242 37ms
+2026-10-19T12:41:44+00:00 ground-truth r2 cloudflare tcp A   ya.ru                    NOERROR   77.88.44.242;5.255.255.242;77.88.55.242 58ms
+2026-10-19T12:41:44+00:00 ground-truth r2 system     tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 53ms
+2026-10-19T12:41:44+00:00 ground-truth r3 a.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   106ms
+2026-10-19T12:41:45+00:00 ground-truth r3 b.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   92ms
+2026-10-19T12:41:45+00:00 ground-truth r3 google     udp A   www.youtube.com          NOERROR   142.251.153.4;142.251.156.4;142.251.157.4;142.251.151.4;142. 25ms
+2026-10-19T12:41:45+00:00 ground-truth r3 cloudflare udp A   www.youtube.com          NOERROR   142.251.156.4;142.251.157.4;142.251.151.4;142.251.154.4;142. 25ms
+2026-10-19T12:41:45+00:00 ground-truth r3 system     udp A   www.youtube.com          NOERROR   142.251.152.4;142.251.154.4;142.251.150.4;142.251.151.4;142. 24ms
+2026-10-19T12:41:45+00:00 ground-truth r3 a.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   198ms
+2026-10-19T12:41:46+00:00 ground-truth r3 b.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   124ms
+2026-10-19T12:41:46+00:00 ground-truth r3 google     tcp A   www.youtube.com          NOERROR   142.251.156.4;142.251.154.4;142.251.151.4;142.251.155.4;142. 47ms
+2026-10-19T12:41:46+00:00 ground-truth r3 cloudflare tcp A   www.youtube.com          NOERROR   142.251.152.4;142.251.155.4;142.251.156.4;142.251.153.4;142. 47ms
+2026-10-19T12:41:46+00:00 ground-truth r3 system     tcp A   www.youtube.com          NOERROR   142.251.154.4;142.251.152.4;142.251.151.4;142.251.150.4;142. 60ms
+2026-10-19T12:41:46+00:00 ground-truth r3 a.res-nsdi.ru udp A   example.com              NOERROR   8.6.112.0;8.47.69.0 96ms
+2026-10-19T12:41:47+00:00 ground-truth r3 b.res-nsdi.ru udp A   example.com              NOERROR   8.47.69.0;8.6.112.0 58ms
+2026-10-19T12:41:47+00:00 ground-truth r3 google     udp A   example.com              NOERROR   104.20.23.154;172.66.147.243 17ms
+2026-10-19T12:41:47+00:00 ground-truth r3 cloudflare udp A   example.com              NOERROR   172.66.147.243;104.20.23.154 21ms
+2026-10-19T12:41:47+00:00 ground-truth r3 system     udp A   example.com              NOERROR   172.66.147.243;104.20.23.154 23ms
+2026-10-19T12:41:48+00:00 ground-truth r3 a.res-nsdi.ru tcp A   example.com              NOERROR   8.6.112.0;8.47.69.0 248ms
+2026-10-19T12:41:48+00:00 ground-truth r3 b.res-nsdi.ru tcp A   example.com              NOERROR   8.47.69.0;8.6.112.0 114ms
+2026-10-19T12:41:48+00:00 ground-truth r3 google     tcp A   example.com              NOERROR   172.66.147.243;104.20.23.154 51ms
+2026-10-19T12:41:48+00:00 ground-truth r3 cloudflare tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 36ms
+2026-10-19T12:41:48+00:00 ground-truth r3 system     tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 52ms
+2026-10-19T12:41:49+00:00 ground-truth r3 a.res-nsdi.ru udp A   ya.ru                    NOERROR   77.88.44.242;77.88.55.242;5.255.255.242 98ms
+2026-10-19T12:41:49+00:00 ground-truth r3 b.res-nsdi.ru udp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 148ms
+2026-10-19T12:41:49+00:00 ground-truth r3 google     udp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 27ms
+2026-10-19T12:41:49+00:00 ground-truth r3 cloudflare udp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 15ms
+2026-10-19T12:41:49+00:00 ground-truth r3 system     udp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 21ms
+2026-10-19T12:41:50+00:00 ground-truth r3 a.res-nsdi.ru tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.44.242;77.88.55.242 199ms
+2026-10-19T12:41:50+00:00 ground-truth r3 b.res-nsdi.ru tcp A   ya.ru                    NOERROR   77.88.44.242;5.255.255.242;77.88.55.242 138ms
+2026-10-19T12:41:50+00:00 ground-truth r3 google     tcp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 70ms
+2026-10-19T12:41:50+00:00 ground-truth r3 cloudflare tcp A   ya.ru                    NOERROR   77.88.44.242;77.88.55.242;5.255.255.242 43ms
+2026-10-19T12:41:50+00:00 ground-truth r3 system     tcp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 53ms
+2026-10-19T12:41:51+00:00 ground-truth r4 a.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   101ms
+2026-10-19T12:41:51+00:00 ground-truth r4 b.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   48ms
+2026-10-19T12:41:51+00:00 ground-truth r4 google     udp A   www.youtube.com          NOERROR   142.251.151.4;142.251.157.4;142.251.152.4;142.251.150.4;142. 31ms
+2026-10-19T12:41:51+00:00 ground-truth r4 cloudflare udp A   www.youtube.com          NOERROR   142.251.154.4;142.251.156.4;142.251.155.4;142.251.150.4;142. 17ms
+2026-10-19T12:41:51+00:00 ground-truth r4 system     udp A   www.youtube.com          NOERROR   142.251.154.4;142.251.153.4;142.251.151.4;142.251.152.4;142. 18ms
+2026-10-19T12:41:52+00:00 ground-truth r4 a.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   199ms
+2026-10-19T12:41:52+00:00 ground-truth r4 b.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   118ms
+2026-10-19T12:41:53+00:00 ground-truth r4 google     tcp A   www.youtube.com          NOERROR   142.251.157.4;142.251.155.4;142.251.151.4;142.251.150.4;142. 49ms
+2026-10-19T12:41:53+00:00 ground-truth r4 cloudflare tcp A   www.youtube.com          NOERROR   142.251.151.4;142.251.153.4;142.251.154.4;142.251.150.4;142. 47ms
+2026-10-19T12:41:53+00:00 ground-truth r4 system     tcp A   www.youtube.com          NOERROR   142.251.153.4;142.251.151.4;142.251.152.4;142.251.157.4;142. 50ms
+2026-10-19T12:41:53+00:00 ground-truth r4 a.res-nsdi.ru udp A   example.com              NOERROR   8.6.112.0;8.47.69.0 106ms
+2026-10-19T12:41:54+00:00 ground-truth r4 b.res-nsdi.ru udp A   example.com              NOERROR   8.6.112.0;8.47.69.0 51ms
+2026-10-19T12:41:54+00:00 ground-truth r4 google     udp A   example.com              NOERROR   104.20.23.154;172.66.147.243 16ms
+2026-10-19T12:41:54+00:00 ground-truth r4 cloudflare udp A   example.com              NOERROR   172.66.147.243;104.20.23.154 16ms
+2026-10-19T12:41:54+00:00 ground-truth r4 system     udp A   example.com              NOERROR   104.20.23.154;172.66.147.243 22ms
+2026-10-19T12:41:55+00:00 ground-truth r4 a.res-nsdi.ru tcp A   example.com              NOERROR   8.6.112.0;8.47.69.0 199ms
+2026-10-19T12:41:55+00:00 ground-truth r4 b.res-nsdi.ru tcp A   example.com              NOERROR   8.47.69.0;8.6.112.0 127ms
+2026-10-19T12:41:55+00:00 ground-truth r4 google     tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 45ms
+2026-10-19T12:41:55+00:00 ground-truth r4 cloudflare tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 53ms
+2026-10-19T12:41:55+00:00 ground-truth r4 system     tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 42ms
+2026-10-19T12:41:56+00:00 ground-truth r4 a.res-nsdi.ru udp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 99ms
+2026-10-19T12:41:56+00:00 ground-truth r4 b.res-nsdi.ru udp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 61ms
+2026-10-19T12:41:56+00:00 ground-truth r4 google     udp A   ya.ru                    NOERROR   5.255.255.242;77.88.44.242;77.88.55.242 17ms
+2026-10-19T12:41:56+00:00 ground-truth r4 cloudflare udp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 17ms
+2026-10-19T12:41:56+00:00 ground-truth r4 system     udp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 19ms
+2026-10-19T12:41:57+00:00 ground-truth r4 a.res-nsdi.ru tcp A   ya.ru                    NOERROR   77.88.44.242;77.88.55.242;5.255.255.242 196ms
+2026-10-19T12:41:57+00:00 ground-truth r4 b.res-nsdi.ru tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 132ms
+2026-10-19T12:41:57+00:00 ground-truth r4 google     tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.44.242;77.88.55.242 42ms
+2026-10-19T12:41:57+00:00 ground-truth r4 cloudflare tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 43ms
+2026-10-19T12:41:57+00:00 ground-truth r4 system     tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 46ms
+2026-10-19T12:41:58+00:00 ground-truth r5 a.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   106ms
+2026-10-19T12:41:58+00:00 ground-truth r5 b.res-nsdi.ru udp A   www.youtube.com          NXDOMAIN   55ms
+2026-10-19T12:41:58+00:00 ground-truth r5 google     udp A   www.youtube.com          NOERROR   142.251.153.4;142.251.156.4;142.251.157.4;142.251.154.4;142. 28ms
+2026-10-19T12:41:58+00:00 ground-truth r5 cloudflare udp A   www.youtube.com          NOERROR   142.251.154.4;142.251.151.4;142.251.152.4;142.251.150.4;142. 19ms
+2026-10-19T12:41:58+00:00 ground-truth r5 system     udp A   www.youtube.com          NOERROR   142.251.154.4;142.251.150.4;142.251.151.4;142.251.155.4;142. 22ms
+2026-10-19T12:41:59+00:00 ground-truth r5 a.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   198ms
+2026-10-19T12:41:59+00:00 ground-truth r5 b.res-nsdi.ru tcp A   www.youtube.com          NXDOMAIN   127ms
+2026-10-19T12:42:00+00:00 ground-truth r5 google     tcp A   www.youtube.com          NOERROR   142.251.154.4;142.251.155.4;142.251.156.4;142.251.153.4;142. 29ms
+2026-10-19T12:42:00+00:00 ground-truth r5 cloudflare tcp A   www.youtube.com          NOERROR   142.251.157.4;142.251.151.4;142.251.150.4;142.251.156.4;142. 50ms
+2026-10-19T12:42:00+00:00 ground-truth r5 system     tcp A   www.youtube.com          NOERROR   142.251.154.4;142.251.152.4;142.251.150.4;142.251.155.4;142. 44ms
+2026-10-19T12:42:00+00:00 ground-truth r5 a.res-nsdi.ru udp A   example.com              NOERROR   8.6.112.0;8.47.69.0 114ms
+2026-10-19T12:42:01+00:00 ground-truth r5 b.res-nsdi.ru udp A   example.com              NOERROR   8.6.112.0;8.47.69.0 55ms
+2026-10-19T12:42:01+00:00 ground-truth r5 google     udp A   example.com              NOERROR   172.66.147.243;104.20.23.154 28ms
+2026-10-19T12:42:01+00:00 ground-truth r5 cloudflare udp A   example.com              NOERROR   104.20.23.154;172.66.147.243 30ms
+2026-10-19T12:42:01+00:00 ground-truth r5 system     udp A   example.com              NOERROR   104.20.23.154;172.66.147.243 14ms
+2026-10-19T12:42:01+00:00 ground-truth r5 a.res-nsdi.ru tcp A   example.com              NOERROR   8.6.112.0;8.47.69.0 187ms
+2026-10-19T12:42:02+00:00 ground-truth r5 b.res-nsdi.ru tcp A   example.com              NOERROR   8.47.69.0;8.6.112.0 109ms
+2026-10-19T12:42:02+00:00 ground-truth r5 google     tcp A   example.com              NOERROR   104.20.23.154;172.66.147.243 52ms
+2026-10-19T12:42:02+00:00 ground-truth r5 cloudflare tcp A   example.com              NOERROR   172.66.147.243;104.20.23.154 49ms
+2026-10-19T12:42:02+00:00 ground-truth r5 system     tcp A   example.com              NOERROR   172.66.147.243;104.20.23.154 52ms
+2026-10-19T12:42:03+00:00 ground-truth r5 a.res-nsdi.ru udp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 101ms
+2026-10-19T12:42:03+00:00 ground-truth r5 b.res-nsdi.ru udp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 63ms
+2026-10-19T12:42:03+00:00 ground-truth r5 google     udp A   ya.ru                    NOERROR   77.88.44.242;77.88.55.242;5.255.255.242 25ms
+2026-10-19T12:42:03+00:00 ground-truth r5 cloudflare udp A   ya.ru                    NOERROR   5.255.255.242;77.88.44.242;77.88.55.242 17ms
+2026-10-19T12:42:03+00:00 ground-truth r5 system     udp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 17ms
+2026-10-19T12:42:04+00:00 ground-truth r5 a.res-nsdi.ru tcp A   ya.ru                    NOERROR   77.88.44.242;5.255.255.242;77.88.55.242 196ms
+2026-10-19T12:42:04+00:00 ground-truth r5 b.res-nsdi.ru tcp A   ya.ru                    NOERROR   77.88.55.242;77.88.44.242;5.255.255.242 112ms
+2026-10-19T12:42:04+00:00 ground-truth r5 google     tcp A   ya.ru                    NOERROR   77.88.55.242;5.255.255.242;77.88.44.242 47ms
+2026-10-19T12:42:04+00:00 ground-truth r5 cloudflare tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.55.242;77.88.44.242 50ms
+2026-10-19T12:42:04+00:00 ground-truth r5 system     tcp A   ya.ru                    NOERROR   5.255.255.242;77.88.44.242;77.88.55.242 34ms
+Traceback (most recent call last):
+  File "/Users/user2/shutdown-measurement/ooni-column-tests/nsdi-egress/nsdi_egress.py", line 418, in <module>
+    main()
+    ~~~~^^
+  File "/Users/user2/shutdown-measurement/ooni-column-tests/nsdi-egress/nsdi_egress.py", line 413, in main
+    write_report(my_ip, my_asn, my_holder)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user2/shutdown-measurement/ooni-column-tests/nsdi-egress/nsdi_egress.py", line 347, in write_report
+    w(f"NSDI egress IPs ({len(all_nsdi)}): {', '.join(sorted(all_nsdi, key=ipaddress.ip_address))}")
+                                                      ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/ipaddress.py", line 583, in __lt__
+    raise TypeError('%s and %s are not of the same version' % (
+                     self, other))
+TypeError: 2a0c:a9c7:177:2000:1000::101 and 193.232.230.51 are not of the same version

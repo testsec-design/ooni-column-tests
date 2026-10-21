@@ -1,0 +1,639 @@
+window dec_before (2025-12-19T00:00:00..2025-12-22T00:00:00): listed 1511 measurements from 122 ASNs, fetching 311
+
+== window dec_before: 311 measurements, 516 queries, 14 ASNs
+  AS12714 PJSC MegaFon: 5 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 5}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['194.226.75.81', '194.226.75.82', '194.226.75.83', '212.1.244.99', '74.125.74.16']
+     NSDI 195.208.4/5.0/24: no
+  AS12958 T2 Mobile LLC: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=4 none=0
+     dns_consistency: {'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.93.49', '194.226.75.83']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 4}
+  AS207103 LLC Cifrovie Seti Urala: 2 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['127.0.0.2', '193.232.231.50']
+     NSDI 195.208.4/5.0/24: no
+  AS208397 INFOSTROY LLC: 22 measurements, 22 queries
+     query failure: nxdomain=0 other=0 none=22
+     dns_consistency: {'consistent': 22}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.57', '193.232.139.59', '193.232.139.60', '193.232.160.48', '193.232.160.49', '193.232.160.50', '193.232.160.51', '193.232.236.48', '193.232.236.49', '193.232.236.51', '194.226.75.81', '194.226.75.82']
+     NSDI 195.208.4/5.0/24: no
+  AS25513 PJSC Moscow city telephone network: 154 measurements, 308 queries
+     query failure: nxdomain=0 other=0 none=308
+     dns_consistency: {'consistent': 153, 'None': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.145', '172.217.37.146', '172.253.83.217', '172.253.83.219', '173.194.98.19', '173.194.98.20', '173.194.98.22', '194.85.108.60', '194.85.108.61', '74.125.112.21', '74.125.114.145', '74.125.114.147', '74.125.114.149', '74.125.114.150', '74.125.114.157', '74.125.46.146', '74.125.46.151', '74.125.46.155', '74.125.46.22', '74.125.74.147', '74.125.74.149', '74.125.74.153', '74.125.74.155', '74.125.74.158', '74.125.74.21', '74.125.74.25', '94.29.125.106', '94.29.125.114']
+     NSDI 195.208.4/5.0/24: no
+  AS25515 PJSC Rostelecom: 26 measurements, 26 queries
+     query failure: nxdomain=0 other=0 none=26
+     dns_consistency: {'consistent': 26}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['46.61.210.130', '46.61.210.138', '5.143.254.86', '5.143.255.62']
+     NSDI 195.208.4/5.0/24: no
+  AS29182 JSC IOT: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.51', '193.232.93.52']
+     NSDI 195.208.4/5.0/24: no
+  AS39927 E-Light-Telecom Ltd.: 56 measurements, 56 queries
+     query failure: nxdomain=0 other=0 none=56
+     dns_consistency: {'consistent': 56}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.230.48', '193.232.230.49', '193.232.230.50', '193.232.230.51', '193.232.240.48', '193.232.240.49', '193.232.240.50', '193.232.240.51']
+     NSDI 195.208.4/5.0/24: no
+  AS41275 Lovitel LLC: 18 measurements, 36 queries
+     query failure: nxdomain=0 other=0 none=36
+     dns_consistency: {'consistent': 18}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.48', '193.232.160.49', '193.232.160.50', '193.232.160.51', '193.232.93.48', '193.232.93.49', '193.232.93.50', '193.232.93.51', '193.232.93.53']
+     NSDI 195.208.4/5.0/24: no
+  AS42893 Home Internet Ltd: 3 measurements, 6 queries
+     query failure: nxdomain=0 other=0 none=6
+     dns_consistency: {'consistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['178.252.100.1', '178.252.100.5']
+     NSDI 195.208.4/5.0/24: no
+  AS49551 Teleseti Ltd: 2 measurements, 4 queries
+     query failure: nxdomain=0 other=0 none=4
+     dns_consistency: {'consistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.60', '193.232.236.49']
+     NSDI 195.208.4/5.0/24: no
+  AS51004 Sakhalin Cable Telesystems Ltd: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=0 none=2
+     dns_consistency: {'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.247.51']
+     NSDI 195.208.4/5.0/24: no
+  AS56707 OOO NETCOM: 5 measurements, 10 queries
+     query failure: nxdomain=0 other=0 none=10
+     dns_consistency: {'consistent': 5}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.80', '193.232.230.48', '193.232.230.49', '193.232.240.48', '193.232.241.50']
+     NSDI 195.208.4/5.0/24: no
+  AS57712 NPF SOFTVIDEO Ltd.: 13 measurements, 26 queries
+     query failure: nxdomain=0 other=0 none=26
+     dns_consistency: {'consistent': 13}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['176.106.240.41', '176.106.240.45', '193.232.160.49', '193.232.160.50', '193.232.230.51', '193.232.93.49', '193.232.93.51']
+     NSDI 195.208.4/5.0/24: no
+window dec_onset (2025-12-22T00:00:00..2025-12-25T00:00:00): listed 1662 measurements from 127 ASNs, fetching 392
+
+== window dec_onset: 392 measurements, 706 queries, 19 ASNs
+  AS12714 PJSC MegaFon: 44 measurements, 61 queries
+     query failure: nxdomain=14 other=4 none=43
+     dns_consistency: {'consistent': 35, 'inconsistent': 9}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['158.64.1.50', '172.217.37.158', '172.253.83.219', '173.194.98.17', '173.194.98.23', '173.194.98.26', '193.232.177.48', '193.232.177.49', '193.232.177.50', '193.232.177.51', '194.226.75.81', '194.226.75.82', '194.226.75.83', '212.1.244.101', '212.1.244.99', '74.125.112.25', '74.125.114.145', '74.125.114.157', '74.125.46.148', '74.125.46.149', '74.125.46.153', '74.125.74.20', '74.125.74.21', '74.125.74.23']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 4}
+  AS12958 T2 Mobile LLC: 5 measurements, 10 queries
+     query failure: nxdomain=0 other=8 none=2
+     dns_consistency: {'inconsistent': 3, 'consistent': 1, 'None': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.48', '193.232.160.49', '193.232.160.50', '193.232.93.50']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 8}
+  AS15378 T2 Mobile LLC: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.51']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS201643 GBU SO Operator of Electronic Government: 2 measurements, 4 queries
+     query failure: nxdomain=2 other=0 none=2
+     dns_consistency: {'inconsistent': 1, 'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.9.62', '193.232.241.50']
+     NSDI 195.208.4/5.0/24: no
+  AS203891 GKU MO "MOC IKT": 4 measurements, 8 queries
+     query failure: nxdomain=0 other=2 none=6
+     dns_consistency: {'consistent': 3, 'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.217.37.154', '193.232.177.50', '193.232.177.51', '193.232.93.53']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS207103 LLC Cifrovie Seti Urala: 2 measurements, 4 queries
+     query failure: nxdomain=4 other=0 none=0
+     dns_consistency: {'inconsistent': 2}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.231.48', '193.232.231.51']
+     NSDI 195.208.4/5.0/24: no
+  AS208397 INFOSTROY LLC: 6 measurements, 12 queries
+     query failure: nxdomain=12 other=0 none=0
+     dns_consistency: {'inconsistent': 6}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.57', '193.232.160.48', '193.232.236.51']
+     NSDI 195.208.4/5.0/24: no
+  AS25513 PJSC Moscow city telephone network: 232 measurements, 464 queries
+     query failure: nxdomain=0 other=0 none=464
+     dns_consistency: {'consistent': 231, 'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['156.146.33.97', '172.217.37.146', '172.217.37.148', '172.253.83.210', '173.194.98.23', '194.85.108.60', '194.85.108.61', '2a00:1370:1111:ffff::a975:6', '74.125.46.148', '74.125.46.28', '74.125.74.27', '74.125.74.30', '79.127.211.213', '94.29.125.106', '94.29.125.114']
+     NSDI 195.208.4/5.0/24: no
+  AS25515 PJSC Rostelecom: 10 measurements, 11 queries
+     query failure: nxdomain=2 other=0 none=9
+     dns_consistency: {'consistent': 9, 'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['127.0.0.2', '46.61.210.130', '46.61.210.138', '5.143.255.62']
+     NSDI 195.208.4/5.0/24: no
+  AS29182 JSC IOT: 3 measurements, 6 queries
+     query failure: nxdomain=4 other=0 none=2
+     dns_consistency: {'inconsistent': 2, 'consistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['188.122.80.231', '193.232.160.51']
+     NSDI 195.208.4/5.0/24: no
+  AS31430 OOO Suntel: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.49']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS39927 E-Light-Telecom Ltd.: 23 measurements, 25 queries
+     query failure: nxdomain=4 other=0 none=21
+     dns_consistency: {'inconsistent': 2, 'consistent': 21}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.230.48', '193.232.230.49', '193.232.230.50', '193.232.230.51', '193.232.240.48', '193.232.240.49', '193.232.240.50', '193.232.240.51']
+     NSDI 195.208.4/5.0/24: no
+  AS41275 Lovitel LLC: 14 measurements, 27 queries
+     query failure: nxdomain=0 other=20 none=7
+     dns_consistency: {'consistent': 4, 'inconsistent': 10}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.68.167.88', '193.232.160.49', '193.232.160.50', '193.232.160.51', '193.232.93.48', '193.232.93.50', '193.232.93.52', '74.125.114.146', '74.125.46.158', '74.125.74.16']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 20}
+  AS42893 Nord-West Link NP: 20 measurements, 21 queries
+     query failure: nxdomain=2 other=0 none=19
+     dns_consistency: {'inconsistent': 1, 'consistent': 19}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.253.83.216', '172.253.83.219', '178.252.100.1', '178.252.100.5', '74.125.112.19', '74.125.114.147', '74.125.114.150', '74.125.114.153', '74.125.114.155', '74.125.114.156', '74.125.46.18', '74.125.46.19', '74.125.74.152', '74.125.74.153', '74.125.74.19']
+     NSDI 195.208.4/5.0/24: no
+  AS48128 Obyedinyonniye Lokalniye Seti Ltd.: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.160.48']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS49551 Teleseti Ltd: 4 measurements, 8 queries
+     query failure: nxdomain=0 other=6 none=2
+     dns_consistency: {'consistent': 1, 'inconsistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.139.58', '193.232.236.50']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 6}
+  AS51004 Sakhalin Cable Telesystems Ltd: 1 measurements, 2 queries
+     query failure: nxdomain=0 other=2 none=0
+     dns_consistency: {'inconsistent': 1}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['193.232.247.50']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 2}
+  AS56707 OOO NETCOM: 5 measurements, 9 queries
+     query failure: nxdomain=0 other=8 none=1
+     dns_consistency: {'consistent': 1, 'inconsistent': 4}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['172.69.50.30', '193.232.230.49', '193.232.241.51']
+     NSDI 195.208.4/5.0/24: no
+     other failures: {'android_dns_cache_no_data': 8}
+  AS57712 NPF SOFTVIDEO Ltd.: 14 measurements, 28 queries
+     query failure: nxdomain=6 other=0 none=22
+     dns_consistency: {'consistent': 11, 'inconsistent': 3}
+     resolver IPs (top-level resolver_ip + queries.resolver_address): ['176.106.240.41', '176.106.240.45', '193.232.160.48', '193.232.160.49', '193.232.160.51', '193.232.230.49', '193.232.230.51', '193.232.240.48', '193.232.240.49', '193.232.240.50', '193.232.93.50', '193.232.93.51']
+     NSDI 195.208.4/5.0/24: no
+
+#### onset report: domain=www.youtube.com, windows=['dec_before', 'dec_onset'], ASNs=19
+
+-- per window x ASN: measurements, distinct report_ids, software_versions; query failures nxdomain/other/none; answers of queries with no failure in an inconsistent measurement
+  dec_before AS12714 PJSC MegaFon: 5 msm, 5 reports, software {'ooniprobe-android 5.3.0': 1, 'ooniprobe-android-unattended 5.3.0': 4}
+       queries nxdomain=0 other=0 none=10
+  dec_before AS12958 T2 Mobile LLC: 2 msm, 2 reports, software {'ooniprobe-android-unattended 5.3.0': 2}
+       queries nxdomain=0 other=4 none=0  other={'android_dns_cache_no_data': 4}
+  dec_before AS15378: 0 measurements
+  dec_before AS25513 PJSC Moscow city telephone network: 154 msm, 154 reports, software {'ooniprobe-android-unattended 5.3.0': 114, 'ooniprobe-desktop-unattended 3.10.0-beta.3': 2, 'ooniprobe-desktop-unattended 3.24.0': 6, 'ooniprobe-android 5.3.0': 5, 'ooniprobe-desktop-unattended 3.26.0': 27}
+       queries nxdomain=0 other=0 none=308
+  dec_before AS25515 PJSC Rostelecom: 26 msm, 26 reports, software {'ooniprobe-desktop-unattended 3.23.0': 26}
+       queries nxdomain=0 other=0 none=26
+  dec_before AS29182 JSC IOT: 2 msm, 2 reports, software {'ooniprobe-cli-unattended 3.27.0': 2}
+       queries nxdomain=0 other=0 none=4
+  dec_before AS31430: 0 measurements
+  dec_before AS39927 E-Light-Telecom Ltd.: 56 msm, 56 reports, software {'ooniprobe-desktop-unattended 3.26.0': 56}
+       queries nxdomain=0 other=0 none=56
+  dec_before AS41275 Lovitel LLC: 18 msm, 18 reports, software {'ooniprobe-android-unattended 5.3.0': 18}
+       queries nxdomain=0 other=0 none=36
+  dec_before AS42893 Home Internet Ltd: 3 msm, 3 reports, software {'ooniprobe-android-unattended 5.3.0': 3}
+       queries nxdomain=0 other=0 none=6
+  dec_before AS48128: 0 measurements
+  dec_before AS49551 Teleseti Ltd: 2 msm, 2 reports, software {'ooniprobe-android-unattended 5.3.0': 2}
+       queries nxdomain=0 other=0 none=4
+  dec_before AS51004 Sakhalin Cable Telesystems Ltd: 1 msm, 1 reports, software {'ooniprobe-android-unattended 5.3.0': 1}
+       queries nxdomain=0 other=0 none=2
+  dec_before AS56707 OOO NETCOM: 5 msm, 5 reports, software {'ooniprobe-android-unattended 5.3.0': 5}
+       queries nxdomain=0 other=0 none=10
+  dec_before AS57712 NPF SOFTVIDEO Ltd.: 13 msm, 13 reports, software {'ooniprobe-ios-unattended 5.3.0': 13}
+       queries nxdomain=0 other=0 none=26
+  dec_before AS201643: 0 measurements
+  dec_before AS203891: 0 measurements
+  dec_before AS207103 LLC Cifrovie Seti Urala: 2 msm, 2 reports, software {'ooniprobe-desktop-unattended 3.23.0': 2}
+       queries nxdomain=0 other=0 none=2
+  dec_before AS208397 INFOSTROY LLC: 22 msm, 22 reports, software {'ooniprobe-desktop-unattended 3.17.5': 22}
+       queries nxdomain=0 other=0 none=22
+  dec_onset AS12714 PJSC MegaFon: 44 msm, 44 reports, software {'ooniprobe-android-unattended 5.3.0': 5, 'ooniprobe-ios 5.3.0': 1, 'ooniprobe-desktop 3.10.0': 4, 'ooniprobe-desktop-unattended 3.26.0': 32, 'ooniprobe-ios-unattended 5.3.0': 2}
+       queries nxdomain=14 other=4 none=43  other={'android_dns_cache_no_data': 4}
+  dec_onset AS12958 T2 Mobile LLC: 5 msm, 5 reports, software {'ooniprobe-android-unattended 5.3.0': 4, 'ooniprobe-android 5.3.0': 1}
+       queries nxdomain=0 other=8 none=2  other={'android_dns_cache_no_data': 8}
+  dec_onset AS15378 T2 Mobile LLC: 1 msm, 1 reports, software {'ooniprobe-android-unattended 5.3.0': 1}
+       queries nxdomain=0 other=2 none=0  other={'android_dns_cache_no_data': 2}
+  dec_onset AS25513 PJSC Moscow city telephone network: 232 msm, 232 reports, software {'ooniprobe-android-unattended 5.3.0': 163, 'ooniprobe-android 5.3.0': 10, 'ooniprobe-desktop-unattended 3.26.0': 44, 'ooniprobe-desktop-unattended 3.10.0-beta.3': 2, 'ooniprobe-android-unattended 5.0.6': 3, 'ooniprobe-desktop-unattended 3.24.0': 3, 'ooniprobe-desktop 3.10.0': 1, 'ooniprobe-ios-unattended 5.3.0': 6}
+       queries nxdomain=0 other=0 none=464
+       inconsistent-but-answered: {'142.250.102.198': 1, '2a00:1450:4025:401::c6': 1}
+  dec_onset AS25515 PJSC Rostelecom: 10 msm, 10 reports, software {'ooniprobe-desktop-unattended 3.23.0': 10}
+       queries nxdomain=2 other=0 none=9
+  dec_onset AS29182 JSC IOT: 3 msm, 3 reports, software {'ooniprobe-cli-unattended 3.27.0': 2, 'ooniprobe-android-unattended 5.3.0': 1}
+       queries nxdomain=4 other=0 none=2
+  dec_onset AS31430 OOO Suntel: 1 msm, 1 reports, software {'ooniprobe-android 5.3.0': 1}
+       queries nxdomain=0 other=2 none=0  other={'android_dns_cache_no_data': 2}
+  dec_onset AS39927 E-Light-Telecom Ltd.: 23 msm, 23 reports, software {'ooniprobe-desktop-unattended 3.26.0': 23}
+       queries nxdomain=4 other=0 none=21
+  dec_onset AS41275 Lovitel LLC: 14 msm, 14 reports, software {'ooniprobe-android-unattended 5.3.0': 12, 'ooniprobe-android 5.3.0': 1, 'ooniprobe-desktop 3.10.0': 1}
+       queries nxdomain=0 other=20 none=7  other={'android_dns_cache_no_data': 20}
+  dec_onset AS42893 Nord-West Link NP: 20 msm, 20 reports, software {'ooniprobe-desktop-unattended 3.10.0-beta.3': 20}
+       queries nxdomain=2 other=0 none=19
+  dec_onset AS48128 Obyedinyonniye Lokalniye Seti Ltd.: 1 msm, 1 reports, software {'ooniprobe-android-unattended 5.2.2': 1}
+       queries nxdomain=0 other=2 none=0  other={'android_dns_cache_no_data': 2}
+  dec_onset AS49551 Teleseti Ltd: 4 msm, 4 reports, software {'ooniprobe-android-unattended 5.3.0': 4}
+       queries nxdomain=0 other=6 none=2  other={'android_dns_cache_no_data': 6}
+  dec_onset AS51004 Sakhalin Cable Telesystems Ltd: 1 msm, 1 reports, software {'ooniprobe-android-unattended 5.3.0': 1}
+       queries nxdomain=0 other=2 none=0  other={'android_dns_cache_no_data': 2}
+  dec_onset AS56707 OOO NETCOM: 5 msm, 5 reports, software {'ooniprobe-android-unattended 5.3.0': 5}
+       queries nxdomain=0 other=8 none=1  other={'android_dns_cache_no_data': 8}
+  dec_onset AS57712 NPF SOFTVIDEO Ltd.: 14 msm, 14 reports, software {'ooniprobe-ios-unattended 5.3.0': 14}
+       queries nxdomain=6 other=0 none=22
+  dec_onset AS201643 GBU SO Operator of Electronic Government: 2 msm, 2 reports, software {'ooniprobe-cli-unattended 3.23.0': 2}
+       queries nxdomain=2 other=0 none=2
+  dec_onset AS203891 GKU MO "MOC IKT": 4 msm, 4 reports, software {'ooniprobe-android-unattended 5.3.0': 4}
+       queries nxdomain=0 other=2 none=6  other={'android_dns_cache_no_data': 2}
+  dec_onset AS207103 LLC Cifrovie Seti Urala: 2 msm, 2 reports, software {'ooniprobe-desktop-unattended 3.23.0': 2}
+       queries nxdomain=4 other=0 none=0
+  dec_onset AS208397 INFOSTROY LLC: 6 msm, 6 reports, software {'ooniprobe-desktop-unattended 3.17.5': 6}
+       queries nxdomain=12 other=0 none=0
+
+-- per ASN: onset bracket and resolver egress (resolver_ip -> origin ASN, RIPEstat holder)
+  AS12714 PJSC MegaFon (fixed-line): 49 msm 2025-12-19 00:28:41 .. 2025-12-24 23:09:39
+       last without NXDOMAIN: 2025-12-23 18:24:21 dec_onset uid=20251223182422.619336_RU_webconnectivity_f10b694a92d82355
+       first with NXDOMAIN:   2025-12-23 19:24:27 dec_onset uid=20251223192426.918953_RU_webconnectivity_5c7f8af905db229e
+       measurements without NXDOMAIN after the first: 23 of 30
+       resolver egress changed at onset? IP changed, same origin ASN: 194.226.75.82 -> 193.232.177.50
+       resolver_ip x6: 212.1.244.101 -> AS12714 MEGAFON-AS PJSC MegaFon
+       resolver_ip x5: 194.226.75.82 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x4: 194.226.75.81 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x4: 212.1.244.99 -> AS12714 MEGAFON-AS PJSC MegaFon
+       resolver_ip x4: 193.232.177.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x3: 193.232.177.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 194.226.75.83 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.177.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 74.125.74.20 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x2: 193.232.177.48 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 74.125.74.16 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 158.64.1.50 -> AS2602 RESTENA Fondation RESTENA
+       resolver_ip x1: 74.125.46.149 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.145 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.112.25 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 173.194.98.17 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.157 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.21 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 173.194.98.23 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.253.83.219 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 173.194.98.26 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.148 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.217.37.158 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.153 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.23 -> AS15169 GOOGLE - Google LLC
+       resolver_asn as recorded by OONI: ['AS12714', 'AS15169', 'AS2602', 'AS43832']
+  AS12958 T2 Mobile LLC (mobile): 7 msm 2025-12-21 13:21:49 .. 2025-12-23 22:27:08
+       no dns_nxdomain_error in any query
+       resolver_ip x2: 193.232.160.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 194.226.75.83 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.93.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.160.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.160.48 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.93.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS43832']
+  AS15378 T2 Mobile LLC (fixed-line): 1 msm 2025-12-22 14:33:23 .. 2025-12-22 14:33:23
+       no dns_nxdomain_error in any query
+       resolver_ip x1: 193.232.160.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS43832']
+  AS25513 PJSC Moscow city telephone network (fixed-line): 386 msm 2025-12-19 00:21:10 .. 2025-12-24 23:59:49
+       no dns_nxdomain_error in any query
+       resolver_ip x186: 94.29.125.106 -> AS25513 ASN-MGTS-USPD PJSC Moscow city telephone network
+       resolver_ip x145: 94.29.125.114 -> AS25513 ASN-MGTS-USPD PJSC Moscow city telephone network
+       resolver_ip x10: 194.85.108.60 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x9: 194.85.108.61 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 172.217.37.146 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x2: 156.146.33.97 -> AS60068 CDN77 Datacamp Limited
+       resolver_ip x1: 173.194.98.22 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.155 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.22 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.146 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.112.21 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.253.83.217 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.25 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.21 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.151 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.155 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.149 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.157 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.147 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.158 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.147 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.217.37.145 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 173.194.98.20 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 173.194.98.19 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.150 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.149 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.145 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.153 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.253.83.219 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.217.37.148 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.253.83.210 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.30 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.28 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.148 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 173.194.98.23 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 79.127.211.213 -> AS60068 CDN77 Datacamp Limited
+       resolver_ip x1: 74.125.74.27 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 2a00:1370:1111:ffff::a975:6 -> AS25513 ASN-MGTS-USPD PJSC Moscow city telephone network
+       resolver_asn as recorded by OONI: ['AS15169', 'AS25513', 'AS43832', 'AS60068']
+  AS25515 PJSC Rostelecom (fixed-line): 36 msm 2025-12-19 17:13:34 .. 2025-12-23 19:57:56
+       last without NXDOMAIN: 2025-12-23 19:14:31 dec_onset uid=20251223191500.448152_RU_webconnectivity_1053565f6e258de1
+       first with NXDOMAIN:   2025-12-23 19:57:56 dec_onset uid=20251223195834.170224_RU_webconnectivity_9c3bfb3b3c5277b8
+       measurements without NXDOMAIN after the first: 0 of 1
+       resolver egress changed at onset? yes: 5.143.255.62 -> 127.0.0.2
+       resolver_ip x16: 46.61.210.130 -> AS12389 ROSTELECOM-AS PJSC Rostelecom
+       resolver_ip x11: 46.61.210.138 -> AS12389 ROSTELECOM-AS PJSC Rostelecom
+       resolver_ip x5: 5.143.254.86 -> AS12389 ROSTELECOM-AS PJSC Rostelecom
+       resolver_ip x3: 5.143.255.62 -> AS12389 ROSTELECOM-AS PJSC Rostelecom
+       resolver_ip x1: 127.0.0.2 -> AS? 
+       resolver_asn as recorded by OONI: ['AS0', 'AS12389']
+  AS29182 JSC IOT (fixed-line): 5 msm 2025-12-20 06:07:25 .. 2025-12-24 05:34:37
+       last without NXDOMAIN: 2025-12-21 05:16:33 dec_before uid=20251221051634.120344_RU_webconnectivity_95c77b2d3dee8a42
+       first with NXDOMAIN:   2025-12-23 05:02:51 dec_onset uid=20251223050252.142928_RU_webconnectivity_4808d4281ca0069d
+       measurements without NXDOMAIN after the first: 1 of 3
+       resolver egress changed at onset? no (same IP): 193.232.160.51 -> 193.232.160.51
+       resolver_ip x3: 193.232.160.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.93.52 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 188.122.80.231 -> AS49544 i3Dnet i3D.net B.V
+       resolver_asn as recorded by OONI: ['AS43832', 'AS49544']
+  AS31430 OOO Suntel (fixed-line): 1 msm 2025-12-23 11:36:59 .. 2025-12-23 11:36:59
+       no dns_nxdomain_error in any query
+       resolver_ip x1: 193.232.160.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS43832']
+  AS39927 E-Light-Telecom Ltd. (fixed-line): 79 msm 2025-12-19 02:07:58 .. 2025-12-24 17:54:57
+       last without NXDOMAIN: 2025-12-21 23:54:57 dec_before uid=20251221235459.619850_RU_webconnectivity_774de65ee9629975
+       first with NXDOMAIN:   2025-12-22 10:22:06 dec_onset uid=20251222102207.318305_RU_webconnectivity_d064961a00ac53d7
+       measurements without NXDOMAIN after the first: 21 of 23
+       resolver egress changed at onset? IP changed, same origin ASN: 193.232.240.51 -> 193.232.230.48
+       resolver_ip x17: 193.232.240.49 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x16: 193.232.230.51 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x13: 193.232.230.48 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x9: 193.232.240.48 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x9: 193.232.240.51 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x7: 193.232.230.49 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x6: 193.232.240.50 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.230.50 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS42139']
+  AS41275 Lovitel LLC (fixed-line): 32 msm 2025-12-19 20:11:26 .. 2025-12-24 22:30:50
+       no dns_nxdomain_error in any query
+       resolver_ip x5: 193.232.93.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x4: 193.232.160.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x4: 193.232.160.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x4: 193.232.93.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x3: 193.232.93.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.93.48 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.160.48 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.160.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.93.53 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 74.125.74.16 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.68.167.88 -> AS13335 CLOUDFLARENET - Cloudflare, Inc.
+       resolver_ip x1: 74.125.46.158 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.146 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 193.232.93.52 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS13335', 'AS15169', 'AS43832']
+  AS42893 Home Internet Ltd (fixed-line): 23 msm 2025-12-19 05:05:05 .. 2025-12-24 20:05:36
+       last without NXDOMAIN: 2025-12-20 04:36:41 dec_before uid=20251220043703.825278_RU_webconnectivity_f97d26bd2a235874
+       first with NXDOMAIN:   2025-12-23 07:19:41 dec_onset uid=20251223071937.659206_RU_webconnectivity_ccbd179d007ef1b8
+       measurements without NXDOMAIN after the first: 19 of 20
+       resolver egress changed at onset? yes: 178.252.100.1 -> 74.125.114.156
+       resolver_ip x5: 178.252.100.5 -> AS42893 NWLINK-AS Home Internet Ltd
+       resolver_ip x5: 178.252.100.1 -> AS42893 NWLINK-AS Home Internet Ltd
+       resolver_ip x1: 74.125.114.156 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.147 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.155 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.150 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.112.19 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.19 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.153 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.19 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.74.152 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.253.83.219 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.114.153 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 74.125.46.18 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 172.253.83.216 -> AS15169 GOOGLE - Google LLC
+       resolver_asn as recorded by OONI: ['AS15169', 'AS42893']
+  AS48128 Obyedinyonniye Lokalniye Seti Ltd. (fixed-line): 1 msm 2025-12-22 19:46:14 .. 2025-12-22 19:46:14
+       no dns_nxdomain_error in any query
+       resolver_ip x1: 193.232.160.48 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS43832']
+  AS49551 Teleseti Ltd (fixed-line): 6 msm 2025-12-19 14:56:25 .. 2025-12-24 08:56:06
+       no dns_nxdomain_error in any query
+       resolver_ip x2: 193.232.236.50 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.139.58 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.139.60 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.236.49 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS47445']
+  AS51004 Sakhalin Cable Telesystems Ltd (fixed-line): 2 msm 2025-12-21 18:37:42 .. 2025-12-23 18:25:46
+       no dns_nxdomain_error in any query
+       resolver_ip x1: 193.232.247.51 -> AS45018 RIPN-RU-VLV Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.247.50 -> AS45018 RIPN-RU-VLV Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS45018']
+  AS56707 OOO NETCOM (fixed-line): 10 msm 2025-12-19 17:02:52 .. 2025-12-24 23:29:28
+       no dns_nxdomain_error in any query
+       resolver_ip x3: 193.232.241.51 -> AS42728 RIPN-RU-EKT Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.230.49 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.240.48 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 172.68.167.80 -> AS13335 CLOUDFLARENET - Cloudflare, Inc.
+       resolver_ip x1: 193.232.230.48 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.241.50 -> AS42728 RIPN-RU-EKT Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 172.69.50.30 -> AS13335 CLOUDFLARENET - Cloudflare, Inc.
+       resolver_asn as recorded by OONI: ['AS13335', 'AS42139', 'AS42728']
+  AS57712 NPF SOFTVIDEO Ltd. (fixed-line): 27 msm 2025-12-19 00:25:54 .. 2025-12-24 23:55:46
+       last without NXDOMAIN: 2025-12-23 01:28:13 dec_onset uid=20251223012835.314675_RU_webconnectivity_52857d049caf8744
+       first with NXDOMAIN:   2025-12-23 02:27:55 dec_onset uid=20251223022755.641386_RU_webconnectivity_f978c72c1e22f1bf
+       measurements without NXDOMAIN after the first: 6 of 9
+       resolver egress changed at onset? IP changed, same origin ASN: 193.232.93.50 -> 193.232.93.51
+       resolver_ip x5: 176.106.240.41 -> AS57712 SOFTVIDEO-AS NPF SOFTVIDEO Ltd.
+       resolver_ip x4: 176.106.240.45 -> AS57712 SOFTVIDEO-AS NPF SOFTVIDEO Ltd.
+       resolver_ip x3: 193.232.230.51 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x3: 193.232.160.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.93.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.230.49 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.160.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.93.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.160.48 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.93.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.240.48 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.160.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.240.50 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.240.49 -> AS42139 RIPN-RU-NSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS42139', 'AS43832', 'AS57712']
+  AS201643 GBU SO Operator of Electronic Government (fixed-line): 2 msm 2025-12-22 08:13:54 .. 2025-12-23 03:58:41
+       last without NXDOMAIN: (none before)
+       first with NXDOMAIN:   2025-12-22 08:13:54 dec_onset uid=20251222081355.775536_RU_webconnectivity_1fc62a3d8b85a074
+       measurements without NXDOMAIN after the first: 1 of 2
+       resolver_ip x1: 172.68.9.62 -> AS13335 CLOUDFLARENET - Cloudflare, Inc.
+       resolver_ip x1: 193.232.241.50 -> AS42728 RIPN-RU-EKT Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS13335', 'AS42728']
+  AS203891 GKU MO "MOC IKT" (fixed-line): 4 msm 2025-12-22 11:44:14 .. 2025-12-23 08:39:57
+       no dns_nxdomain_error in any query
+       resolver_ip x1: 193.232.93.53 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.177.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 172.217.37.154 -> AS15169 GOOGLE - Google LLC
+       resolver_ip x1: 193.232.177.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS15169', 'AS43832']
+  AS207103 LLC Cifrovie Seti Urala (fixed-line): 4 msm 2025-12-19 03:22:30 .. 2025-12-24 09:35:23
+       last without NXDOMAIN: 2025-12-19 08:54:45 dec_before uid=20251219085507.210449_RU_webconnectivity_74958558455bbd5f
+       first with NXDOMAIN:   2025-12-23 11:48:02 dec_onset uid=20251223114803.560750_RU_webconnectivity_e1db4b1b50490a6a
+       measurements without NXDOMAIN after the first: 0 of 2
+       resolver egress changed at onset? IP changed, same origin ASN: 193.232.231.50 -> 193.232.231.51
+       resolver_ip x1: 127.0.0.2 -> AS? 
+       resolver_ip x1: 193.232.231.50 -> AS42728 RIPN-RU-EKT Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.231.51 -> AS42728 RIPN-RU-EKT Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.231.48 -> AS42728 RIPN-RU-EKT Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS0', 'AS42728']
+  AS208397 INFOSTROY LLC (fixed-line): 28 msm 2025-12-19 03:22:00 .. 2025-12-22 13:39:24
+       last without NXDOMAIN: 2025-12-21 13:40:17 dec_before uid=20251221134016.563352_RU_webconnectivity_8915a90fa495152c
+       first with NXDOMAIN:   2025-12-22 07:54:44 dec_onset uid=20251222075444.001167_RU_webconnectivity_ea8f32d7d072ae93
+       measurements without NXDOMAIN after the first: 0 of 6
+       resolver egress changed at onset? yes: 193.232.160.51 -> 193.232.139.57
+       resolver_ip x6: 193.232.160.48 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x4: 193.232.139.57 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x3: 193.232.139.59 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x3: 193.232.160.49 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x3: 193.232.139.60 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.236.49 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x2: 193.232.236.51 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.236.48 -> AS47445 RIPN-RU-RND Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 194.226.75.81 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.160.50 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 194.226.75.82 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_ip x1: 193.232.160.51 -> AS43832 RIPN-NS5-RU-MSK Join-stock company "Internet Exchange"MSK-IX"
+       resolver_asn as recorded by OONI: ['AS43832', 'AS47445']
+
+-- verbatim queries blocks: most measurements=AS25513, mobile=AS12958, fixed-line=AS39927
+
+== raw test_keys.queries, AS25513 (no NXDOMAIN; first measurement): uid=20251219002131.154142_RU_webconnectivity_c52dbf925fe6d294 report_id=20251219T001927Z_webconnectivity_RU_25513_n4_WjQ01SzZqBjbxg4T asn=AS25513 start=2025-12-19 00:21:10 resolver_ip=194.85.108.60 test_version=0.4.3 software=ooniprobe-android-unattended 5.3.0
+[
+ {
+  "answers": [
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "108.177.14.198",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.159347031,
+  "tags": null
+ },
+ {
+  "answers": [
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "AAAA",
+    "ipv6": "2a00:1450:4010:c0f::c6",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.159347031,
+  "tags": null
+ }
+]
+
+== raw test_keys.queries, AS12958 (no NXDOMAIN; first measurement): uid=20251221144408.238736_RU_webconnectivity_ecad9051fa7f742e report_id=20251221T144408Z_webconnectivity_RU_12958_n4_e1ywQyHsyJplfEoS asn=AS12958 start=2025-12-21 13:21:49 resolver_ip=194.226.75.83 test_version=0.4.3 software=ooniprobe-android-unattended 5.3.0
+[
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "android_dns_cache_no_data",
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_address": "",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "t": 1.994450693,
+  "tags": null
+ },
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "android_dns_cache_no_data",
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_address": "",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "t": 1.994450693,
+  "tags": null
+ }
+]
+
+== raw test_keys.queries, AS39927 last pre-onset: uid=20251221235459.619850_RU_webconnectivity_774de65ee9629975 report_id=20251221T235454Z_webconnectivity_RU_39927_n4_8AkoJazKpqgCbmbl asn=AS39927 start=2025-12-21 23:54:57 resolver_ip=193.232.240.51 test_version=0.4.3 software=ooniprobe-desktop-unattended 3.26.0
+[
+ {
+  "answers": [
+   {
+    "asn": 15169,
+    "as_org_name": "Google LLC",
+    "answer_type": "A",
+    "ipv4": "142.251.167.198",
+    "ttl": null
+   }
+  ],
+  "engine": "system",
+  "failure": null,
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0051594,
+  "tags": null
+ }
+]
+
+== raw test_keys.queries, AS39927 first at-onset: uid=20251222102207.318305_RU_webconnectivity_d064961a00ac53d7 report_id=20251222T102204Z_webconnectivity_RU_39927_n4_QynGoYpIdILbMAYM asn=AS39927 start=2025-12-22 10:22:06 resolver_ip=193.232.230.48 test_version=0.4.3 software=ooniprobe-desktop-unattended 3.26.0
+[
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "A",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0073317,
+  "tags": null
+ },
+ {
+  "answers": null,
+  "engine": "system",
+  "failure": "dns_nxdomain_error",
+  "hostname": "www.youtube.com",
+  "query_type": "AAAA",
+  "resolver_hostname": null,
+  "resolver_port": null,
+  "resolver_address": "",
+  "t": 0.0073317,
+  "tags": null
+ }
+]
+
+-- www.youtube.com on 2025-12-22: 80 distinct ASNs tested it; 8 had a dns-classified measurement: ['AS12714', 'AS12958', 'AS15378', 'AS201643', 'AS203891', 'AS208397', 'AS39927', 'AS48128']
+
+-- www.youtube.com on 2025-12-23: 87 distinct ASNs tested it; 13 had a dns-classified measurement: ['AS12714', 'AS12958', 'AS207103', 'AS25513', 'AS25515', 'AS29182', 'AS31430', 'AS41275', 'AS42893', 'AS49551', 'AS51004', 'AS56707', 'AS57712']

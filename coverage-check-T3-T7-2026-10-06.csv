@@ -1,0 +1,28 @@
+test,asn,registry_name,note,event_month,event_month_n,event_month_per_hour,prev_month_n,total_2022_2026,quiet_days_present,quiet_hours_ge20_of_240,T0_verdict,monthly_verdict
+T3,39434,DAGESTANTELEKOM-AS,Dagestantelekom,2024-12,0,0.0,0,0,,,not in table,no coverage
+T3,44412,former Ingushelectrosvyaz,former Ingushelectrosvyaz,2024-12,0,0.0,0,0,,,not in table,no coverage
+T3,41796,DAG-AS,DAG-AS,2024-12,0,0.0,0,0,,,not in table,no coverage
+T3,196657,DAGINCOM-AS,DAGINCOM,2024-12,0,0.0,0,0,,,not in table,no coverage
+T3,15428,DAGNET-AS,DAGNET,2024-12,0,0.0,0,150,,,not in table,no coverage
+T3,43574,DAGSV-AS,DAGSV,2024-12,0,0.0,0,48309,2,1,no coverage,no coverage
+T3,57333,ASKASPIYTELEKOM,Kaspiytelekom,2024-12,0,0.0,0,1661,,,not in table,no coverage
+T3,60936,SKANETDAG-AS,SKANETDAG,2024-12,0,0.0,0,1263,,,not in table,no coverage
+T3,57766,Makhachkala,Makhachkala,2024-12,0,0.0,0,14,,,not in table,no coverage
+T3,57835,FGUP-ELEKTROSVYAZ-AS,FGUP Elektrosvyaz,2024-12,0,0.0,0,18,,,not in table,no coverage
+T3,201147,DAGSVYAZ-TELECOM,Dagsvyaz-Telecom,2024-12,0,0.0,0,7,,,not in table,no coverage
+T3,31163,MF-KAVKAZ-AS PJSC MegaFon,"MegaFon Kavkaz (mobile, whole N. Caucasus)",2024-12,229,0.3,2258,417585,2,2,no coverage,no coverage
+T3,12389,ROSTELECOM-AS PJSC Rostelecom,"Rostelecom (nationwide ASN, Dagestan branch not separable)",2024-12,363871,505.4,423051,22174707,10,230,usable,"usable (>=14,400/month ~ 20/h)"
+T7,39028,"ULSK-AS JSC ""ER-Telecom Holding""",Ulyanovsk,2026-09,778361,1081.1,707310,4459323,3,48,no coverage,"usable (>=14,400/month ~ 20/h)"
+T7,51035,"UFA-AS JSC ""ER-Telecom Holding""",Ufa (Bashkortostan; Volga or Urals macro-region?),2026-09,104887,145.7,77551,1645040,6,42,no coverage,"usable (>=14,400/month ~ 20/h)"
+T7,12768,"ER-TELECOM-AS JSC ""ER-Telecom Holding""",Perm HQ / holding-level ASN,2026-09,46923,65.2,67423,906727,7,41,no coverage,"usable (>=14,400/month ~ 20/h)"
+T7,42682,"ERTH-NNOV-AS JSC ""ER-Telecom Holding""",Nizhny Novgorod,2026-09,37885,52.6,40187,500334,7,8,no coverage,"usable (>=14,400/month ~ 20/h)"
+T7,39435,"EVOLGOGRAD-AS JSC ""ER-Telecom Holding""",Volgograd (South macro-region?),2026-09,26658,37.0,23027,415964,3,21,no coverage,"usable (>=14,400/month ~ 20/h)"
+T7,42116,"ERTH-NCHLN-AS JSC ""ER-Telecom Holding""",Naberezhnye Chelny,2026-09,22562,31.3,33339,116356,,,not in table,"usable (>=14,400/month ~ 20/h)"
+T7,42683,ERTH-OREN-AS,Orenburg,2026-09,15519,21.6,20369,52958,,,not in table,"usable (>=14,400/month ~ 20/h)"
+T7,41754,ERTH-PENZA-AS,Penza,2026-09,4944,6.9,976,228007,4,6,no coverage,no coverage
+T7,50543,"SARATOV-AS JSC ""ER-Telecom Holding""",Saratov,2026-09,4931,6.8,935,13083,,,not in table,no coverage
+T7,41668,"ERTH-KAZAN-AS JSC ""ER-Telecom Holding""",Kazan,2026-09,2822,3.9,3110,1071744,6,30,no coverage,no coverage
+T7,41786,ERTH-YOLA-AS,Yoshkar-Ola,2026-09,2127,3.0,0,468685,1,17,no coverage,no coverage
+T7,34533,"ESAMARA-AS JSC ""ER-Telecom Holding""",Samara/Togliatti,2026-09,2131,3.0,18515,1070659,5,8,no coverage,no coverage
+T7,34590,IZHEVSK-AS,"Izhevsk (IZHEVSK-AS, holder not in registry)",2026-09,1500,2.1,39788,122956,2,0,no coverage,no coverage
+T7,57026,CHEB-AS,"Cheboksary? (CHEB-AS, holder not in registry)",2026-09,242,0.3,0,216869,2,26,no coverage,no coverage
